@@ -1,6 +1,6 @@
 /*
-    Theme Name: baumgarten
-    Description: baumgarten
+    Theme Name: STEPCUBE
+    Description: STEPCUBE
     Version: 1.0
     Author: Ivo Schwizer
     Author URI: http://schwizerschlatter.com
@@ -8,11 +8,10 @@
 */
 
 /*
-    Color Theme: Baumgarten
-    Main Color Green: #718166;
-    Boarder Green: #BEC7BE;
-    
-    
+    Color Theme: STEPCUBE
+    Main Color Blue: #1D3A6C;
+
+
 */
 
 html, body {
@@ -22,15 +21,15 @@ html, body {
 
 body {
     margin:0px;
-    background-color: #fff;
     padding: 0px;
+    background-color: #FAF8F7;
 }
-    
-h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
-    color: #57634e;
-    font-weight: 400;
+
+h1, h2, h3, h4, p, a, figcaption, input, textarea, button, .success  {
+    color: #1D3A6C;
     font-style: normal;
-    font-family: 'PT Serif', serif;  
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     font-size: 17px;
     line-height: 1.4;
     text-align: left;
@@ -40,10 +39,11 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, span, .success  {
     hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.85px;
 }
 
 h1 {
+
     font-size: 32px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -55,6 +55,11 @@ h2 {
     margin-bottom: 40px;
     line-height: 1.5;
     letter-spacing: 0.75px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 50px;
 }
 
 figure {
@@ -142,8 +147,8 @@ p, a{
     right: 0;
     bottom: -250px;
     margin: auto;
-    
-    animation:  loader 1.5s; 
+
+    animation:  loader 1.5s;
     animation-delay: 0.25s;
     animation-iteration-count: 1;
     animation-timing-function:ease-in-out;
@@ -162,224 +167,116 @@ p, a{
 
 
 
-   
-/*---------------------------------- 
+
+/*----------------------------------
     header nav
 -----------------------------------*/
 
-.cd-auto-hide-header {
-    position: fixed;
-    z-index: 100;
-    top: -100px;
-    left: 0;
-    width: auto;
-    height: 100px;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    will-change: transform;
-    -webkit-transition: -webkit-transform .5s;
-    transition: -webkit-transform .5s;
-    transition: transform .5s;
-    transition: transform .5s, -webkit-transform .5s;
+.logo {
+  position: fixed;
+  top: 50px;
+  left: 70px;
+  z-index: 2;
 }
 
-#notscroll {transform: none;}
-.cd-auto-hide-header::after {
-    clear: both;
-    content: "";
-    display: block;
-}
-.cd-auto-hide-header.is-hidden {
-    -webkit-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-            transform: translateY(-100%);
+.logo a {
+  display: inline-block;
 }
 
-@media only screen and (min-width: 1220px) {
-  .cd-auto-hide-header {
-      height: 100px;
-          width: 50%;
-  }
+.logo h1 {
+  float: right;
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+  font-size: 42px;
 }
 
-.cd-auto-hide-header .logo,
-.cd-auto-hide-header .nav-trigger {
-    position: relative;
-    float: left;
+.menu {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  -webkit-transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.cd-auto-hide-header .logo {
-    background-color: #718166;
-    padding: 24px 26px;
-}
-
-.cd-auto-hide-header .logo a, 
-.cd-auto-hide-header .logo img {
-  display: block;
-}
-
-.cd-auto-hide-header .nav-trigger {
-    display: table;
-    height: 100%;
-    padding: 0 1em;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #718166;
-    font-weight: bold;
-    right: 0;
-    outline: 0;
-}
-.cd-auto-hide-header .nav-trigger span {
-    display: table-cell;
-    vertical-align: middle;
-}
-.cd-auto-hide-header .nav-trigger em, 
-.cd-auto-hide-header .nav-trigger em::after, 
-.cd-auto-hide-header .nav-trigger em::before {
-    display: block;
-    position: relative;
-    height: 2px;
-    width: 22px;
-    background-color: #718166;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-}
-
-.cd-auto-hide-header .nav-trigger em::before, 
-.cd-auto-hide-header .nav-trigger em::after {
+.menu h3 {
   position: absolute;
-  content: '';
-  left: 0;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-}
-.cd-auto-hide-header .nav-trigger em::before {
-  -webkit-transform: translateY(-6px);
-      -ms-transform: translateY(-6px);
-          transform: translateY(-6px);
-}
-.cd-auto-hide-header .nav-trigger em::after {
-  -webkit-transform: translateY(6px);
-      -ms-transform: translateY(6px);
-          transform: translateY(6px);
+  cursor: pointer;
+  top: 10px;
+  right: 25px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 5px;
 }
 
-@media only screen and (min-width: 1220px) {
-  .cd-auto-hide-header .nav-trigger {
-    display: none;
-  }
+.menu svg {
+  width: 30%;
+  float: right;
 }
 
-.cd-auto-hide-header.nav-open .nav-trigger em {
-  background-color: rgba(255, 255, 255, 0);
+.menusvg {
+  fill: #1D3A6C;
+  stroke: none;
 }
-.cd-auto-hide-header.nav-open .nav-trigger em::before {
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-.cd-auto-hide-header.nav-open .nav-trigger em::after {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-.cd-primary-nav {
-    display: inline-block;
-    float: left;
-    height: 100%;
-    padding-left: 34px;
-    background-color: #fff;
-    padding-right: 34px;
-}
-.cd-primary-nav > ul {
-    position: absolute;
-    z-index: 2;
-    top: 100px;
-    margin: 0;
-    left: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #ffffff;
-    display: none;
+.menufade {
+  top: 515px;
 }
 
-.cd-primary-nav > ul a {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 5%;
-    color: #718166;
-    font-size: 17px;
-    border-top: 1px solid #f2f2f2;
-}
-.cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
-    color: #434d3c;
+.navcontainer {
+  position: absolute;
+  top: -515px;
+  width: 100%;
+  background-color: #1D3A6C;
 }
 
-@media only screen and (min-width: 1220px) {
-  .cd-primary-nav {
-    display: table;
-  }
-  .cd-primary-nav > ul {
-    display: table-cell;
-    vertical-align: middle;
+.navcontainer ul {
+  float: right;
+  margin: 100px 75px 100px 0px;
+}
+
+.navcontainer li {
+  padding: 10px 0;
+}
+
+.navcontainer li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+.navline li {
     position: relative;
-    width: auto;
-    top: 0;
-    padding: 0;
-    background-color: transparent;
-    box-shadow: none;
-  }
-  .cd-primary-nav > ul::after {
-    clear: both;
-    content: "";
-    display: block;
-  }
-  .cd-primary-nav > ul li {
-    display: inline-block;
-    float: left;
-    margin-right: 1.2em;
-  }
-  .cd-primary-nav > ul li:last-of-type {
-    margin-right: 0;
-  }
-  .cd-primary-nav > ul a {
-    /* reset mobile style */
-    height: auto;
-    line-height: normal;
-    padding: 0;
-    border: none;
-  }
+    cursor: pointer;
+    padding-right: 50px;
 }
 
-.nav-open .cd-primary-nav ul,
-.cd-primary-nav ul:target {
-  /* 
-  	show primary nav - mobile only 
-  	:target is used to show navigation on no-js devices
-  */
-  display: block;
-}
-@media only screen and (min-width: 1220px) {
-  .nav-open .cd-primary-nav ul,
-  .cd-primary-nav ul:target {
-    display: table-cell;
-  }
-}
-
-.respbaumgarten {
-    float: left;
-    padding: 19px 20px;
-    display: none;
+.navline li::after {
+    content: '';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #fff;
+    -webkit-transition: .25s ease-in-out ;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
-.respbaumgarten a {
-    font-size: 20px;
+.navline li:hover::after{
+    width: 100%;
+    -webkit-transition: .25s ease-in-out ;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
-/*---------------------------------- 
+
+/*----------------------------------
     start
 -----------------------------------*/
 
@@ -405,7 +302,7 @@ p, a{
 .subtitle a {
     color: #fff;
 }
-.simgl, 
+.simgl,
 .simgr,
 .gimg {
     width: 50%;
@@ -434,7 +331,7 @@ p, a{
     background-image: url("../img/baumgarten-freudenau-goldach-bodensee-lage-mietwohnung.jpg");background-position: center; width: 100%;
 }
 
-/*---------------------------------- 
+/*----------------------------------
     projekt
 -----------------------------------*/
 
@@ -465,14 +362,14 @@ p, a{
     -webkit-transition: 0.75s ease-in-out;
     -moz-transition: 0.75s ease-in-out;
     -o-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;  
+    transition: 0.75s ease-in-out;
 }
 .fadeInDown {
     top: 0px;
     -webkit-transition: 0.75s ease-in-out;
     -moz-transition: 0.75s ease-in-out;
     -o-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;  
+    transition: 0.75s ease-in-out;
 }
 .einleitung h1 {
     color: #fff;
@@ -537,7 +434,7 @@ p, a{
     margin: 7%;
     width: 36%;
     padding: 0;
-}    
+}
 .building svg{
     position: absolute;
     top: 0;
@@ -545,7 +442,7 @@ p, a{
     cursor: pointer;
 }
 
-.st6{ 
+.st6{
     fill:#718166;
     stroke:#718166;
     stroke-width: 1;
@@ -563,13 +460,13 @@ p, a{
     transition: 0.25s ease-in-out;
 }
 
-/*---------------------------------- 
+/*----------------------------------
     container bulding
 -----------------------------------*/
 
 .cb {
     height: calc(100vh - 80px);
-    width: 50%;
+    width: 35%;
     margin: 40px 0px;
     position: fixed;
     display: inline-block;
@@ -577,41 +474,37 @@ p, a{
 
 #bulding {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    left: 25px;
     width: 80%;
-    bottom: 0px;
-    margin: auto 10%;
+    bottom: 90px;
     overflow: visible;
     cursor: pointer;
 }
 
-.st0{ fill:none;stroke:#718166;stroke-width: ;}
-.st1{ fill:#FFFFFF;stroke:#718166;stroke-width: 1;}
-.st3{ fill:none;stroke:#718166;stroke-dasharray:3,3; stroke-width: 1;}
-.st4{ fill:#718166;stroke-width: 1;}
-.st5{ fill:#FFFFFF;stroke:#718166;stroke-width: 1;}
+.st0{ fill:#FAF8F7;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
+.st1{ fill:none;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
+.st3{ fill:#FAF8F7;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
 
-g {
+g, tr, polygon {
     transition: all 0.3s ease-in-out;
 }
 
 .activ {
-    fill: #BEC7BE;
-    background-color: rgba(190, 199, 190, 0.75);
-    -webkit-transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    fill: #1D3A6C;
+    background-color: rgba(29, 58, 108, 0.25);
+    -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .up {
-    opacity: 0.25;
+    opacity: 0.5;
     -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-transform:  translate(0px, -40px);
-    -moz-transform:     translate(0px, -40px); 
-    -o-transform:       translate(0px, -40px); 
-    -ms-transform:      translate(0px, -40px); 
-    transform:          translate(0px, -40px); 
+    -webkit-transform:  translate(-20px, -180px);
+    -moz-transform:     translate(-20px, -180px);
+    -o-transform:       translate(-20px, -180px);
+    -ms-transform:      translate(-20px, -180px);
+    transform:          translate(-20px, -180px);
 }
 
 .reservation {
@@ -619,44 +512,41 @@ g {
     bottom: 0px;
     width: 80%;
     margin: 0% 10%;
-    
 }
 
-/*---------------------------------- 
+/*----------------------------------
     container table
 -----------------------------------*/
 
 .ct {
-    width: 50%;
+    width: 65%;
     position: relative;
     float: right;
     right: 0;
     display: inline-block;
-    background-color: #f7f7f5;
-}
-
-.ct .grundriss h1 {
-    margin: 10% 8% 0% 8%;
-    padding-left: 10px;
+    background-color: #FAF8F7;
 }
 
 .ct h4 {
-    width: 84%;
-    margin: 10% 8% 3% 8%;
+    margin: 5% 5% 0% 5%;
     padding-left: 10px;
-    font-size: 24px;
+    font-size: 50px;
+}
+
+.ct h4 span {
+    font-weight: 300;
 }
 
 table {
-    width: 84%;
-    margin: 3% 8%;
+    width: 90%;
+    margin: 3% 5%;
     border: none;
 }
 
 table, th, td, td a {
-    font-family: 'PT Serif', serif;
-    color: #718166;
-    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    color: #1D3A6C;
+    font-size: 16px;
     text-decoration: none;
     font-weight: 400;
     text-align: left;
@@ -673,14 +563,18 @@ th {
 th, td {
     padding: 5px 0px 5px 10px;
     text-align: left;
-    border-bottom: 1px solid #BEC7BE;   
+    border-bottom: 1px solid #BEC7BE;
     border-right: 1px dashed #BEC7BE;
-       white-space: nowrap; 
+       white-space: nowrap;
 }
 
 
 td a:hover {
     opacity: 1;
+}
+
+.reserv {
+  font-size: 12px;
 }
 
 .downloadplan {
@@ -729,14 +623,14 @@ th:last-child, td:last-child {border-right: none;}
     top: 40px;
     right: 60px;
     font-size: 25px;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
 .planhover {
     display: block;
 }
 .r td {
-    color: #b5935d;
+    opacity: 0.5;
 }
 .v td {
     color: rgba(95, 115, 92, 0.5);
@@ -763,9 +657,9 @@ th:last-child, td:last-child {border-right: none;}
     height: 40px;
 }
 
-/*---------------------------------- 
+/*----------------------------------
     contact form
------------------------------------*/    
+-----------------------------------*/
 .contact {
      background-color: #718166;
 }
@@ -797,7 +691,7 @@ th:last-child, td:last-child {border-right: none;}
     padding: 10px;
 }
 
-.container h1, 
+.container h1,
 .container th,
 .container td,
 .container td a{
@@ -812,8 +706,8 @@ th:last-child, td:last-child {border-right: none;}
 .container .downtable {
     margin-top: 20px;
 }
-    
-#contact input, 
+
+#contact input,
 #contact textarea {
     border-radius: 0;
     box-sizing: border-box;
@@ -825,7 +719,7 @@ th:last-child, td:last-child {border-right: none;}
     padding: 10px 12px;
     font-size: 17px;
 }
-    
+
 #contact input:hover,
 #contact textarea:hover {
     -webkit-transition:border-color 0.3s ease-in-out;
@@ -833,13 +727,13 @@ th:last-child, td:last-child {border-right: none;}
     transition:border-color 0.3s ease-in-out;
     border-left: none;
 }
-    
+
 #contact textarea {
     height:150px;
     max-width:100%;
     resize:none;
 }
-    
+
 #contact button {
     cursor: pointer;
     border: 1px solid #fff;
@@ -849,7 +743,7 @@ th:last-child, td:last-child {border-right: none;}
     padding: 10px;
     font-size: 17px;
 }
-    
+
 #contact button:hover {
     background-color: rgba(255, 255, 255, 0.2);
     -webkit-transition:background-color 0.3s ease-in-out;
@@ -857,11 +751,11 @@ th:last-child, td:last-child {border-right: none;}
     transition:background-color 0.3s ease-in-out;
 }
 
-#contact button:active { 
-    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+#contact button:active {
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-#contact input:focus, 
+#contact input:focus,
 #contact textarea:focus {
     outline:0;
     border:none;
@@ -884,7 +778,7 @@ th:last-child, td:last-child {border-right: none;}
     color: #fff;
     padding: 0 10px;
     font-size: 17px;
-    margin: 50px 100px;  
+    margin: 50px 100px;
 }
 .vermietungsstart h3 a {
     color: #fff;
@@ -892,7 +786,7 @@ th:last-child, td:last-child {border-right: none;}
 
 
 
-/*---------------------------------- 
+/*----------------------------------
     footer
 -----------------------------------*/
 
@@ -913,7 +807,7 @@ footer {
 
 .footerkontakt {
     float: left;
-    
+
 }
 
 .footerkontakt p {
@@ -1011,7 +905,7 @@ footer a{
 }
 
 
-/*---------------------------------- 
+/*----------------------------------
 responsive ipad
 -----------------------------------*/
 
@@ -1020,13 +914,13 @@ responsive ipad
 @media only screen and (max-width: 1400px) {
     th, td {font-size: 12px; padding: 6px;}
     th {font-size: 10px;}
-   
+
 }
 
 @media only screen and (max-width: 1270px) {
   .fadeInUp {top: -170px;}
 }
-    
+
 @media only screen and (max-width: 1130px) {
    .ct h4, .ct .grundriss h1 {margin: 40px 20px;padding-left: 0px;font-size: 20px;}
     table {margin: 20px 20px; width: calc(100% - 40px)}
@@ -1039,18 +933,18 @@ responsive ipad
     h2 {font-size: 16px; margin-top: 10px;}
     p, a {font-size: 16px;}
     .content75img, .content50img {width: 100%; float: left;}
-   
-  
+
+
 }
 
 @media only screen and (max-width: 770px) {
     #navburger {display: block;}
-    .topnav a {display: none; float: none;}   
+    .topnav a {display: none; float: none;}
 }
 
 
 @media only screen and (max-width: 768px) {
-    
+
     .cd-auto-hide-header {height: 72px; width: 100%; background-color: #fff;}
     .cd-auto-hide-header .logo {padding: 10px 20px;}
     .cd-auto-hide-header .logo img {width: 50px;}
