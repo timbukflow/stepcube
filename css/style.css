@@ -43,10 +43,11 @@ h1, h2, h3, h4, p, a, figcaption, input, textarea, button, .success  {
 }
 
 h1 {
-
-    font-size: 32px;
+    font-size: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-weight: 200;
+    line-height: 1.2;
 }
 
 h2 {
@@ -63,10 +64,15 @@ h4 {
 }
 
 figure {
-    margin-bottom: 80px;
+  width: 95%;
+}
+
+figure.right {
+  float: right;
 }
 
 figcaption {
+    text-align: left;
     font-size: 14px;
     padding: 15px 20px;
 }
@@ -166,17 +172,17 @@ p, a{
 }
 
 
-
-
 /*----------------------------------
     header nav
 -----------------------------------*/
 
 .logo {
+  position: relative;
+  margin: 50px 70px;
+}
+
+.logowohnangebot {
   position: fixed;
-  top: 50px;
-  left: 70px;
-  z-index: 2;
 }
 
 .logo a {
@@ -232,6 +238,22 @@ p, a{
   background-color: #1D3A6C;
 }
 
+.navcontainer .logomenu {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+}
+
+.navcontainer h1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 24px;
+  margin: 30px;
+
+}
+
 .navcontainer ul {
   float: right;
   margin: 100px 75px 100px 0px;
@@ -282,54 +304,31 @@ p, a{
 
 .sectionhome {
     width: 100%;
-    height: 100vh;
     margin: 0;
     position: relative;
     overflow: hidden;
 }
-.stitle {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    left: 0;
-    margin: auto;
-    text-align: center;
-    font-size: 140px;
-    color: white;
-    z-index: 10;
-    text-shadow: 0px 0px 30px rgba(100, 100, 100, 0.5);
-}
-.subtitle a {
-    color: #fff;
-}
-.simgl,
-.simgr,
-.gimg {
-    width: 50%;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    float: left;
-}
-.fiximg {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-}
-.simgl {
-    background-image: url("../img/baumgarten-freudenau-goldach-mietwohnung-4-5-zimmer-attika-dachgeschoss-wohnung.jpg");
-    background-position: left;
-}
-.simgr {
-    background-image: url("../img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg");
-    background-position: left;}
 
-.gimg {
-    background-image: url("../img/baumgarten-freudenau-goldach-bodensee-lage-mietwohnung.jpg");background-position: center; width: 100%;
+.countcontainer {
+    margin: 140px 10% 70px;
+    overflow: auto;
 }
+
+.countcontainer h2 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.countcontainer h2 span {
+    font-size: 120px;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+
 
 /*----------------------------------
     projekt
@@ -339,126 +338,21 @@ p, a{
     margin: 0;
     position: relative;
     display: inline-block;
-    background-color: #fff;
-    z-index: 10;
-    float: left;
-}
-.acontainer {
-    position: relative;
     width: 100%;
-    display: inline-block;
-    float: left;
 }
-.einleitung {
-    background-color: #718166;
-    width: calc(50% - 120px);
-    position: absolute;
-    right: 0;
-    top: 0px;
-    padding: 50px 60px 0px 60px;
-}
-.fadeInUp {
-    top: -140px;
-    -webkit-transition: 0.75s ease-in-out;
-    -moz-transition: 0.75s ease-in-out;
-    -o-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;
-}
-.fadeInDown {
-    top: 0px;
-    -webkit-transition: 0.75s ease-in-out;
-    -moz-transition: 0.75s ease-in-out;
-    -o-transition: 0.75s ease-in-out;
-    transition: 0.75s ease-in-out;
-}
+
+
 .einleitung h1 {
-    color: #fff;
-    margin-top: 0;
-    margin-bottom: 60px;
-}
-.einleitunglauftext {
-    position: relative;
-    float: right;
-    background-color: #718166;
-    width: calc(50% - 120px);
-    top: 0;
-    padding: 0px 60px 82px 60px;
-}
-.goldach {
-    float: left;
-    width: calc(100% - 400px);
-    padding: 80px 200px 80px 200px;
+  margin: 5% 20% 2%;
+  width: 60%;
 }
 
-.einleitunglauftext h2,
-.einleitunglauftext a{
-    color: #fff;
-}
-.logocontainer {
-    position: relative;
-    float: left;
-    width: 50%;
-    text-align: center;
-    margin-top: 150px;
-}
-.content50 {
-    position: relative;
-    width: calc(50% - 120px);
-    float: left;
-    padding: 20px 60px 150px 60px;
-}
-.content {
-    position: relative;
-    max-width: 900px;
-    display: block;
-    margin: 20px auto 150px;
-    padding: 20px 30px 30px 30px;
-}
-.content50img {
-    position: relative;
-    width: 50%;
-    float: left;
-    padding: 0%;
-}
-.content50img figure {
-    margin: 0;
+.einleitung p {
+  margin: 0 20% 10%;;
+  width: 60%;
 }
 
-.content75img {
-    position: relative;
-    width: 85%;
-    float: left;
-    padding: 0%;
-}
-.building{
-    margin: 7%;
-    width: 36%;
-    padding: 0;
-}
-.building svg{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    cursor: pointer;
-}
 
-.st6{
-    fill:#718166;
-    stroke:#718166;
-    stroke-width: 1;
-    opacity: 0;
-     -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
-}
-.st6:hover{
-    opacity: 0.5;
-     -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
-}
 
 /*----------------------------------
     container bulding
@@ -546,9 +440,9 @@ table {
 table, th, td, td a {
     font-family: 'Manrope', sans-serif;
     color: #1D3A6C;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
     letter-spacing: 0.75px;
     border-collapse: collapse;
@@ -556,17 +450,23 @@ table, th, td, td a {
 }
 
 th {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1.25;
 }
 
 th, td {
-    padding: 5px 0px 5px 10px;
+    padding: 7px 0px 5px 10px;
     text-align: left;
     border-bottom: 1px solid #BEC7BE;
     border-right: 1px dashed #BEC7BE;
        white-space: nowrap;
 }
+
+td:nth-child(7) {
+  font-weight: 500;
+}
+
 
 
 td a:hover {
@@ -856,13 +756,14 @@ footer a{
 
 .konditionen {
     font-size: 14px;
-    color: #718166;
+    color: #1D3A6C;
 }
 
 #datenschutz,
 #konditionen {
     display: none;
-    padding: 0px 40px 40px;
+    padding: 0px 10px;
+    margin: 0 5% 20px;
     position: relative;
     float: left;
 }

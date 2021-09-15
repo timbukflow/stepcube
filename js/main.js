@@ -2,6 +2,19 @@ $(document).ready(function () {
 
     setTimeout(function(){$('#loader').fadeOut(800)},800);
 
+    // Home Counter //
+    $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+
     // 04 Obergeschoss //
     $(".og04book").hover(function() {
         $("html, body").stop(true).animate({scrollTop:$("#og04").position().top - 100},800);});
@@ -131,12 +144,6 @@ $(document).ready(function () {
         $(".menu").toggleClass('menufade');
     });
 
-     // home fade in animation //
-
-    setTimeout(function () {
-    $('.einleitung').addClass('fadeInUp');
-    $('.cd-auto-hide-header').addClass('fadeInDown');}, 500
-);
 
     // impressum //
 
