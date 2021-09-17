@@ -9,166 +9,52 @@
 
 /*
     Color Theme: STEPCUBE
-    Main Color Blue: #1D3A6C;
+    Main Color Blue: #223870;
+    Main Color Light Blue: #92AFC8;
+    Main Color Light Green: #93BDB9;
+    Main Color Light Brown: #B8A89F;
 
-
+    Font: Manrope
 */
-
-html, body {
-    height: 100%;
-    position:relative;
-}
 
 body {
     margin:0px;
     padding: 0px;
-    background-color: #FAF8F7;
 }
 
-h1, h2, h3, h4, p, a, figcaption, input, textarea, button, .success  {
-    color: #1D3A6C;
-    font-style: normal;
+h1, h2, h3, h4, p, a {
+    color: #223870;
     font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 1.4;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.15;
     text-align: left;
-    text-rendering: optimizeLegibility;
+    letter-spacing: 0.06em;
+    /* text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; */
     hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
-    letter-spacing: 0.85px;
 }
 
 h1 {
-    font-size: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-weight: 200;
-    line-height: 1.2;
+  font-size: 60px;
 }
 
 h2 {
-    font-size: 21px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    line-height: 1.5;
-    letter-spacing: 0.75px;
-}
-
-h4 {
   font-weight: 600;
-  font-size: 50px;
 }
 
-figure {
-  width: 95%;
+h3 {
+  font-size: 25px;
 }
 
-figure.right {
-  float: right;
-}
-
-figcaption {
-    text-align: left;
-    font-size: 14px;
-    padding: 15px 20px;
-}
-
-p, a{
-    font-size: 17px;
-    line-height: 1.75;
-}
-
-.link, .linkw {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.link::after {
-    content: '';
-    position: absolute;
-    bottom:0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #718166;
-    opacity: 0.5;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.link:hover::after{
-    opacity: 1;
-    width: 90%;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.linkw::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #ffffff;
-    opacity: 0.25;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-
-.linkw:hover::after{
-    opacity: 1;
-    width: 90%;
-    -webkit-transition: .25s ease-in-out ;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-}
-#loader{
-    position: fixed;
-    z-index: 10000;
-    width: 100%;
-    height: 100vh;
-    background-color: #718166;
-}
-
-#loader img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -250px;
-    margin: auto;
-
-    animation:  loader 1.5s;
-    animation-delay: 0.25s;
-    animation-iteration-count: 1;
-    animation-timing-function:ease-in-out;
-    animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes loader {
-    from    { bottom: -250px;}
-    to      { bottom: 0px;}
-}
-
-@keyframes loader {
-    from    { bottom: -250px;}
-    to      { bottom: 0px;}
+.navcontainer a {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 0.07em;
 }
 
 
@@ -185,20 +71,9 @@ p, a{
   position: fixed;
 }
 
-.logo a {
-  display: inline-block;
-}
-
-.logo h1 {
-  float: right;
-  margin-top: 10px;
-  margin-left: 20px;
-  letter-spacing: 0.1em;
-  font-size: 42px;
-}
-
 .menu {
   position: fixed;
+  cursor: pointer;
   top: 0px;
   right: 0;
   z-index: 100;
@@ -207,71 +82,60 @@ p, a{
   transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.menu h3 {
-  position: absolute;
+.navbutton {
+  position: fixed;
+  right: 5%;
+  top: 60px;
   cursor: pointer;
-  top: 10px;
-  right: 25px;
-  color: #fff;
-  font-weight: 600;
-  margin: 0;
-  letter-spacing: 5px;
+  transition: transform 0.5s cubic-bezier(0.40, 0, 0.10, 1);
+
 }
 
-.menu svg {
-  width: 30%;
-  float: right;
+.navbutton:hover {
+  transform: rotate(70deg);
 }
 
-.menusvg {
-  fill: #1D3A6C;
-  stroke: none;
-}
 .menufade {
-  top: 515px;
+  top: 435px;
 }
 
 .navcontainer {
   position: absolute;
-  top: -515px;
-  width: 100%;
-  background-color: #1D3A6C;
+  width: 40%;
+  top: -435px;
+  right: 0;
+  background-color: #223870;
 }
 
-.navcontainer .logomenu {
+.navone, .navtwo, .navthree, .navfour {
+  width: 25%;
+  background-color: #223870;
   position: absolute;
-  left: 30px;
-  top: 200px;
-}
-
-.navcontainer h1 {
-  position: absolute;
-  left: 0;
   bottom: 0;
-  color: #fff;
-  font-size: 24px;
-  margin: 30px;
-
+  height: 20px;
+}
+.navtwo {
+  background-color: #92AFC8;
+  left: 25%;
+}
+.navthree {
+  background-color: #93BDB9;
+  left: 50%;
+}
+.navfour {
+  background-color: #B8A89F;
+  left: 75%;
 }
 
 .navcontainer ul {
-  float: right;
-  margin: 100px 75px 100px 0px;
+  margin: 50px;
+  margin-bottom: 100px;
+  padding: 0;
 }
 
 .navcontainer li {
-  padding: 10px 0;
-}
-
-.navcontainer li a {
-  color: #fff;
-  font-size: 25px;
-}
-
-.navline li {
-    position: relative;
-    cursor: pointer;
-    padding-right: 50px;
+  padding: 15px 0;
+  position: relative;
 }
 
 .navline li::after {
@@ -299,34 +163,75 @@ p, a{
 
 
 /*----------------------------------
-    start
+  projekt
 -----------------------------------*/
 
-.sectionhome {
+.maincontainer {
     width: 100%;
     margin: 0;
     position: relative;
-    overflow: hidden;
+}
+.start {
+  margin-top: 100px;
 }
 
-.countcontainer {
-    margin: 140px 10% 70px;
-    overflow: auto;
+.maincontainer .header {
+  width: 60%;
+  margin-left: 10%;
+  z-index: 10;
+  position: absolute;
 }
 
-.countcontainer h2 {
-    width: 33.3%;
-    float: left;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
+.startimg {
+  width: 80%;
+  float: right;
+  margin-top: 97px;
 }
 
-.countcontainer h2 span {
-    font-size: 120px;
-    font-weight: 200;
-    line-height: 1.1;
+.start .color {
+  width: 70%;
+  height: 30px;
+  background-color: #223870;
+  display: inline-block;
+  float: right;
 }
+
+.start h2 {
+  width: 60%;
+  display: inline-block;
+  margin: 100px 20% 0;
+}
+
+
+
+
+
+.inputs {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: -80px;
+  opacity: 20%;
+  /*
+  animation-name: move;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  */
+}
+
+.inputs h3 {
+  margin: 0 30px;
+}
+
+@keyframes move {
+  0%   {top:-80px;right: 0px;§}
+  50%  {top:-70px;right: 10px;§}
+  100% {top:-70px;right: 20px;§}
+}
+
+
 
 
 
@@ -595,7 +500,7 @@ th:last-child, td:last-child {border-right: none;}
 .container th,
 .container td,
 .container td a{
-    color: #fff;
+
 }
 
 .container table {
@@ -813,76 +718,5 @@ responsive ipad
 
 
 @media only screen and (max-width: 1400px) {
-    th, td {font-size: 12px; padding: 6px;}
-    th {font-size: 10px;}
 
 }
-
-@media only screen and (max-width: 1270px) {
-  .fadeInUp {top: -170px;}
-}
-
-@media only screen and (max-width: 1130px) {
-   .ct h4, .ct .grundriss h1 {margin: 40px 20px;padding-left: 0px;font-size: 20px;}
-    table {margin: 20px 20px; width: calc(100% - 40px)}
-    .cb {width: 100%; position: fixed; height: 50vh; z-index: 10; background-color: #fff; margin: 0px;}
-    #bulding {top: 0; left: 0; right: 0; bottom: 0; margin: 16vh auto 0; height: 30vh;}
-    .reservation {display: none;}
-    .ct {width: 100%; top: 50vh;}
-    .stitle {font-size: 110px;}
-    h1 {font-size: 28px;}
-    h2 {font-size: 16px; margin-top: 10px;}
-    p, a {font-size: 16px;}
-    .content75img, .content50img {width: 100%; float: left;}
-
-
-}
-
-@media only screen and (max-width: 770px) {
-    #navburger {display: block;}
-    .topnav a {display: none; float: none;}
-}
-
-
-@media only screen and (max-width: 768px) {
-
-    .cd-auto-hide-header {height: 72px; width: 100%; background-color: #fff;}
-    .cd-auto-hide-header .logo {padding: 10px 20px;}
-    .cd-auto-hide-header .logo img {width: 50px;}
-    .cd-primary-nav {float: right; padding-right: 10px; padding-left: 0px;}
-    .cd-primary-nav > ul {top:72px;}
-    .respbaumgarten {display: inline-block;}
-    .stitle {display: none;}
-    .simgl {display: none;}
-    .simgr {width: 100%;}
-    .einleitung {width: calc(100% - 40px); padding: 20px 20px 20px 20px; top: -110px;}
-    .einleitung h1 {margin-bottom: 40px;}
-    h1 {font-size: 24px;margin-top: 20px; margin-bottom: 30px;}
-    h2 {font-size: 16px; margin-top: 10px;}
-    .einleitunglauftext{width: calc(100% - 40px); padding: 0px 20px 50px 20px;}
-    p, a, li span {font-size: 15px; line-height: 1.5;}
-    .logocontainer {width: 100%; margin-top: 70px; margin-bottom: 70px;}
-    .logocontainer img {width: 180px;}
-    .content50 {width: calc(100% - 40px);padding: 20px 20px 50px 20px;}
-    .building {padding: 0px; width: 80%; margin: 10%;}
-    .building svg {width: 100%;}
-    .content75img, .content50img {width: 100%; float: none;}
-    figure {margin-bottom: 10px;}
-    figcaption {padding: 20px 20px; font-size: 12px;}
-    .content {margin-bottom: 10px; padding: 20px 20px 30px 20px;}
-    #notscroll {transform: translateZ(0);}
-    table {margin: 3% 1%; width: 98%;}
-    th, td {font-size: 12px; padding: 6px;}
-    th {font-size: 10px;}
-    .footerkontakt p {margin: 20px; margin-bottom: 10px;}
-    .footernav {float: left; margin: 20px;}
-    #impressum, #datenschutz {padding: 20px;}
-    .resptable {background-color: #f7f7f5;}
-    .ct h4, .ct .grundriss h1 {margin: 40px 20px;padding-left: 0px;font-size: 20px;}
-    .sectioncontact, .sectiondload {width: 100%; margin-bottom: 0}
-    .container {padding: 80px 20px 0px}
-    .respcont {padding-top: 20px;}
-    .vermietungsstart h3 {margin: 50px 20px; padding:0;}
-    .plan a {font-size: 12px; margin: 20px; margin-bottom: 40px;}
-    .plan img.norden {margin: 30px; margin-bottom: 40px; width: 30px; height: 30px;}
-    .footerkontakt {float: none;}

@@ -11,18 +11,21 @@
 <body>
     <?php include 'header.php'; ?>
 
-    <section class="sectionhome">
-      <article class="einleitung">
-        <h1>Wohnen und Arbeiten in<br>der Hafenstadt Romanshorn</h1>
-        <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See.
-        </p>
-          <figure>
-              <img src="img/stepcube-wohnen-in-romanshorn.jpg" alt="..." width="100%" height="auto">
-              <figcaption>
-                <strong>STEPCUBE Romanshorn</strong>
-                <br>2.5 Zimmer Erdgeschosswohnung
-              </figcaption>
-          </figure>
+    <section class="maincontainer">
+      <article class="start">
+        <h1 class="header">Wohnen und Arbeiten in der Hafenstadt Romanshorn</h1>
+
+        <img class="startimg" src="img/stepcube-wohnen-in-romanshorn-start.jpg" alt="..." width="100%" height="auto">
+        <div class="color"></div>
+
+        <h2>Ihr sicherer Hafen am Bodensee</h2>
+        <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Miet-wohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attrak-tiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See. Ob für Singles, Seefahrer, Selbstständige oder Senioren – die modern ausgestatteten Wohnungen mit ihren offenen Grundrissen erfüllen jegliche Ansprüche an ein aktives und mobiles Leben in Ufernähe.</p>
+
+        <div class="inputs">
+          <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
+          <h3>1463 m²<br>Wohnfläche</h3>
+        </div>
+
         </article>
     </section>
 
