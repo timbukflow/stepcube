@@ -22,12 +22,12 @@ body {
     padding: 0px;
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, span {
     color: #223870;
     font-family: 'Manrope', sans-serif;
-    font-weight: 200;
-    font-size: 22px;
-    line-height: 1.15;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
     text-align: left;
     letter-spacing: 0.06em;
     /* text-rendering: optimizeLegibility;
@@ -39,7 +39,9 @@ h1, h2, h3, h4, p, a {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
+  line-height: 1.15;
+  font-weight: 200;
 }
 
 h2 {
@@ -47,15 +49,40 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 35px;
+  line-height: 1.25;
 }
 
-.navcontainer a {
+.navcontainer a, .footerright a, .impressum {
   color: #ffffff;
   font-size: 40px;
   font-weight: 200;
   letter-spacing: 0.07em;
+  line-height: 1.15;
 }
+
+.button {
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding: 6px 24px;
+  margin: 50px 0 30px 20%;
+	text-decoration:none;
+  -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.button:hover {
+	color: #B8A89F;
+  background-color: #ffffff;
+}
+
+.gewerbe .button:hover {
+	color: #93BDB9;
+  background-color: #ffffff;
+}
+
 
 
 /*----------------------------------
@@ -88,11 +115,10 @@ h3 {
   top: 60px;
   cursor: pointer;
   transition: transform 0.5s cubic-bezier(0.40, 0, 0.10, 1);
-
 }
 
 .navbutton:hover {
-  transform: rotate(70deg);
+  transform: rotate(135deg);
 }
 
 .menufade {
@@ -171,6 +197,7 @@ h3 {
     margin: 0;
     position: relative;
 }
+
 .start {
   margin-top: 100px;
 }
@@ -185,25 +212,162 @@ h3 {
 .startimg {
   width: 80%;
   float: right;
-  margin-top: 97px;
+  margin-top: 114px;
 }
 
 .start .color {
   width: 70%;
-  height: 30px;
+  height: 50px;
   background-color: #223870;
   display: inline-block;
   float: right;
 }
 
-.start h2 {
+.start h2, .start p{
   width: 60%;
   display: inline-block;
   margin: 100px 20% 0;
 }
 
+.wohnen h2, .wohnen p,
+.gewerbe h2, .gewerbe p,
+.footerleft h2, .footerleft p {
+  color: #ffffff;
+  width: 60%;
+  display: inline-block;
+  margin: 0px 20% 0;
+}
 
+.start p,
+.wohnen p,
+.gewerbe p {
+  margin-top: 25px;
+}
 
+.wohnen {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background-color: #B8A89F;
+  margin-top: 300px;
+  padding-bottom: 150px;
+}
+
+.wohnenimg {
+  width: 80%;
+  float: left;
+  margin-right: 20%;
+  position: relative;
+  top: -50px;
+  transition: all 0.5s ease-in;
+}
+
+.wcontainer {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.wohnenimgtwo {
+  width: 40%;
+  float: right;
+  position: relative;
+}
+
+.wohnenimgthree{
+  width: 50%;
+  float: left;
+  position: relative;
+  margin-top: 150px;
+}
+
+.wohnen .header {
+  color: #ffffff;
+  width: 50%;
+  margin: 0 10% 0 40%;
+  z-index: 10;
+  top: -117px;
+  float: right;
+  position: relative;
+}
+
+.wohnen .header.two {
+  width: 50%;
+  margin: 0 40% 0 10%;
+  z-index: 10;
+  top: -73px;
+  position: relative;
+}
+
+.gewerbe {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background-color: #93BDB9;
+  padding-bottom: 150px;
+}
+
+.gewerbeimg {
+  width: 80%;
+  margin-left: 20%;
+  position: relative;
+  top: -50px;
+  transition: all 0.5s ease-in;
+}
+
+.gewerbe .header {
+  color: #ffffff;
+  width: 60%;
+  margin: 0 30% 0 10%;
+  z-index: 10;
+  top: -117px;
+  position: relative;
+}
+
+/* Day & Night Button */
+
+.daynightcontainer {
+  position: relative;
+  margin-left: 10%;
+  top: -150px;
+}
+
+.day, .night {
+  border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding: 6px 24px;
+  margin: 0;
+  float: left;
+	text-decoration:none;
+}
+
+.day {
+  border-right: 0px;
+}
+
+.nightimg {
+  position: absolute;
+  right: 0px;
+}
+
+.dayfade {
+  opacity: 0%;
+  transition: all 0.5s ease-in;
+}
+
+.nightbutton {
+  color: #B8A89F;
+  background-color: #fff;
+  transition: all 0.5s ease-in;
+}
+
+.daybutton {
+  color: #B8A89F;
+  background-color: #fff;
+  transition: all 0.5s ease-in;
+}
 
 
 .inputs {
@@ -221,6 +385,20 @@ h3 {
   */
 }
 
+.wohnen .inputs {
+  top: -220px;
+}
+
+.wcontainer .inputs {
+  top: auto;
+  bottom: 0px;
+}
+
+.gewerbe .inputs {
+  position: relative;
+  float: right;
+
+}
 .inputs h3 {
   margin: 0 30px;
 }
@@ -230,33 +408,6 @@ h3 {
   50%  {top:-70px;right: 10px;§}
   100% {top:-70px;right: 20px;§}
 }
-
-
-
-
-
-/*----------------------------------
-    projekt
------------------------------------*/
-
-.sectioncontainer {
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
-
-.einleitung h1 {
-  margin: 5% 20% 2%;
-  width: 60%;
-}
-
-.einleitung p {
-  margin: 0 20% 10%;;
-  width: 60%;
-}
-
 
 
 /*----------------------------------
@@ -590,56 +741,63 @@ th:last-child, td:last-child {border-right: none;}
 }
 
 
-
 /*----------------------------------
     footer
 -----------------------------------*/
 
 footer {
     margin: 0;
+    padding-bottom: 60px;
     position: relative;
     display: inline-block;
-    background-color: #718166;
+    background-color: #223870;
     width: 100%;
     float: left;
-    z-index: 1
-}
-
-.footer {
-    display: inline-block;
-    width: 100%;
-}
-
-.footerkontakt {
-    float: left;
-
-}
-
-.footerkontakt p {
-    color: #fff;
-    margin: 40px;
-}
-
-.footerkontakt a,
-#impressum p{
-    color: #fff;
-}
-
-.footernav {
-    float: right;
-    margin: 40px 80px 40px 40px;
-}
-
-.footernav ul {
-    margin: 0;
-    display: inline-block;
-    padding: 0;
 }
 
 footer a{
     color: #fff;
     margin: 0;
 }
+
+.colorfooter {
+  width: 50%;
+  height: 50px;
+  background-color: #223870;
+  position: relative;
+  top: -50px;
+}
+
+.footerleft {
+  float: left;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.footerleft h2, .footerleft p {
+  margin-left: 0;
+}
+
+.footerleft img {
+  margin: 50px 50px 0 0;
+}
+
+.footerright {
+  float: right;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.footerright ul {
+  padding: 0;
+}
+
+.footerright li {
+  padding: 15px 0;
+  margin-right: 10%;
+  position: relative;
+}
+
 
 .impressum {
     color: #fff;
@@ -652,6 +810,10 @@ footer a{
     padding: 40px 40px;
     position: relative;
     float: left;
+}
+
+#impressum p{
+    color: #fff;
 }
 
 .disclamer {

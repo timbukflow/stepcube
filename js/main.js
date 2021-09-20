@@ -144,6 +144,20 @@ $(document).ready(function () {
         $(".menu").toggleClass('menufade');
     });
 
+    // Day & Night //
+
+    $(".night").click(function(){
+        $(".dayimg").addClass('dayfade');
+        $(".night").addClass('nightbutton');
+        $(".day").removeClass('daybutton');
+    });
+    
+    $(".day").click(function(){
+        $(".dayimg").removeClass('dayfade');
+        $(".night").removeClass('nightbutton');
+        $(".day").addClass('daybutton');
+    });
+
 
     // impressum //
 
