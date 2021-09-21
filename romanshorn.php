@@ -3,8 +3,8 @@
 <!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="de"><!--<![endif]-->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
-<title>Baumgarten | Goldach</title>
-<meta name="description" content="Baumgarten | Goldach"/>
+<title>STEPCUBE | Romanshorn</title>
+<meta name="description" content="STEPCUBE | Romanshorn"/>
 <?php include 'head.php'; ?>
 </head>
 
@@ -38,7 +38,7 @@
                 <h2>Goldach zählt zu den beliebtesten Gemeinden am Bodensee, nicht nur wegen ihres moderaten Steuerklimas! Als Kleinstadt von überschaubarer Grösse strahlt sie den Charme eines seit Jahrhunderten gewachsenen Dorfes aus. Zur perfekten Lage tragen der See, Hügel und Naherholungsgebiete direkt vor der Haustüre bei. Die Kantonshauptstadt St.Gallen ist gerade mal 13 km entfernt.</h2>
             </div>
             <figure>
-                <iframe src="https://snazzymaps.com/embed/158435" width="100%" height="800px" style="border:none;"></iframe>
+                <iframe src="https://snazzymaps.com/embed/340090" width="100%" height="600px" style="border:none;"></iframe>
                 <figcaption><strong>Baumgartenstrasse Map</strong> / Ansicht aller wichtigen Standpunkte in der Nähe.</figcaption>
             </figure>
         </article>

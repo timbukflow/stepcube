@@ -14,33 +14,30 @@
     </div>-->
 
     <header>
-      <div class="logo logowohnangebot">
-        <a href="index" target="_top">
-           <img src="img/stepcube-wohnen-romanshorn-logo.svg" alt="stepcube-wohnen-romanshorn-logo" height="80" width="120"/>
-         <!--<h1>STEPCUBE</h1>-->
-       </a>
+    	<div class="logowohnangebot">
+    		<a href="index" target="_top">
+    			 <img src="img/stepcube-wohnen-romanshorn-logo.svg" alt="stepcube-wohnen-romanshorn-logo" width="220px" height="auto"/>
+    	 </a>
      </div>
 
      <nav class="menu">
-        <h3>MENU</h3>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 viewBox="0 0 250 25" xml:space="preserve">
-           <polygon class="menusvg" points="17.2,14.1 106.5,14.1 134.1,35 250,35 250,0 0,0 "/>
-        </svg>
-        <div class="navcontainer">
-          <div class="logomenu">
-              <a href="index" target="_top">
-                 <img src="img/stepcube-wohnen-romanshorn-logo-negativ.svg" alt="stepcube-wohnen-romanshorn-logo" height="80" width="120"/>
-             </a>
-          </div>
-          <ul class="navline">
-            <li><a href="index">Projekt</a></li>
-            <li><a href="wohnungen">Wohnungen</a></li>
-            <li><a href="baubeschreibung">Baubeschreibung</a></li>
-            <li><a href="romanshorn">Romanshorn</a></li>
-            <li><a href="kontakt">Kontakt</a></li>
-          </ul>
-        </div>
+    		<div class="navbutton">
+    			<img src="img/stepcube-navbutton.svg" alt="stepcube-navbutton" width="40" height="40"/>
+    		</div>
+
+    		<div class="navcontainer">
+    			<div class="navone"></div>
+    			<div class="navtwo"></div>
+    			<div class="navthree"></div>
+    			<div class="navfour"></div>
+    			<ul class="navline">
+    				<li><a href="index">Stepcube</a></li>
+    				<li><a href="wohnangebot">Wohnangebot</a></li>
+    				<!-- <li><a href="baubeschreibung">Baubeschreibung</a></li> -->
+    				<li><a href="romanshorn">Romanshorn</a></li>
+    				<li><a href="kontakt">Kontakt</a></li>
+    			</ul>
+    		</div>
     	</nav>
     </header>
 
@@ -344,10 +341,10 @@
       		<polygon class="st3 og04w0428" points="241.6,8.2 145.3,63.8 193.5,91.5 289.8,36.1 		"/>
       	</g>
       </g>
-
       </svg>
       <div class="reservation">
-          <h3><strong>Erstbezug ab Sommer 2022</strong><br><a class="link" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Baumgarten Anmeldeformular">Anmeldeformular</a></h3>
+          <p>Erstbezug ab Sommer 2022</p>
+          <a class="buttonpositiv" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
       </div>
     </div>
 

@@ -26,7 +26,7 @@ h1, h2, h3, h4, p, a, span {
     color: #223870;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.4;
     text-align: left;
     letter-spacing: 0.06em;
@@ -73,6 +73,23 @@ h3 {
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.buttonpositiv {
+  color: #fff;
+  display: inline-block;
+  background-color: #223870;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+  padding: 4%;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.buttonpositiv:hover {
+	padding-left: 6%;
+}
+
 .button:hover {
 	color: #B8A89F;
   background-color: #ffffff;
@@ -92,10 +109,13 @@ h3 {
 .logo {
   position: relative;
   margin: 50px 70px;
+  z-index: 999;
 }
 
 .logowohnangebot {
   position: fixed;
+  margin: 50px 70px;
+  z-index: 999;
 }
 
 .menu {
@@ -376,13 +396,6 @@ h3 {
   right: 0;
   top: -80px;
   opacity: 20%;
-  /*
-  animation-name: move;
-  animation-duration: 2s;
-  animation-direction: alternate;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  */
 }
 
 .wohnen .inputs {
@@ -415,25 +428,25 @@ h3 {
 -----------------------------------*/
 
 .cb {
-    height: calc(100vh - 80px);
-    width: 35%;
-    margin: 40px 0px;
-    position: fixed;
-    display: inline-block;
+  height: 100vh;
+  width: 40%;
+  margin: 0px 0px;
+  position: fixed;
+  display: inline-block;
 }
 
 #bulding {
     position: absolute;
-    left: 25px;
+    left: 10%;
     width: 80%;
-    bottom: 90px;
+    bottom: 125px;
     overflow: visible;
     cursor: pointer;
 }
 
-.st0{ fill:#FAF8F7;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
+.st0{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
 .st1{ fill:none;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
-.st3{ fill:#FAF8F7;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
+.st3{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
 
 g, tr, polygon {
     transition: all 0.3s ease-in-out;
@@ -460,8 +473,12 @@ g, tr, polygon {
 .reservation {
     position: absolute;
     bottom: 0px;
-    width: 80%;
-    margin: 0% 10%;
+    width: 100%;
+    margin: 0;
+}
+
+.reservation p {
+    padding: 0 4%;
 }
 
 /*----------------------------------
@@ -469,22 +486,22 @@ g, tr, polygon {
 -----------------------------------*/
 
 .ct {
-    width: 65%;
+    width: 60%;
     position: relative;
     float: right;
-    right: 0;
+    top: 60px;
     display: inline-block;
-    background-color: #FAF8F7;
 }
 
 .ct h4 {
-    margin: 5% 5% 0% 5%;
+    margin: 80px 5% 0% 5%;
     padding-left: 10px;
     font-size: 50px;
 }
 
 .ct h4 span {
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 table {
@@ -495,20 +512,21 @@ table {
 
 table, th, td, td a {
     font-family: 'Manrope', sans-serif;
-    color: #1D3A6C;
-    font-size: 20px;
+    color: #223870;
+    font-size: 18px;
     text-decoration: none;
     font-weight: 300;
     text-align: left;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.06em;
     border-collapse: collapse;
     line-height: 1.5;
 }
 
 th {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.25;
+    vertical-align: top;
 }
 
 th, td {
@@ -516,7 +534,8 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #BEC7BE;
     border-right: 1px dashed #BEC7BE;
-       white-space: nowrap;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
 td:nth-child(7) {
