@@ -26,10 +26,9 @@
           <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
           <h3>1463 m²<br>Wohnfläche</h3>
         </div>
-
       </article>
 
-      <article class="wohnen">
+      <article class="wohnen" id="wohnen">
         <div class="inputs">
           <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
           <h3>20 m zum<br>Seeufer</h3>
@@ -60,7 +59,7 @@
         <a class="button" href="wohnangebot">Grundrisse</a>
       </article>
 
-      <article class="gewerbe">
+      <article class="gewerbe" id="gewerbe">
         <img class="gewerbeimg " src="img/stepcube-wohnen-in-romanshorn-start.jpg" alt="..." width="100%" height="auto">
         <h1 class="header">Für Startups und Selbstständige</h1>
         <div class="inputs">

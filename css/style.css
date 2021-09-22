@@ -33,7 +33,7 @@ h1, h2, h3, h4, p, a, span {
     /* text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
-    hyphens: auto;
+    /* hyphens: auto; */
     -webkit-hyphens: auto;
     text-decoration: none;
 }
@@ -100,7 +100,10 @@ h3 {
   background-color: #ffffff;
 }
 
+.map .button:hover {
+	color: #92AFC8;
 
+}
 
 /*----------------------------------
     header nav
@@ -110,6 +113,7 @@ h3 {
   position: relative;
   margin: 50px 70px;
   z-index: 999;
+  display: inline-block;
 }
 
 .logowohnangebot {
@@ -243,6 +247,20 @@ h3 {
   float: right;
 }
 
+.romanshorn .color {
+  background-color: #92AFC8;
+}
+.romanshorn h2,
+.romanshorn p,
+.romanshorn span,
+.romanshorn .header {
+  color: #92AFC8;
+}
+.romanshorn .header {
+  width: 50%;
+}
+
+
 .start h2, .start p{
   width: 60%;
   display: inline-block;
@@ -251,6 +269,7 @@ h3 {
 
 .wohnen h2, .wohnen p,
 .gewerbe h2, .gewerbe p,
+.map h2, .map p,
 .footerleft h2, .footerleft p {
   color: #ffffff;
   width: 60%;
@@ -260,7 +279,8 @@ h3 {
 
 .start p,
 .wohnen p,
-.gewerbe p {
+.gewerbe p,
+.map p {
   margin-top: 25px;
 }
 
@@ -311,7 +331,8 @@ h3 {
   position: relative;
 }
 
-.wohnen .header.two {
+.wohnen .header.two,
+.map .header.two {
   width: 50%;
   margin: 0 40% 0 10%;
   z-index: 10;
@@ -389,6 +410,32 @@ h3 {
   transition: all 0.5s ease-in;
 }
 
+.map {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  background-color: #92AFC8;
+  padding-bottom: 150px;
+}
+
+.mapimg {
+  width: 80%;
+  margin-right: : 20%;
+  position: relative;
+  top: -50px;
+  transition: all 0.5s ease-in;
+}
+
+.map .header {
+  color: #ffffff;
+  width: 50%;
+  margin: 0 10% 0 40%;
+  z-index: 10;
+  top: -160px;
+  float: right;
+  position: relative;
+}
+
 
 .inputs {
   position: absolute;
@@ -407,6 +454,12 @@ h3 {
   bottom: 0px;
 }
 
+.inputsmap {
+  position: relative;
+  margin-left: 10%;
+  top: -140px
+}
+
 .gewerbe .inputs {
   position: relative;
   float: right;
@@ -416,12 +469,54 @@ h3 {
   margin: 0 30px;
 }
 
-@keyframes move {
-  0%   {top:-80px;right: 0px;§}
-  50%  {top:-70px;right: 10px;§}
-  100% {top:-70px;right: 20px;§}
+/*----------------------------------
+    romanshorn
+-----------------------------------*/
+
+.distanzcontainer {
+  margin: 0 10%;
+  width: 80%;
+  float: left;
 }
 
+.distanz {
+  width: 25%;
+  float: left;
+}
+
+.distanz p {
+  border-bottom: 1px solid #92AFC8;
+  padding-bottom: 5px;
+  margin: 0;
+  margin-top: 10px;
+  width: 90%;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.distanz span {
+  float: right;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.distanz p:first-child {
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.map {
+  margin-top: 150px;
+}
+
+.map .color {
+  background-color: #92AFC8;
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  top: -72px;
+  height: 15px;
+}
 
 /*----------------------------------
     container bulding
@@ -635,28 +730,24 @@ th:last-child, td:last-child {border-right: none;}
 /*----------------------------------
     contact form
 -----------------------------------*/
-.contact {
-     background-color: #718166;
+.containerform {
+  margin-left: 10%;
+  width: 40%;
+  margin-bottom: 60px;
+  float: left;
 }
 
-.sectioncontact, .sectiondload {
-    width: 50%;
-    float: left;
-    margin-bottom: 60px;
-
-}
-
-.container {
-    padding: 0 100px;
-    position: relative;
-    margin: 0 auto;
-    padding-top: 150px;
+.containeranmeldung {
+  margin-right: 10%;
+  width: 30%;
+  float: right;
 }
 
 .error {
-    color: #deb887;
+    color: #ff0000;
     font-size: 15px;
-    line-height: 2;
+    line-height: 1;
+    padding-left: 14px
 }
 
 .success {
@@ -666,29 +757,15 @@ th:last-child, td:last-child {border-right: none;}
     padding: 10px;
 }
 
-.container h1,
-.container th,
-.container td,
-.container td a{
-
-}
-
-.container table {
-    margin: 0;
-    width: 100%;
-}
-
-.container .downtable {
-    margin-top: 20px;
-}
 
 #contact input,
-#contact textarea {
+#contact textarea,
+#contact button {
+    font-family: 'Manrope', sans-serif;
     border-radius: 0;
     box-sizing: border-box;
     width: 100%;
-    border: none;
-    background-color: #ffffff;
+    border: 1px solid #223870;
     box-shadow: none;
     margin: 15px 0 5px;
     padding: 10px 12px;
@@ -700,7 +777,6 @@ th:last-child, td:last-child {border-right: none;}
     -webkit-transition:border-color 0.3s ease-in-out;
     -moz-transition:border-color 0.3s ease-in-out;
     transition:border-color 0.3s ease-in-out;
-    border-left: none;
 }
 
 #contact textarea {
@@ -711,16 +787,13 @@ th:last-child, td:last-child {border-right: none;}
 
 #contact button {
     cursor: pointer;
-    border: 1px solid #fff;
-    background-color: #718166;
+    background-color: #223870;
     color: #fff;
-    margin: 15px 0 5px;
-    padding: 10px;
-    font-size: 17px;
+    width: 50%;
 }
 
 #contact button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.75;
     -webkit-transition:background-color 0.3s ease-in-out;
     -moz-transition:background-color 0.3s ease-in-out;
     transition:background-color 0.3s ease-in-out;
@@ -733,32 +806,12 @@ th:last-child, td:last-child {border-right: none;}
 #contact input:focus,
 #contact textarea:focus {
     outline:0;
-    border:none;
     background-color: none;
 }
-::-webkit-input-placeholder {
-    color:#718166;
-}
-:-moz-placeholder {
-    color:#718166;
-}
-::-moz-placeholder {
-    color:#718166;
-}
-:-ms-input-placeholder {
-    color:#718166;
-}
-
-.vermietungsstart h3{
-    color: #fff;
-    padding: 0 10px;
-    font-size: 17px;
-    margin: 50px 100px;
-}
-.vermietungsstart h3 a {
-    color: #fff;
-}
-
+::-webkit-input-placeholder {color:#223870;}
+:-moz-placeholder {color:#223870;}
+::-moz-placeholder {color:#223870;}
+:-ms-input-placeholder {color:#223870;}
 
 /*----------------------------------
     footer

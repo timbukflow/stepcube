@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $name_error = "Es sind nur Buchstaben erlaubt";
         }
     }
-    
+
     if (empty($_POST["vorname"])) {
         $vorname_error = "Vorname ist erforderlich";
     } else {
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $vorname_error = "Es sind nur Buchstaben erlaubt";
         }
     }
-    
+
     if (empty($_POST["email"])) {
         $email_error = "Email ist erforderlich";
     } else {
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $email_error = "Diese Email Adresse ist nicht korrekt";
         }
     }
-    
+
     if (empty($_POST["telefon"])) {
         $telefon_error = "Telefon ist erforderlich";
     } else {
@@ -39,23 +39,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $telefon_error = "Telefonnummer mit folgenden Abständen eintragen 071 000 00 00";
         }
     }
-    
+
     if (empty($_POST["mitteilung"])) {
         $mitteilung_error = "Bitte schreiben Sie uns eine Nachricht";
     } else {
         $mitteilung = test_input($_POST["mitteilung"]);
     }
-    
+
     if ($name_error == "" and $vorname_error == "" and $email_error == "" and $telefon_error == "" and $mitteilung_error == "" ){
         $message_body = "";
         unset($_POST["submit"]);
         foreach($_POST as $key => $value){
             $message_body .= "$key: $value\n";
         }
-        
-        $headers = "From:anfrage@baumgarten-goldach.ch";
-        $to = "angela.signer@sur.ag";
-        $subject = "Baumgarten Anfrage";
+
+        $headers = "From:anfrage@stepcube.ch";
+        $to = "ivo@schwizerschlatter.com";
+        $subject = "Stepcube Anfrage";
         if (mail($to, $subject, $message_body, $headers)){
             $success = "Ihre Anfrage wurde erfolgreich gesendet.";
             $name = $vorname = $email = $telefon = $mitteilung = "";

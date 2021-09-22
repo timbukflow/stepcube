@@ -3,23 +3,19 @@
 <!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js" lang="de"><!--<![endif]-->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
-<title>Baumgarten | Kontakt</title>
-<meta name="description" content="Baumgarten | Kontakt"/>
+<title>STEPCUBE | Kontakt</title>
+<meta name="description" content="STEPCUBE | Kontakt"/>
 <?php include 'head.php'; ?>
 </head>
-    
-<body class="contact">
-    <div id="loader">
-        <img src="img/baumgarten-freudenau-goldach-baum.svg" alt="baumgarten freudenau goldach logo" width="30"/>
-    </div>
+
+<body>
     <?php include 'header.php'; ?>
-    
-    <section class="sectioncontact">
-        <article>
+    <section class="maincontainer">
+        <article class="containerform">
             <?php include('form.php'); ?>
-            <div class="container">  
+            <div>
                 <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
-                    <h1>Kontaktformular</h1>
+                    <h1>Fragen Sie uns</h1>
                     <fieldset>
                         <input placeholder="Name&#42;" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
                         <span class="error"><?= $name_error ?></span>
@@ -41,47 +37,21 @@
                         <span class="error"><?= $mitteilung_error ?></span>
                     </fieldset>
                     <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Nachricht senden</button>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Senden</button>
                     </fieldset>
                     <div class="success"><?= $success; ?></div>
                 </form>
             </div>
-        </article>    
-    </section>
-    
-    <section class="sectiondload">
-        <article>
-            <div class="container respcont">  
-                <h1>Downloads</h1>
-                <table>
-                    <tr>
-                        <td class="downloadplan"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrisspläne-Mietwohung"><img src="img/download-icon-weiss.svg" width="11" height="11" alt="download icon"> <strong> Haus A | Mietwohnungen</strong> Grundrisse (PDF)</a></td> 
-                    </tr>
-                    <tr>
-                        <td class="downloadplan"><a href="downloads/baumgarten-grundrisse-haus-b-mietwohung.pdf" download="Baumgarten-Haus-B-Grundrisspläne-Mietwohung"><img src="img/download-icon-weiss.svg" width="11" height="11" alt="download icon"> <strong> Haus B | Mietwohnungen</strong> Grundrisse (PDF)</a></td> 
-                    </tr>
-                    <tr>
-                        <td class="downloadplan"><a href="downloads/baumgarten-grundrisse-haus-c-mietwohung.pdf" download="Baumgarten-Haus-C-Grundrisspläne-Mietwohung"><img src="img/download-icon-weiss.svg" width="11" height="11" alt="download icon"> <strong> Haus C | Mietwohnungen</strong> Grundrisse (PDF)</a></td> 
-                    </tr>
-                    <tr>
-                        <td class="downloadplan"><a href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Baumgarten-Anmeldeformular"><img src="img/download-icon-weiss.svg" width="11" height="11" alt="download icon"> <strong> Anmeldeformular</strong> (PDF)</a></td> 
-                    </tr>
-                    
-                </table>
-                <table class="downtable">
-                    <tr>
-                        <td class="downloadplan" colspan="7"><a href="downloads/baumgarten-grundrisse-haus-b-2-obergeschoss.pdf" download="Baumgarten-Haus-B-Grundrisspläne-Eigentumswohungen"><img src="img/download-icon-weiss.svg" width="11" height="11" alt="download icon"> <strong> Haus B | Eigentumswohnungen</strong> Grundrisse (PDF)</a></td> 
-                    </tr>
-                </table>
-            </div>
+        </article>
+        <article class="containeranmeldung">
             <div class="vermietungsstart">
                 <h3><strong>Vermietungsstart:</strong> Bewerben Sie sich jetzt für Ihre gewünschte Wohnung. Die Wohnungen sind ab Spätherbst 2020 bezugsbereit.</h3>
             </div>
-        </article>    
+        </article>
     </section>
-    
+
     <?php include 'footer.php'; ?>
     <?php include 'script.php'; ?>
-    
+
 </body>
 </html>
