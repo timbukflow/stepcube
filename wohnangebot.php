@@ -9,10 +9,6 @@
 </head>
 
 <body>
-    <!--<div id="loader">
-        <img src="img/baumgarten-freudenau-goldach-baum.svg" alt="baumgarten freudenau goldach logo" width="30"/>
-    </div>-->
-
     <header>
     	<div class="logowohnangebot">
     		<a href="index" target="_top">
