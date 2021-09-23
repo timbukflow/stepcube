@@ -45,7 +45,21 @@
         </article>
         <article class="containeranmeldung">
             <div class="vermietungsstart">
-                <h3><strong>Vermietungsstart:</strong> Bewerben Sie sich jetzt für Ihre gewünschte Wohnung. Die Wohnungen sind ab Spätherbst 2020 bezugsbereit.</h3>
+              <div class="kontakt">
+                <p>
+                  <strong>Sproll & Ramseyer AG</strong>
+                  <br>Das Haus für Häuser<br>
+                  <br><strong>Ansprechperson</strong>
+                  <br>Janine Schmuckli
+                  <br><a href="tel:0712290029">T 071 229 00 29</a>
+                  <br><a href="mailto:janine.schmuckli@sur.ag?subject=Stepcube%20Romanshorn" target="_top">e-Mail</a>
+                </p>
+                <p>
+                 <strong>Vermietungsstart:</strong>
+                 <br>Bewerben Sie sich jetzt für Ihre gewünschte Wohnung, Gewerbe oder Büro. Diese sind ab Sommer 2022 bezugsbereit.</p>
+                 <a class="buttonpositiv" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
+              </div>
+
             </div>
         </article>
     </section>

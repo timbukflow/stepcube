@@ -343,8 +343,8 @@
       </g>
       </svg>
       <div class="reservation">
-          <p>Erstbezug ab Sommer 2022</p>
-          <a class="buttonpositiv" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
+          <p>Erstbezug ab <br> <strong>Sommer 2022</strong></p>
+          <a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
       </div>
     </div>
 
@@ -354,29 +354,28 @@
             <tr>
                 <th>Nr.</th>
                 <th>ZWHG</th>
-                <th>Wohnfläche</th>
-                <th>Aussenfläche</th>
-                <th>Mietzins<br>netto</th>
-                <th>Neben-<br>kosten</th>
-                <th>Mietzins<br>brutto</th>
-                <th>Plan</th>
+                <th>WF</th>
+                <th>AF</th>
+                <th>MN</th>
+                <th>NK</th>
+                <th>MB</th>
+                <th>G</th>
             </tr>
             <tr class="og04w0427">
                 <td>W0427</td>
                 <td>2.5</td>
-                <td>46.37 m²</td>
-                <td>6.64 m²</td>
-                <td>1'170.–</td>
-                <td>130.–</td>
-                <td>1'300.–</td>
+                <td>46.0</td>
+                <td>6.0</td>
+                <td>1'170</td>
+                <td>130</td>
+                <td>1'300</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-04og-w0427.png" alt="stepcube-04og-w0427">
+                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -385,19 +384,18 @@
             <tr class="og04w0428">
                 <td>W0428</td>
                 <td>3.5</td>
-                <td>74.08 m²</td>
-                <td>7.20 m²</td>
-                <td>1'470.–</td>
-                <td>200.–</td>
-                <td>1'670.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'470</td>
+                <td>200</td>
+                <td>1'670</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-04og-w0428.png" alt="stepcube-04og-w0428">
+                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -406,19 +404,18 @@
             <tr class="og04w0429">
                 <td>W0429</td>
                 <td>3.5</td>
-                <td>74.09 m²</td>
-                <td>7.20 m²</td>
-                <td>1'470.–</td>
-                <td>200.–</td>
-                <td>1'670.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'470</td>
+                <td>200</td>
+                <td>1'670</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-04og-w0429.png" alt="stepcube-04og-w0429">
+                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -427,29 +424,34 @@
             <tr class="og04w0430">
                 <td>W0430</td>
                 <td>2.5</td>
-                <td>50.46 m²</td>
-                <td>6.69 m²</td>
-                <td>1'190.–</td>
-                <td>150.–</td>
-                <td>1'340.–</td>
+                <td>50.0</td>
+                <td>6.0 </td>
+                <td>1'190</td>
+                <td>150</td>
+                <td>1'340</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-04og-w0430.png" alt="stepcube-04og-w0430">
+                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
             <tr class="r">
                 <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
             </tr>
             <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrissplaene"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong> 04 Obergeschoss</strong> Grundrisse (PDF)</a></td>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
         </table>
 
@@ -458,29 +460,28 @@
             <tr>
                 <th>Nr.</th>
                 <th>ZWHG</th>
-                <th>Wohnfläche</th>
-                <th>Aussenfläche</th>
-                <th>Mietzins<br>netto</th>
-                <th>Neben-<br>kosten</th>
-                <th>Mietzins<br>brutto</th>
-                <th>Plan</th>
+                <th>WF</th>
+                <th>AF</th>
+                <th>MN</th>
+                <th>NK</th>
+                <th>MB</th>
+                <th>G</th>
             </tr>
             <tr class="og03w0323">
                 <td>W0323</td>
                 <td>2.5</td>
-                <td>46.37 m²</td>
-                <td>53.87 m²</td>
-                <td>1'140.–</td>
-                <td>130.–</td>
-                <td>1'270.–</td>
+                <td>46.0</td>
+                <td>53.0</td>
+                <td>1'140</td>
+                <td>130</td>
+                <td>1'270</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-03og-w0323.png" alt="stepcube-03og-w0323">
+                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -489,19 +490,18 @@
             <tr class="og03w0324">
                 <td>W0324</td>
                 <td>3.5</td>
-                <td>74.08 m²</td>
-                <td>7.20 m²</td>
-                <td>1'420.–</td>
-                <td>200.–</td>
-                <td>1'620.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'420</td>
+                <td>200</td>
+                <td>1'620</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-03og-w0324.png" alt="stepcube-03og-w0324">
+                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -510,19 +510,18 @@
             <tr class="og03w0325">
                 <td>W0325</td>
                 <td>3.5</td>
-                <td>74.09 m²</td>
-                <td>7.20 m²</td>
-                <td>1'420.–</td>
-                <td>200.–</td>
-                <td>1'620.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'420</td>
+                <td>200</td>
+                <td>1'6</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-03og-w0325.png" alt="stepcube-03og-w0325">
+                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -531,60 +530,64 @@
             <tr class="og03w0326">
                 <td>W0326</td>
                 <td>2.5</td>
-                <td>50.19 m²</td>
-                <td>53.42 m²</td>
-                <td>1'150.–</td>
-                <td>150.–</td>
-                <td>1'300.–</td>
+                <td>50.0</td>
+                <td>53.0</td>
+                <td>1'150</td>
+                <td>150</td>
+                <td>1'300</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-03og-w0326.png" alt="stepcube-03og-w0326">
+                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
             <tr class="r">
                 <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
             </tr>
             <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrissplaene"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong> 03 Obergeschoss</strong> Grundrisse (PDF)</a></td>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
         </table>
 
         <h4><span>02</span> OG</h4>
         <table id="og02" class="og02">
             <tr>
-                <th>Nr.</th>
-                <th>ZWHG</th>
-                <th>Wohnfläche</th>
-                <th>Aussenfläche</th>
-                <th>Mietzins<br>netto</th>
-                <th>Neben-<br>kosten</th>
-                <th>Mietzins<br>brutto</th>
-                <th>Plan</th>
+              <th>Nr.</th>
+              <th>ZWHG</th>
+              <th>WF</th>
+              <th>AF</th>
+              <th>MN</th>
+              <th>NK</th>
+              <th>MB</th>
+              <th>G</th>
             </tr>
             <tr class="og02w0213">
                 <td>W0213</td>
                 <td>1.5</td>
-                <td>30.00 m²</td>
-                <td>0.0 m²</td>
-                <td>820.–</td>
-                <td>130.–</td>
-                <td>950.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>820</td>
+                <td>130</td>
+                <td>950</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0213.png" alt="stepcube-02og-w0213">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -593,19 +596,18 @@
             <tr class="og02w0214">
                 <td>W0214</td>
                 <td>1.5</td>
-                <td>30.00 m²</td>
-                <td>0.0 m²</td>
-                <td>820.–</td>
-                <td>130.–</td>
-                <td>950.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>820</td>
+                <td>130</td>
+                <td>950</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0214.png" alt="stepcube-02og-w0214">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -614,19 +616,18 @@
             <tr class="og02w0215">
                 <td>W0215</td>
                 <td>1.5</td>
-                <td>29.79 m²</td>
-                <td>0.0 m²</td>
-                <td>820.–</td>
-                <td>130.–</td>
-                <td>950.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>820</td>
+                <td>130</td>
+                <td>950</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0215.png" alt="stepcube-02og-w0215">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -635,19 +636,18 @@
             <tr class="og02w0216">
                 <td>W0216</td>
                 <td>1.5</td>
-                <td>36.89 m²</td>
-                <td>0.0 m²</td>
-                <td>840.–</td>
-                <td>130.–</td>
-                <td>970.–</td>
+                <td>36.0</td>
+                <td>0.0</td>
+                <td>840</td>
+                <td>130</td>
+                <td>970</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0216.png" alt="stepcube-02og-w0216">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -656,19 +656,18 @@
             <tr class="og02w0217">
                 <td>W0217</td>
                 <td>1.5</td>
-                <td>34.20 m²</td>
-                <td>0.0 m²</td>
-                <td>840.–</td>
-                <td>130.–</td>
-                <td>970.–</td>
+                <td>34.0</td>
+                <td>0.0</td>
+                <td>840</td>
+                <td>130</td>
+                <td>970</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0217.png" alt="stepcube-02og-w0217">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -677,19 +676,18 @@
             <tr class="og02w0218">
                 <td>W0218</td>
                 <td>1.5</td>
-                <td>33.04 m²</td>
-                <td>0.0 m²</td>
-                <td>840.–</td>
-                <td>130.–</td>
-                <td>970.–</td>
+                <td>33.0</td>
+                <td>0.0</td>
+                <td>840</td>
+                <td>130</td>
+                <td>970</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0218.png" alt="stepcube-02og-w0218">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -698,19 +696,18 @@
             <tr class="og02w0219">
                 <td>W0219</td>
                 <td>2.5</td>
-                <td>46.37 m²</td>
-                <td>6.28 m²</td>
-                <td>1'120.–</td>
-                <td>150.–</td>
-                <td>1'270.–</td>
+                <td>46.0</td>
+                <td>6.0</td>
+                <td>1'120</td>
+                <td>150</td>
+                <td>1'270</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0219.png" alt="stepcube-02og-w0219">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -719,19 +716,18 @@
             <tr class="og02w0220">
                 <td>W0220</td>
                 <td>3.5</td>
-                <td>74.08 m²</td>
-                <td>7.20 m²</td>
-                <td>1'400.–</td>
-                <td>200.–</td>
-                <td>1'600.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'400</td>
+                <td>200</td>
+                <td>1'600</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0220.png" alt="stepcube-02og-w0220">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -740,19 +736,18 @@
             <tr class="og02w0221">
                 <td>W0221</td>
                 <td>3.5</td>
-                <td>74.09 m²</td>
-                <td>7.20 m²</td>
-                <td>1'400.–</td>
-                <td>200.–</td>
-                <td>1'600.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'400</td>
+                <td>200</td>
+                <td>1'600</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0221.png" alt="stepcube-02og-w0221">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -761,60 +756,64 @@
             <tr class="og02w0222">
                 <td>W0222</td>
                 <td>2.5</td>
-                <td>50.19 m²</td>
-                <td>6.69 m²</td>
-                <td>1'130.–</td>
-                <td>150.–</td>
-                <td>1'280.–</td>
+                <td>50.0</td>
+                <td>6.0</td>
+                <td>1'130</td>
+                <td>150</td>
+                <td>1'280</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-02og-w0222.png" alt="stepcube-02og-w0222">
+                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
             <tr class="r">
                 <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
             </tr>
             <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrissplaene"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong> 02 Obergeschoss</strong> Grundrisse (PDF)</a></td>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
         </table>
 
         <h4><span>01</span> OG</h4>
         <table id="og01" class="og01">
             <tr>
-                <th>Nr.</th>
-                <th>ZWHG</th>
-                <th>Wohnfläche</th>
-                <th>Aussenfläche</th>
-                <th>Mietzins<br>netto</th>
-                <th>Neben-<br>kosten</th>
-                <th>Mietzins<br>brutto</th>
-                <th>Plan</th>
+              <th>Nr.</th>
+              <th>ZWHG</th>
+              <th>WF</th>
+              <th>AF</th>
+              <th>MN</th>
+              <th>NK</th>
+              <th>MB</th>
+              <th>G</th>
             </tr>
             <tr class="og01w0103">
                 <td>W0103</td>
                 <td>1.5</td>
-                <td>30.00 m²</td>
-                <td>0.0 m²</td>
-                <td>810.–</td>
-                <td>130.–</td>
-                <td>940.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>810</td>
+                <td>130</td>
+                <td>940</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0103.png" alt="stepcube-01og-w0103">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -823,19 +822,18 @@
             <tr class="og01w0104">
                 <td>W0104</td>
                 <td>1.5</td>
-                <td>30.00 m²</td>
-                <td>0.0 m²</td>
-                <td>810.–</td>
-                <td>130.–</td>
-                <td>940.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>810</td>
+                <td>130</td>
+                <td>940</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0104">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -844,19 +842,18 @@
             <tr class="og01w0105">
                 <td>W0105</td>
                 <td>1.5</td>
-                <td>29.79 m²</td>
-                <td>0.0 m²</td>
-                <td>810.–</td>
-                <td>130.–</td>
-                <td>940.–</td>
+                <td>29.0</td>
+                <td>0.0</td>
+                <td>810</td>
+                <td>130</td>
+                <td>940</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0105">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -865,19 +862,18 @@
             <tr class="og01w0106">
                 <td>W0106</td>
                 <td>1.5</td>
-                <td>36.89 m²</td>
-                <td>0.0 m²</td>
-                <td>830.–</td>
-                <td>130.–</td>
-                <td>960.–</td>
+                <td>36.0</td>
+                <td>0.0</td>
+                <td>830</td>
+                <td>130</td>
+                <td>960</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0106.png" alt="stepcube-01og-w0106">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -886,19 +882,18 @@
             <tr class="og01w0107">
                 <td>W0107</td>
                 <td>1.5</td>
-                <td>34.20 m²</td>
-                <td>0.0 m²</td>
-                <td>830.–</td>
-                <td>130.–</td>
-                <td>960.–</td>
+                <td>34.0</td>
+                <td>0.0</td>
+                <td>830</td>
+                <td>130</td>
+                <td>960</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0107.png" alt="stepcube-01og-w0107">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -907,19 +902,18 @@
             <tr class="og01w0108">
                 <td>W0108</td>
                 <td>1.5</td>
-                <td>33.04 m²</td>
-                <td>0.0 m²</td>
-                <td>830.–</td>
-                <td>130.–</td>
-                <td>960.–</td>
+                <td>33.0</td>
+                <td>0.0</td>
+                <td>830</td>
+                <td>130</td>
+                <td>960</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0108.png" alt="stepcube-01og-w0108">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -928,19 +922,18 @@
             <tr class="og01w0109">
                 <td>W0109</td>
                 <td>2.5</td>
-                <td>46.37 m²</td>
-                <td>6.28 m²</td>
-                <td>1'130.–</td>
-                <td>150.–</td>
-                <td>1'280.–</td>
+                <td>46.0</td>
+                <td>6.0</td>
+                <td>1'130</td>
+                <td>150</td>
+                <td>1'280</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0109.png" alt="stepcube-01og-w0109">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -949,19 +942,18 @@
             <tr class="og01w0110">
                 <td>W0110</td>
                 <td>3.5</td>
-                <td>74.08 m²</td>
-                <td>7.20 m²</td>
-                <td>1'390.–</td>
-                <td>200.–</td>
-                <td>1'590.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'390</td>
+                <td>200</td>
+                <td>1'590</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0110.png" alt="stepcube-01og-w0110">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -970,19 +962,18 @@
             <tr class="og01w0111">
                 <td>W0111</td>
                 <td>3.5</td>
-                <td>74.09 m²</td>
-                <td>7.20 m²</td>
-                <td>1'390.–</td>
-                <td>200.–</td>
-                <td>1'590.–</td>
+                <td>74.0</td>
+                <td>7.0</td>
+                <td>1'390</td>
+                <td>200</td>
+                <td>1'590</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0111.png" alt="stepcube-01og-w0111">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
@@ -991,199 +982,203 @@
             <tr class="og01w0112">
                 <td>W0112</td>
                 <td>2.5</td>
-                <td>50.19 m²</td>
-                <td>6.69 m²</td>
-                <td>1'140.–</td>
-                <td>150.–</td>
-                <td>1'290.–</td>
+                <td>50.0</td>
+                <td>6.0</td>
+                <td>1'140</td>
+                <td>150</td>
+                <td>1'290</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-01og-w0112.png" alt="stepcube-01og-w0112">
+                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
             <tr class="r">
                 <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
             </tr>
             <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrissplaene"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong> 01 Obergeschoss</strong> Grundrisse (PDF)</a></td>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
         </table>
 
         <h4><span>00</span> EG</h4>
         <table id="eg00" class="eg00">
             <tr>
-                <th>Nr.</th>
-                <th>ZWHG</th>
-                <th>Wohnfläche</th>
-                <th>Aussenfläche</th>
-                <th>Mietzins<br>netto</th>
-                <th>Neben-<br>kosten</th>
-                <th>Mietzins<br>brutto</th>
-                <th>Plan</th>
+              <th>Nr.</th>
+              <th>ZWHG</th>
+              <th>WF</th>
+              <th>AF</th>
+              <th>MN</th>
+              <th>NK</th>
+              <th>MB</th>
+              <th>G</th>
             </tr>
             <tr class="eg00g001">
-                <td>G001</td>
+                <td>G0001</td>
                 <td>Gewerbe</td>
-                <td>114.33 m²</td>
-                <td>0.0 m²</td>
-                <td>1'740.–</td>
-                <td>250.–</td>
-                <td>1'990.–</td>
+                <td>114.0</td>
+                <td>0.0</td>
+                <td>1'740</td>
+                <td>250</td>
+                <td>1'990</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-g0001.png" alt="stepcube-eg-g0001">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00g002">
-                <td>G002</td>
+                <td>G0002</td>
                 <td>Gewerbe</td>
-                <td>30.24 m²</td>
-                <td>0.0 m²</td>
-                <td>700.–</td>
-                <td>200.–</td>
-                <td>900.–</td>
+                <td>30.0</td>
+                <td>0.0</td>
+                <td>700</td>
+                <td>200</td>
+                <td>900</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00g003">
-                <td>G003</td>
+                <td>G0003</td>
                 <td>Gewerbe</td>
-                <td>60.67 m²</td>
-                <td>0.0 m²</td>
-                <td>1'000.–</td>
-                <td>235.–</td>
-                <td>1'235.–</td>
+                <td>60.0</td>
+                <td>0.0</td>
+                <td>1'000</td>
+                <td>235</td>
+                <td>1'235</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00b004">
-                <td>B004</td>
+                <td>B0004</td>
                 <td>Büro</td>
-                <td>37.08 m²</td>
-                <td>0.0 m²</td>
-                <td>750.–</td>
-                <td>200.–</td>
-                <td>950.–</td>
+                <td>37.0</td>
+                <td>0.0</td>
+                <td>750</td>
+                <td>200</td>
+                <td>950</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-b0004.png" alt="stepcube-eg-b0004">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00b005">
-                <td>B005</td>
+                <td>B0005</td>
                 <td>Büro</td>
-                <td>59.06 m²</td>
-                <td>0.0 m²</td>
-                <td>1'190.–</td>
-                <td>235.–</td>
-                <td>1'425.–</td>
+                <td>59.0</td>
+                <td>0.0</td>
+                <td>1'190</td>
+                <td>235</td>
+                <td>1'425</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-b0005.png" alt="stepcube-eg-b0005">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00w001">
-                <td>W001</td>
+                <td>W0001</td>
                 <td>2.5</td>
-                <td>49.67 m²</td>
-                <td>21.73 m²</td>
-                <td>1'170.–</td>
-                <td>150.–</td>
-                <td>1'320.–</td>
+                <td>49.0</td>
+                <td>21.0</td>
+                <td>1'170</td>
+                <td>150</td>
+                <td>1'320</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-w0001.png" alt="stepcube-eg-w0001">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
             <tr class="eg00w002">
-                <td>W002</td>
+                <td>W0002</td>
                 <td>2.5</td>
-                <td>46.41 m²</td>
-                <td>7.09 m²</td>
-                <td>1'090.–</td>
-                <td>150.–</td>
-                <td>1'240.–</td>
+                <td>46.0</td>
+                <td>7.0</td>
+                <td>1'090</td>
+                <td>150</td>
+                <td>1'240</td>
                 <td class="planb">
                     <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                     <div class="plan">
-                        <img src="img/grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01.png" alt="grundriss-baumgarten-mietwohnung-4-5-zimmerwohnung-erdgeschoss-aeg01">
-                        <div class="closer">&#10005;</div>
-                        <a class="link" href="downloads/baumgarten-grundrisse-haus-a-erdgeschoss.pdf" download="Baumgarten-Haus-A-Erdgeschoss">
+                        <img src="img/stepcube-eg-w0002.png" alt="stepcube-eg-w0002">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
                             <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Haus A</strong> / Erdgeschoss Grundriss (PDF)
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
                         </a>
                         <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
             <tr class="r">
                 <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
             </tr>
             <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/baumgarten-grundrisse-haus-a-mietwohnung.pdf" download="Baumgarten-Haus-A-Grundrissplaene"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong> 00 Erdgeschoss</strong> Grundrisse (PDF)</a></td>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
             <tr>
-                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | m²<br>Aktualisiert per 23.02.2021 | <span class="linkw konditionen impressum" data-toggle="#konditionen">Konditionen</span></td>
+                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="linkw konditionen impressum" data-toggle="#konditionen">Konditionen</span></td>
             </tr>
         </table>
         <div id="konditionen">

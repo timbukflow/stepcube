@@ -144,6 +144,10 @@ $(document).ready(function () {
         $(".menu").toggleClass('menufade');
     });
 
+    $(".menu").mouseleave(function(){
+        $(".menu").removeClass('menufade');
+    });
+
     // Day & Night //
 
     $(".night").click(function(){
@@ -151,7 +155,7 @@ $(document).ready(function () {
         $(".night").addClass('nightbutton');
         $(".day").removeClass('daybutton');
     });
-    
+
     $(".day").click(function(){
         $(".dayimg").removeClass('dayfade');
         $(".night").removeClass('nightbutton');
