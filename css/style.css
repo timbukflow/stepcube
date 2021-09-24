@@ -20,14 +20,15 @@
 body {
     margin:0px;
     padding: 0px;
+    background-color: #223870;
 }
 
 h1, h2, h3, h4, p, a, span, .accList, footer {
-    color: #223870;
+    color: #fff;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-    font-size: 19px;
-    line-height: 1.4;
+    font-size: 21px;
+    line-height: 1.5;
     text-align: left;
     letter-spacing: 0.06em;
     /* text-rendering: optimizeLegibility;
@@ -91,6 +92,11 @@ h3 {
 }
 
 .button:hover {
+	color: #223870;
+  background-color: #ffffff;
+}
+
+.wohnen .button:hover {
 	color: #B8A89F;
   background-color: #ffffff;
 }
@@ -110,15 +116,16 @@ h3 {
 -----------------------------------*/
 
 .logo {
-  position: relative;
-  margin: 50px 70px;
+  position: absolute;
+  top: 0;
+  margin: 90px 3%;
   z-index: 999;
   display: inline-block;
 }
 
 .logowohnangebot {
   position: fixed;
-  margin: 50px 70px;
+  margin: 70px 70px;
   z-index: 999;
 }
 
@@ -215,36 +222,54 @@ h3 {
 /*----------------------------------
   projekt
 -----------------------------------*/
-
 .maincontainer {
     width: 100%;
     margin: 0;
     position: relative;
 }
 
-.start {
-  margin-top: 100px;
+.startimgone {
+  width: 95%;
+  position: relative;
+  margin-top: 20px;
+  float: right;
+  opacity: 0.9;
 }
 
-.maincontainer .header {
-  width: 60%;
-  margin-left: 10%;
+.startimgtwo {
+  width: 95%;
+  position: relative;
+  margin-top: 20px;
+  float: right;
+  opacity: 0.75;
+}
+
+.start .header {
+  font-size: 50px;
+  width: 40%;
+  margin-right: 20%;
+  right: 0;
   z-index: 10;
   position: absolute;
+  top: 110px;
 }
 
-.startimg {
-  width: 80%;
-  float: right;
-  margin-top: 114px;
-}
-
-.start .color {
-  width: 70%;
-  height: 50px;
-  background-color: #223870;
+.start .holder {
+  position: relative;
   display: inline-block;
+}
+
+.start h2, .start p{
+  width: 50%;
+  display: inline-block;
+  margin: 100px 10% 0 40%;
   float: right;
+}
+
+.start .second {
+  float: left;
+  margin: 100px 40% 0 20%;
+
 }
 
 .romanshorn .color {
@@ -261,11 +286,6 @@ h3 {
 }
 
 
-.start h2, .start p{
-  width: 60%;
-  display: inline-block;
-  margin: 100px 20% 0;
-}
 
 .wohnen h2, .wohnen p,
 .gewerbe h2, .gewerbe p,
@@ -435,13 +455,20 @@ h3 {
   position: relative;
 }
 
-
 .inputs {
   position: absolute;
   width: 30%;
-  right: 0;
-  top: -80px;
   opacity: 20%;
+  margin: 10%;
+  top:0;
+}
+
+.iright {
+  top:auto;
+  bottom: -90px;
+  right: 0;
+  margin: 0;
+
 }
 
 .wohnen .inputs {
