@@ -22,7 +22,7 @@ body {
     padding: 0px;
 }
 
-h1, h2, h3, h4, p, a, span, .footerright a {
+h1, h2, h3, h4, p, a, span, .accList, footer {
     color: #223870;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
@@ -146,13 +146,13 @@ h3 {
 }
 
 .menufade {
-  top: 435px;
+  top: 510px;
 }
 
 .navcontainer {
   position: absolute;
   width: 40%;
-  top: -435px;
+  top: -510px;
   right: 0;
   background-color: #223870;
 }
@@ -269,8 +269,7 @@ h3 {
 
 .wohnen h2, .wohnen p,
 .gewerbe h2, .gewerbe p,
-.map h2, .map p,
-.footerleft h2, .footerleft p {
+.map h2, .map p {
   color: #ffffff;
   width: 60%;
   display: inline-block;
@@ -730,6 +729,7 @@ th:last-child, td:last-child {border-right: none;}
 /*----------------------------------
     contact form
 -----------------------------------*/
+
 .containerform {
   margin-left: 10%;
   width: 40%;
@@ -818,26 +818,102 @@ th:last-child, td:last-child {border-right: none;}
 :-ms-input-placeholder {color:#223870;}
 
 /*----------------------------------
+    accordion
+-----------------------------------*/
+.header.bau {
+  padding-left: 10px;
+  position: relative;
+}
+
+.accordion {
+  box-sizing: border-box;
+  margin-left: 10%;
+  padding: 0 10px;
+  width: 40%;
+  float: left;
+  position: relative;
+  margin-bottom: 300px;
+  cursor: pointer;
+}
+
+.accordion.right {
+  margin-left: 0;
+  margin-right: 10%;
+}
+
+.accordion h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px 5px;
+  border-bottom: 1px solid #223870;
+  vertical-align: middle;
+}
+
+.accordion ul {
+  padding: 0;
+}
+
+.accordion li {
+  border-bottom: 1px solid rgba(34,56,112, 0.25);
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.accordion img {
+  float: right;
+  width: 20px;
+  margin-top: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.accX {
+  transform: rotate(45deg);
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.accList {
+    display: none;
+}
+
+/*----------------------------------
     footer
 -----------------------------------*/
 
 footer {
     margin: 0;
-    padding-bottom: 60px;
     position: relative;
     display: inline-block;
     background-color: #223870;
     width: 100%;
-    float: left;
+
+}
+
+.footerholder {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 footer a,
-.footerright a {
+.footermid a,
+.footermid li {
     color: #fff;
     margin: 0;
 }
 
-
+.footerleft h2,
+.footerleft p,
+#impressum p {
+  color: #ffffff;
+  margin: 0;
+  width: 100%;
+  line-height: 1.5;
+}
 
 .colorfooter {
   width: 50%;
@@ -849,44 +925,26 @@ footer a,
 
 .footerleft {
   float: left;
-  margin-top: 17px;
   margin-left: 10%;
-  width: 25%;
-}
-
-.footerleft h2, .footerleft p {
-  margin: 0;
-  width: 100%;
+  width: 40%;
 }
 
 .footermid {
   float: left;
-  width: 30%;
-  margin-top: 20px;
-}
-
-.footermid img {
-  margin: 0 0 30px 0;
-  width: 50%;
-}
-
-.footerright {
-  float: right;
-  width: 30%;
+  width: 25%;
   display: inline-block;
 }
 
-.footerright ul {
+.footermid ul {
   padding: 0;
-  margin: 10px;
+  margin: 0;
+  margin-top: 0.5px;
 }
 
-.footerright li {
-  padding: 7px 0;
-  margin-right: 10%;
+.footermid li {
+  padding-bottom: 2px;
   position: relative;
 }
-
 
 .impressum {
     color: #fff;
@@ -894,39 +952,63 @@ footer a,
     cursor: pointer;
 }
 
+.footermid li a:hover,
+.footermid li p:hover,
+.footerleft a:hover,
+#impressum a:hover,
+span.disclaimer:hover,
+span.konditionen:hover {
+  font-weight: 600;
+}
+
+.footerright {
+  width: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+}
+
+.footerright img {
+  margin-top: 30px;
+  width: 50%;
+}
+
 #impressum {
     display: none;
-    padding: 40px 40px;
-    position: relative;
-    float: left;
+    margin-left: 10%;
+    padding-bottom: 50px;
 }
 
-#impressum p{
+.disclaimer {
+    font-size: 12px;
     color: #fff;
-}
-
-.disclamer {
-    font-size: 14px;
-    color: #fff;
+    padding-top: 25px;
 }
 
 .konditionen {
     font-size: 14px;
-    color: #1D3A6C;
+    color: #223870;
 }
 
-#datenschutz,
+#datenschutz {
+    display: none;
+    padding-bottom: 50px;
+    margin: 0 10%;
+    position: relative;
+}
+
+#datenschutz p{
+    font-size: 14px;
+    line-height: 1.75;
+    color: #fff;
+}
+
 #konditionen {
     display: none;
     padding: 0px 10px;
     margin: 0 5% 20px;
     position: relative;
     float: left;
-}
-
-#datenschutz p{
-    font-size: 14px;
-    color: #fff;
 }
 
 

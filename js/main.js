@@ -131,13 +131,6 @@ $(document).ready(function () {
         $(this).children('div').fadeToggle("planhover");
     });
 
-    /*
-    $(".plan").mouseleave(function(){
-        $(this).fadeOut(200);
-    });
-    */
-
-
     // nav //
 
     $(".menu").click(function(){
@@ -162,6 +155,18 @@ $(document).ready(function () {
         $(".day").addClass('daybutton');
     });
 
+    // accordion
+
+     $('.accTitle').click(function() {
+
+        $accCross = $(this).children('img');
+        $('.accCross').not($accCross).removeClass('accX');
+        $(this).children('img').toggleClass('accX');
+
+        $accContent = $(this).next('.accList');
+        $('.accList').not($accContent).slideUp(400);
+        $accContent.stop(true, false).slideToggle(400);
+    });
 
     // impressum //
 

@@ -18,7 +18,7 @@
 			<ul class="navline">
 				<li><a href="index">Stepcube</a></li>
 				<li><a href="wohnangebot">Wohnangebot</a></li>
-				<!-- <li><a href="baubeschreibung">Baubeschreibung</a></li> -->
+				<li><a href="baubeschreibung">Baubeschreibung</a></li>
 				<li><a href="romanshorn">Romanshorn</a></li>
 				<li><a href="kontakt">Kontakt</a></li>
 			</ul>

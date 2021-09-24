@@ -29,7 +29,7 @@
     			<ul class="navline">
     				<li><a href="index">Stepcube</a></li>
     				<li><a href="wohnangebot">Wohnangebot</a></li>
-    				<!-- <li><a href="baubeschreibung">Baubeschreibung</a></li> -->
+    				<li><a href="baubeschreibung">Baubeschreibung</a></li>
     				<li><a href="romanshorn">Romanshorn</a></li>
     				<li><a href="kontakt">Kontakt</a></li>
     			</ul>
@@ -1174,7 +1174,7 @@
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
             <tr>
-                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="linkw konditionen impressum" data-toggle="#konditionen">Konditionen</span></td>
+                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="konditionen impressum" data-toggle="#konditionen">Konditionen</span></td>
             </tr>
         </table>
         <div id="konditionen">
