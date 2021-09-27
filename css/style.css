@@ -584,7 +584,7 @@ g, tr, polygon {
 
 .activ {
     fill: #1D3A6C;
-    background-color: rgba(29, 58, 108, 0.25);
+    background-color: rgba(22,38,70, 0.25);
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -738,7 +738,7 @@ th:last-child, td:last-child {border-right: none;}
     opacity: 0.5;
 }
 .v td {
-    color: rgba(95, 115, 92, 0.5);
+    color: rgba(22,38,70, 0.5);
 }
 .v td:last-child {
     font-style: normal;
