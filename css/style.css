@@ -20,23 +20,30 @@
 body {
     margin:0px;
     padding: 0px;
-    background-color: #223870;
+}
+
+.home {
+  background-color: #223870;
 }
 
 h1, h2, h3, h4, p, a, span, .accList, footer {
     color: #fff;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: left;
     letter-spacing: 0.06em;
     /* text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
-    /* hyphens: auto; */
+    hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
+}
+
+.wafont h1, .wafont span, .wafont h4, .wafont p, .wafont a {
+  color: #223870;
 }
 
 h1 {
@@ -123,9 +130,13 @@ h3 {
   display: inline-block;
 }
 
+.logo.w {
+  margin: 50px 3%;
+}
+
 .logowohnangebot {
   position: fixed;
-  margin: 70px 70px;
+  margin: 50px 3%;
   z-index: 999;
 }
 
@@ -233,15 +244,13 @@ h3 {
   position: relative;
   margin-top: 20px;
   float: right;
-  opacity: 0.9;
 }
 
 .startimgtwo {
-  width: 95%;
+  width: 40%;
   position: relative;
-  margin-top: 20px;
+  margin-top: 100px;
   float: right;
-  opacity: 0.75;
 }
 
 .start .header {
@@ -263,29 +272,22 @@ h3 {
   width: 50%;
   display: inline-block;
   margin: 100px 10% 0 40%;
-  float: right;
+
 }
 
 .start .second {
+  width: 40%;
   float: left;
-  margin: 100px 40% 0 20%;
+  margin: 150px 0 0 10%;
+}
 
+.start .button {
+  margin-left: 10%;
 }
 
 .romanshorn .color {
   background-color: #92AFC8;
 }
-.romanshorn h2,
-.romanshorn p,
-.romanshorn span,
-.romanshorn .header {
-  color: #92AFC8;
-}
-.romanshorn .header {
-  width: 50%;
-}
-
-
 
 .wohnen h2, .wohnen p,
 .gewerbe h2, .gewerbe p,
@@ -308,7 +310,7 @@ h3 {
   width: 100%;
   display: inline-block;
   background-color: #B8A89F;
-  margin-top: 300px;
+  margin-top: 250px;
   padding-bottom: 150px;
 }
 
@@ -321,6 +323,13 @@ h3 {
   transition: all 0.5s ease-in;
 }
 
+.wohnenimgone {
+  width: 80%;
+  margin-top: 100px;
+  float: right;
+  position: relative;
+}
+
 .wcontainer {
   width: 100%;
   position: relative;
@@ -329,15 +338,16 @@ h3 {
 
 .wohnenimgtwo {
   width: 40%;
-  float: right;
+  float: left;
   position: relative;
 }
 
 .wohnenimgthree{
   width: 50%;
-  float: left;
+  float: right;
   position: relative;
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .wohnen .header {
@@ -350,13 +360,8 @@ h3 {
   position: relative;
 }
 
-.wohnen .header.two,
-.map .header.two {
-  width: 50%;
-  margin: 0 40% 0 10%;
-  z-index: 10;
-  top: -73px;
-  position: relative;
+.wohnen .header.two {
+  top: -67px;
 }
 
 .gewerbe {
@@ -478,19 +483,23 @@ h3 {
 .wcontainer .inputs {
   top: auto;
   bottom: 0px;
-}
-
-.inputsmap {
-  position: relative;
-  margin-left: 10%;
-  top: -140px
+  left: 0;
+  margin-bottom: 100px;
 }
 
 .gewerbe .inputs {
   position: relative;
   float: right;
-
+  margin-bottom: 0;
 }
+
+.inputs.map {
+  position: relative;
+  float: right;
+  margin: 150px 10% 0 0;
+  padding: 0;
+}
+
 .inputs h3 {
   margin: 0 30px;
 }
@@ -760,14 +769,21 @@ th:last-child, td:last-child {border-right: none;}
 .containerform {
   margin-left: 10%;
   width: 40%;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
+  margin-top: 250px;
   float: left;
+}
+
+.containerform h1 {
+  margin-top: 0;
+  padding-left: 10px;
 }
 
 .containeranmeldung {
   margin-right: 10%;
   width: 30%;
   float: right;
+  margin-top: 370px;
 }
 
 .kontakt {
@@ -801,6 +817,7 @@ th:last-child, td:last-child {border-right: none;}
     margin: 15px 0 5px;
     padding: 10px 12px;
     font-size: 17px;
+    letter-spacing: 0.05em;
 }
 
 #contact input:hover,
@@ -850,6 +867,7 @@ th:last-child, td:last-child {border-right: none;}
 .header.bau {
   padding-left: 10px;
   position: relative;
+  margin: 250px 10% 80px 10%;
 }
 
 .accordion {
@@ -859,7 +877,7 @@ th:last-child, td:last-child {border-right: none;}
   width: 40%;
   float: left;
   position: relative;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   cursor: pointer;
 }
 
@@ -873,6 +891,7 @@ th:last-child, td:last-child {border-right: none;}
   margin: 0;
   padding: 15px 5px;
   border-bottom: 1px solid #223870;
+  color: #223870;
   vertical-align: middle;
 }
 
@@ -881,10 +900,11 @@ th:last-child, td:last-child {border-right: none;}
 }
 
 .accordion li {
-  border-bottom: 1px solid rgba(34,56,112, 0.25);
+  border-bottom: 1px solid rgba(22,38,70, 0.25);
   text-decoration: none;
   list-style: none;
   padding: 5px;
+  color: #223870;
   margin: 0;
 }
 
@@ -929,7 +949,7 @@ footer {
 footer a,
 .footermid a,
 .footermid li {
-    color: #fff;
+    color: #fff !important;
     margin: 0;
 }
 
@@ -974,7 +994,7 @@ footer a,
 }
 
 .impressum {
-    color: #fff;
+    color: #fff !important;
     margin: 0;
     cursor: pointer;
 }

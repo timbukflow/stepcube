@@ -8,7 +8,7 @@
 <?php include 'head.php'; ?>
 </head>
 
-<body>
+<body class="wafont">
     <header>
     	<div class="logowohnangebot">
     		<a href="index" target="_top">
@@ -28,9 +28,9 @@
     			<div class="navfour"></div>
     			<ul class="navline">
     				<li><a href="index">Stepcube</a></li>
+            <li><a href="romanshorn">Romanshorn</a></li>
     				<li><a href="wohnangebot">Wohnangebot</a></li>
-    				<li><a href="baubeschreibung">Baubeschreibung</a></li>
-    				<li><a href="romanshorn">Romanshorn</a></li>
+    				<li><a href="baubeschreibung">Baubeschreibung</a></li>	
     				<li><a href="kontakt">Kontakt</a></li>
     			</ul>
     		</div>

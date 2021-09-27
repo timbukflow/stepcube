@@ -8,55 +8,54 @@
 <?php include 'head.php'; ?>
 </head>
 
-<body>
-    <!-- <div id="loader">
-        <img src="img/baumgarten-freudenau-goldach-baum.svg" alt="baumgarten freudenau goldach logo" width="30"/>
-    </div> -->
+<body class="home">
     <?php include 'header.php'; ?>
 
     <section class="maincontainer">
       <article class="start romanshorn">
         <h1 class="header">Gehen Sie in Romanshorn vor Anker</h1>
 
-        <img class="startimg" src="img/stepcube-wohnen-in-romanshorn-start.jpg" alt="..." width="100%" height="auto">
+        <img class="startimgone" src="img/stepcube-wohnen-in-romanshorn-standort-hafenstadt.jpg" alt="stepcube-wohnen-in-romanshorn-standort-hafenstadt" width="100%" height="auto">
         <div class="color"></div>
 
-        <h2>Hafenstadt mit maritimen Flair</h2>
-        <p>Das Wohn- und Gewerbehaus Stepcube liegt direkt am Bahnhof im Herzen von Romanshorn – inmitten einer intakten Natur und einem reichhaltigen Angebot an Bildung, Sport, Erholung, Kultur, Kunst und Gastronomie. Die Hafenstadt mit über 10'000 Einwohnern ist ein Lebensmittelpunkt mit urbanem Ambiente und maritimen Charme zum Ankommen und Verweilen.
-        </p>
+        <div class="holder">
+          <h2>Hafenstadt mit maritimen Flair</h2>
+          <p>Das Wohn- und Gewerbehaus Stepcube liegt direkt am Bahnhof im Herzen von Romanshorn – inmitten einer intakten Natur und einem reichhaltigen Angebot an Bildung, Sport, Erholung, Kultur, Kunst und Gastronomie. Die Hafenstadt mit über 10'000 Einwohnern ist ein Lebensmittelpunkt mit urbanem Ambiente und maritimen Charme zum Ankommen und Verweilen.
+          </p>
 
-        <div class="distanzcontainer">
-          <div class="distanz">
-            <p>Distanzen</p>
-            <p>Einkaufen <span>1 min</span></p>
-            <p>Bahnhof <span>2 min</span></p>
-            <p>Hafen <span>3 min</span></p>
-            <p>Seeufer <span>10 min</span></p>
+          <div class="inputs">
+            <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
+            <h3>10m zum<br>Einkaufen</h3>
           </div>
-          <div class="distanz">
-            <p>Automobil und ÖV</p>
-            <p>St.Gallen <span>25 min</span></p>
-            <p>Kreuzlingen <span>28 min</span></p>
-            <p>Frauenfeld <span>45 min</span></p>
-            <p>Zürich <span>80 min</span></p>
-          </div>
-          <div class="distanz">
-            <p>Flughafen</p>
-            <p>Altenrhein <span>40 min</span></p>
-            <p>Kloten <span>70 min</span></p>
-            <p>Friedrichshafen <span>95 min</span></p>
-          </div>
-          <div class="distanz">
-            <p>Fähren</p>
-            <p>Friedrichshafen <span>44 min</span></p>
-            <p>Altnau <span>40 min</span></p>
-            <p>Kreuzlingen <span>75 min</span></p>
-          </div>
-        </div>
 
-        <div class="inputs">
-          <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
-          <h3>10m zum<br>Einkaufen</h3>
+          <div class="distanzcontainer">
+            <div class="distanz">
+              <p>Distanzen</p>
+              <p>Einkaufen <span>1 min</span></p>
+              <p>Bahnhof <span>2 min</span></p>
+              <p>Hafen <span>3 min</span></p>
+              <p>Seeufer <span>10 min</span></p>
+            </div>
+            <div class="distanz">
+              <p>Automobil und ÖV</p>
+              <p>St.Gallen <span>25 min</span></p>
+              <p>Kreuzlingen <span>28 min</span></p>
+              <p>Frauenfeld <span>45 min</span></p>
+              <p>Zürich <span>80 min</span></p>
+            </div>
+            <div class="distanz">
+              <p>Flughafen</p>
+              <p>Altenrhein <span>40 min</span></p>
+              <p>Kloten <span>70 min</span></p>
+              <p>Friedrichshafen <span>95 min</span></p>
+            </div>
+            <div class="distanz">
+              <p>Fähren</p>
+              <p>Friedrichshafen <span>44 min</span></p>
+              <p>Altnau <span>40 min</span></p>
+              <p>Kreuzlingen <span>75 min</span></p>
+            </div>
+          </div>
         </div>
       </article>
 
@@ -65,24 +64,23 @@
         <div class="color"></div>
 
         <h1 class="header">Für Pendlerinnen und Ausflügler </h1>
-        <div class="inputs inputsmap">
-          <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
-          <h3>205 m²<br>Gewerbe</h3>
-        </div>
 
         <h2>Ihr Ankerpunk am Bodensee</h2>
         <p>Pendlerinnen und Ausflügler schätzen die ausgezeichneten Verkehrsanbindungen, die Romanshorn zum Ankerpunkt der südlichen Bodenseeregion machen. Gut getaktete Bus- und Zugverbindungen sowie die Fähre nach Friedrichshafen vernetzen Romanshorn mit allen wichtigen Städten am Bodensee und darüber hinaus. Der Autobahnanschluss ist in 10 Minuten erreichbar.
         </p>
         <a class="button" href="index#wohnen">Mietwohnungen</a>
+        <div class="inputs map">
+          <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
+          <h3>2 min<br>zum Bahnhof</h3>
+        </div>
         <div class="wcontainer">
           <img class="wohnenimgtwo" src="img/stepcube-wohnen-romanshorn-segeln.jpg" alt="stepcube-wohnen-romanshorn-segeln" width="100%" height="auto">
           <img class="wohnenimgthree" src="img/stepcube-wohnen-romanshorn-hafenlounge.jpg" alt="stepcube-wohnen-romanshorn-hafenlounge" width="100%" height="auto">
           <div class="inputs ">
-            <img src="img/stepcube-cross.svg" alt="stepcube-cross" width="30" height="30">
+            <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
             <h3>25 min<br>nach St.Gallen</h3>
           </div>
         </div>
-        <h1 class="header two">Für Geniesser und aktive</h1>
         <h2>Leben Sie dort wo andere Ferien machen</h2>
         <p>Einmal angekommen, möchten Sie aber am liebsten gar nicht mehr weg. Baden, fischen, segeln oder einfach am Wasser entspannen – leben Sie dort wo andere Ferien machen. Von den weitläufigen Parks und naturnahen, umliegenden Wäldern bietet sich eine phantastische Sicht auf den See und die Voralpen. Romanshorn ist ein unverwechselbarer Ort mit hoher Lebensqualität für eine Bevölkerung, die sich mit der Hafenstadt identifiziert und immer wieder vielseitig engagiert.
         </p>
