@@ -119,6 +119,26 @@ h3 {
 }
 
 /*----------------------------------
+    animation
+-----------------------------------*/
+.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #223870;
+  z-index: 1000;
+  text-align: center;
+  position: fixed;
+}
+
+svg {
+	width: 20%;
+  margin-top: 30vh;
+}
+
+path {
+	fill: #fff;
+}
+/*----------------------------------
     header nav
 -----------------------------------*/
 
@@ -126,7 +146,7 @@ h3 {
   position: absolute;
   top: 0;
   margin: 90px 3%;
-  z-index: 999;
+  z-index: 99;
   display: inline-block;
 }
 
@@ -234,6 +254,7 @@ h3 {
   projekt
 -----------------------------------*/
 .maincontainer {
+    overflow: hidden;
     width: 100%;
     margin: 0;
     position: relative;
@@ -243,7 +264,8 @@ h3 {
   width: 95%;
   position: relative;
   margin-top: 20px;
-  float: right;
+  margin-left: 5%;
+  float: left;
 }
 
 .startimgtwo {
@@ -272,7 +294,6 @@ h3 {
   width: 50%;
   display: inline-block;
   margin: 100px 10% 0 40%;
-
 }
 
 .start .second {
@@ -1095,8 +1116,47 @@ span.konditionen:hover {
 responsive ipad
 -----------------------------------*/
 
-
-
-@media only screen and (max-width: 1400px) {
-
+@media only screen and (max-width: 450px) {
+h3 {
+  font-size: 22px;
+}
+.logo {
+  margin: 60px 5%;
+  width: 100px;
+}
+.navcontainer {
+  width: 100%;
+  z-index: 100;
+  top: -420px;
+}
+.menufade {
+  top: 420px;
+}
+.navcontainer a {
+  font-size: 30px;
+}
+.navcontainer ul {
+  margin-bottom: 70px;
+}
+.start .header {
+  font-size: 27px;
+  width: 70%;
+  margin-right: 10%;
+  top: 500px;
+}
+.startimgone {
+  width: 115%;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  margin-left: 5%;
+  float: left;
+}
+.start h2, .start p{
+  width: 80%;
+  margin-left: 10%;
+}
+.inputs {
+  width: 80%;
+  margin: 5%;
+  top: -90px;
 }
