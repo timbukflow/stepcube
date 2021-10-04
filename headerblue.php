@@ -1,14 +1,14 @@
 <header>
-	<div class="logo">
+	<div class="logo w">
 		<a href="index" target="_top">
-			 <img src="img/stepcube-wohnen-romanshorn-logo-negativ.svg" alt="stepcube-wohnen-romanshorn-logo" width="220px" height="auto"/>
+			 <img src="img/stepcube-wohnen-romanshorn-logo.svg" alt="stepcube-wohnen-romanshorn-logo" width="220px" height="auto"/>
 	 </a>
  </div>
 
  <nav class="menu">
-	 <div class="menudescription">MENU</div>
+	 <div class="menudescription blue">MENU</div>
 		<div class="navbutton">
-			<img src="img/stepcube-navbutton-negativ.svg" alt="stepcube-navbutton" width="40" height="40"/>
+			<img src="img/stepcube-navbutton.svg" alt="stepcube-navbutton" width="40" height="40"/>
 		</div>
 
 		<div class="navcontainer">

@@ -26,7 +26,7 @@ body {
   background-color: #223870;
 }
 
-h1, h2, h3, h4, p, a, span, .accList, footer {
+h1, h2, h3, h4, p, a, span, .accList, footer, .menudescription {
     color: #fff;
     font-family: 'Manrope', sans-serif;
     font-weight: 300;
@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 32px;
   line-height: 1.25;
 }
 
@@ -71,14 +71,19 @@ h3 {
 
 .button {
 	border:1px solid #ffffff;
-	display:inline-block;
+	display: inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	padding: 6px 24px;
-  margin: 50px 0 30px 20%;
+  margin: 50px 0 30px 0;
 	text-decoration:none;
   -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.buttoncontainer {
+  display: inline-block;
+  margin: 0 20%;
 }
 
 .buttonpositiv {
@@ -171,6 +176,19 @@ path {
   transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+.menudescription {
+  position: fixed;
+  right: 0;
+  font-size: 17px;
+  letter-spacing: 5px;
+  top: 66px;
+  transform: rotate(-90deg);
+}
+
+.menudescription.blue {
+  color: #223870;
+}
+
 .navbutton {
   position: fixed;
   right: 5%;
@@ -184,13 +202,13 @@ path {
 }
 
 .menufade {
-  top: 510px;
+  top: 586px;
 }
 
 .navcontainer {
   position: absolute;
   width: 40%;
-  top: -510px;
+  top: -586px;
   right: 0;
   background-color: #223870;
 }
@@ -269,10 +287,10 @@ path {
 }
 
 .startimgtwo {
-  width: 40%;
+  width: 90%;
   position: relative;
-  margin-top: 100px;
-  float: right;
+  margin: 50px 0 100px;
+  float: left;
 }
 
 .start .header {
@@ -283,6 +301,7 @@ path {
   z-index: 10;
   position: absolute;
   top: 110px;
+  hyphens: none;
 }
 
 .start .holder {
@@ -291,19 +310,14 @@ path {
 }
 
 .start h2, .start p{
-  width: 50%;
   display: inline-block;
-  margin: 100px 10% 0 40%;
+  margin: 100px 20% 0 20%;
 }
 
 .start .second {
   width: 40%;
   float: left;
   margin: 150px 0 0 10%;
-}
-
-.start .button {
-  margin-left: 10%;
 }
 
 .romanshorn .color {
@@ -326,12 +340,17 @@ path {
   margin-top: 25px;
 }
 
+.buttoncontainer p {
+  width: 100%;
+  margin: 25px 0 0 0;
+}
+
 .wohnen {
   position: relative;
   width: 100%;
   display: inline-block;
   background-color: #B8A89F;
-  margin-top: 250px;
+  margin-top: 200px;
   padding-bottom: 150px;
 }
 
@@ -482,11 +501,15 @@ path {
 }
 
 .inputs {
-  position: absolute;
+  position: relative;
   width: 30%;
-  opacity: 20%;
-  margin: 10%;
+  opacity: 0.6;
+  margin: 5% 10%;
   top:0;
+}
+
+.start .inputs {
+  float: right;
 }
 
 .iright {
@@ -494,17 +517,18 @@ path {
   bottom: -90px;
   right: 0;
   margin: 0;
-
 }
 
 .wohnen .inputs {
-  top: -220px;
+  position: relative;
+  float: right;
+  margin-bottom: 0;
 }
 
 .wcontainer .inputs {
   top: auto;
   bottom: 0px;
-  left: 0;
+  float: left;
   margin-bottom: 100px;
 }
 
@@ -523,6 +547,13 @@ path {
 
 .inputs h3 {
   margin: 0 30px;
+}
+
+.inputs span {
+  font-size: 32px;
+  opacity: 0.4;
+  display: block;
+
 }
 
 /*----------------------------------
@@ -575,7 +606,7 @@ path {
 }
 
 /*----------------------------------
-    container bulding
+    cont0r 2g
 -----------------------------------*/
 
 .cb {
@@ -590,7 +621,7 @@ path {
     position: absolute;
     left: 10%;
     width: 80%;
-    bottom: 155px;
+    bottom: 175px;
     overflow: visible;
     cursor: pointer;
 }
@@ -598,6 +629,7 @@ path {
 .st0{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
 .st1{ fill:none;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
 .st3{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;}
+.st4{ fill:#fff;stroke:#1D3A6C;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:10 5;}
 
 g, tr, polygon {
     transition: all 0.3s ease-in-out;
@@ -605,6 +637,12 @@ g, tr, polygon {
 
 .activ {
     fill: #1D3A6C;
+    background-color: rgba(22,38,70, 0.25);
+    -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.activug {
     background-color: rgba(22,38,70, 0.25);
     -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -619,6 +657,16 @@ g, tr, polygon {
     -o-transform:       translate(-20px, -180px);
     -ms-transform:      translate(-20px, -180px);
     transform:          translate(-20px, -180px);
+}
+.down {
+    opacity: 0.5;
+    -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transform:  translate(0, 20px);
+    -moz-transform:     translate(0, 20px);
+    -o-transform:       translate(0, 20px);
+    -ms-transform:      translate(0, 20px);
+    transform:          translate(0, 20px);
 }
 
 .reservation {
@@ -645,14 +693,15 @@ g, tr, polygon {
 }
 
 .ct h4 {
-    margin: 80px 5% 0% 5%;
+    margin: 0 5% 0% 5%;
     padding-left: 10px;
-    font-size: 50px;
+    padding-top: 50px;
+    font-size: 40px;
 }
 
 .ct h4 span {
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 table {
@@ -741,15 +790,18 @@ th:last-child, td:last-child {border-right: none;}
     cursor: pointer;
     font-size: 18px;
 }
+
+.plan .linkbaubeschreibung {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    margin: 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 .plan a img {
     position: relative;
-}
-.plan .closer {
-    position: absolute;
-    top: 40px;
-    right: 60px;
-    font-size: 25px;
-    cursor: pointer;
 }
 
 .planhover {
@@ -1015,7 +1067,7 @@ footer a,
 }
 
 .impressum {
-    color: #fff !important;
+    color: #fff;
     margin: 0;
     cursor: pointer;
 }
@@ -1116,6 +1168,93 @@ span.konditionen:hover {
 responsive ipad
 -----------------------------------*/
 
+@media only screen and (max-width: 1200px) {
+  /*--home--*/
+  .start .header {
+    font-size: 42px;
+  }
+  .navcontainer a {
+    font-size: 32px;
+  }
+  .navcontainer {
+    top: -511px;
+  }
+  .navcontainer ul {
+    margin-bottom: 80px;
+  }
+  .menufade {
+    top: 511px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .wohnen .header,
+  .gewerbe .header {
+    top: -107px;
+  }
+  .wohnen .header.two {
+    top: -57px;
+  }
+  /*--romanshorn--*/
+  .romanshorn .header {
+    font-size: 52px;
+  }
+  .map .header {
+    top: -150px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  /*--home--*/
+  .start .header {
+    font-size: 35px;
+    width: 50%;
+    margin-right: 10%;
+    top: 140px;
+  }
+  .startimgone {
+    width: 115%;
+  }
+  .navcontainer a {
+    font-size: 32px;
+  }
+  .navcontainer {
+    top: -511px;
+    width: 60%;
+  }
+  .navbutton {
+    right: 7%;
+  }
+  .inputs {
+    margin: 5%;
+    margin-top: 5%;
+  }
+  .inputs span {
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .holder {
+    margin-top: 100px;
+  }
+  .start h2, .start p {
+  margin: 0 15% ;
+  }
+  .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
+  margin: 0 15% 0;
+  }
+  .buttoncontainer {
+    margin: 0 15%;
+  }
+  .buttoncontainer p {
+    margin: 25px 0 0 0;
+  }
+
+
+}
+
 @media only screen and (max-width: 450px) {
 h3 {
   font-size: 22px;
@@ -1144,6 +1283,9 @@ h3 {
   margin-right: 10%;
   top: 500px;
 }
+.romanshorn .header {
+  font-size: 60px;
+}
 .startimgone {
   width: 115%;
   margin-top: 180px;
@@ -1152,11 +1294,11 @@ h3 {
   float: left;
 }
 .start h2, .start p{
-  width: 80%;
-  margin-left: 10%;
+  margin: 0 10%;
 }
 .inputs {
   width: 80%;
   margin: 5%;
   top: -90px;
+}
 }

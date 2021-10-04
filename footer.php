@@ -7,16 +7,16 @@
           <br><strong>Ansprechperson</strong>
           <br>Janine Schmuckli
           <br><a href="tel:0712290029">T 071 229 00 29</a>
-          <br><a href="mailto:janine.schmuckli@sur.ag?subject=Stepcube%20Romanshorn" target="_top">e-Mail</a>
+          <br><a href="mailto:janine.schmuckli@sur.ag?subject=Stepcube%20Romanshorn" target="_top">janine.schmuckli@sur.ag</a>
         </p>
     </div>
 
     <nav class="footermid">
       <ul>
-        <li><strong>Menu</strong></li>
         <li><a href="index"> Stepcube</a></li>
         <li><a href="romanshorn">Romanshorn</a></li>
-        <li><a href="wohnangebot">Wohnangebot</a></li>
+        <li><a href="wohnen-gewerbe-buero-angebot">Wohnungen</a></li>
+				<li><a href="wohnen-gewerbe-buero-angebot#gewerbe">Gewerbe / Büro</a></li>
         <li><a href="baubeschreibung">Baubeschreibung</a></li>
         <li><a href="kontakt">Kontakt</a></li>
         <li><p class="impressum" data-toggle="#impressum">Impressum</p></li>

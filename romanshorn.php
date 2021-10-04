@@ -14,7 +14,6 @@
     <section class="maincontainer">
       <article class="start romanshorn">
         <h1 class="header">Gehen Sie in Romanshorn vor Anker</h1>
-
         <img class="startimgone" src="img/stepcube-wohnen-in-romanshorn-standort-hafenstadt.jpg" alt="stepcube-wohnen-in-romanshorn-standort-hafenstadt" width="100%" height="auto">
         <div class="color"></div>
 
@@ -25,7 +24,7 @@
 
           <div class="inputs">
             <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
-            <h3>10m zum<br>Einkaufen</h3>
+            <h3> <span>Highlights</span> 10m zum Einkaufen</h3>
           </div>
 
           <div class="distanzcontainer">
@@ -65,26 +64,30 @@
 
         <h1 class="header">Für Pendlerinnen und Ausflügler </h1>
 
-        <h2>Ihr Ankerpunk am Bodensee</h2>
-        <p>Pendlerinnen und Ausflügler schätzen die ausgezeichneten Verkehrsanbindungen, die Romanshorn zum Ankerpunkt der südlichen Bodenseeregion machen. Gut getaktete Bus- und Zugverbindungen sowie die Fähre nach Friedrichshafen vernetzen Romanshorn mit allen wichtigen Städten am Bodensee und darüber hinaus. Der Autobahnanschluss ist in 10 Minuten erreichbar.
-        </p>
-        <a class="button" href="index#wohnen">Mietwohnungen</a>
+        <h2>Ihr Ankerpunkt am Bodensee</h2>
+        <div class="buttoncontainer">
+          <p>Pendlerinnen und Ausflügler schätzen die ausgezeichneten Verkehrsanbindungen, die Romanshorn zum Ankerpunkt der südlichen Bodenseeregion machen. Gut getaktete Bus- und Zugverbindungen sowie die Fähre nach Friedrichshafen vernetzen Romanshorn mit allen wichtigen Städten am Bodensee und darüber hinaus. Der Autobahnanschluss ist in 10 Minuten erreichbar.
+          </p>
+          <a class="button" href="index#wohnen">Mietwohnungen</a>
+        </div>
         <div class="inputs map">
           <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
-          <h3>2 min<br>zum Bahnhof</h3>
+          <h3> <span>Highlights</span> Hafenlounge Romanshorn</h3>
         </div>
         <div class="wcontainer">
           <img class="wohnenimgtwo" src="img/stepcube-wohnen-romanshorn-segeln.jpg" alt="stepcube-wohnen-romanshorn-segeln" width="100%" height="auto">
           <img class="wohnenimgthree" src="img/stepcube-wohnen-romanshorn-hafenlounge.jpg" alt="stepcube-wohnen-romanshorn-hafenlounge" width="100%" height="auto">
           <div class="inputs ">
             <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
-            <h3>25 min<br>nach St.Gallen</h3>
+            <h3><span>Highlights</span> 25 min nach St.Gallen</h3>
           </div>
         </div>
         <h2>Leben Sie dort wo andere Ferien machen</h2>
-        <p>Einmal angekommen, möchten Sie aber am liebsten gar nicht mehr weg. Baden, fischen, segeln oder einfach am Wasser entspannen – leben Sie dort wo andere Ferien machen. Von den weitläufigen Parks und naturnahen, umliegenden Wäldern bietet sich eine phantastische Sicht auf den See und die Voralpen. Romanshorn ist ein unverwechselbarer Ort mit hoher Lebensqualität für eine Bevölkerung, die sich mit der Hafenstadt identifiziert und immer wieder vielseitig engagiert.
-        </p>
-        <a class="button" href="index#gewerbe">Gewerbefläche</a>
+        <div class="buttoncontainer">
+          <p>Einmal angekommen, möchten Sie aber am liebsten gar nicht mehr weg. Baden, fischen, segeln oder einfach am Wasser entspannen – leben Sie dort wo andere Ferien machen. Von den weitläufigen Parks und naturnahen, umliegenden Wäldern bietet sich eine phantastische Sicht auf den See und die Voralpen. Romanshorn ist ein unverwechselbarer Ort mit hoher Lebensqualität für eine Bevölkerung, die sich mit der Hafenstadt identifiziert und immer wieder vielseitig engagiert.
+          </p>
+          <a class="button" href="index#gewerbe">Gewerbefläche</a>
+        </div>
       </article>
     </section>
 

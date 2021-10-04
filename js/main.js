@@ -125,6 +125,16 @@ $(document).ready(function () {
     $(".eg00w002").hover(function() {
         $(".eg00w002").toggleClass("activ");});
 
+    // 00 Untergeschoss //
+    $(".ug00book").hover(function() {
+        $("html, body").stop(true).animate({scrollTop:$("#ug00").position().top - 100},800);});
+
+    $(".ug00").hover(function() {
+        $(".ug00up").toggleClass("down");});
+
+    $(".ug00000").hover(function() {
+        $(".ug00000").toggleClass("activug");});
+
     // plan hover //
 
     $(".planb").click(function(){

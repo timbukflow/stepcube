@@ -9,38 +9,45 @@
 </head>
 
 <body class="wafont">
-    <header>
-    	<div class="logowohnangebot">
-    		<a href="index" target="_top">
-    			 <img src="img/stepcube-wohnen-romanshorn-logo.svg" alt="stepcube-wohnen-romanshorn-logo" width="220px" height="auto"/>
-    	 </a>
-     </div>
+  <header>
+    <div class="logowohnangebot">
+      <a href="index" target="_top">
+         <img src="img/stepcube-wohnen-romanshorn-logo.svg" alt="stepcube-wohnen-romanshorn-logo" width="220px" height="auto"/>
+     </a>
+   </div>
 
-     <nav class="menu">
-    		<div class="navbutton">
-    			<img src="img/stepcube-navbutton.svg" alt="stepcube-navbutton" width="40" height="40"/>
-    		</div>
+   <nav class="menu">
+     <div class="menudescription blue">MENU</div>
+      <div class="navbutton">
+        <img src="img/stepcube-navbutton.svg" alt="stepcube-navbutton" width="40" height="40"/>
+      </div>
 
-    		<div class="navcontainer">
-    			<div class="navone"></div>
-    			<div class="navtwo"></div>
-    			<div class="navthree"></div>
-    			<div class="navfour"></div>
-    			<ul class="navline">
-    				<li><a href="index">Stepcube</a></li>
-            <li><a href="romanshorn">Romanshorn</a></li>
-    				<li><a href="wohnangebot">Wohnangebot</a></li>
-    				<li><a href="baubeschreibung">Baubeschreibung</a></li>	
-    				<li><a href="kontakt">Kontakt</a></li>
-    			</ul>
-    		</div>
-    	</nav>
-    </header>
-
+      <div class="navcontainer">
+        <div class="navone"></div>
+        <div class="navtwo"></div>
+        <div class="navthree"></div>
+        <div class="navfour"></div>
+        <ul class="navline">
+          <li><a href="index">Stepcube</a></li>
+          <li><a href="romanshorn">Romanshorn</a></li>
+          <li><a href="wohnen-gewerbe-buero-angebot">Wohnungen</a></li>
+          <li><a href="wohnen-gewerbe-buero-angebot#gewerbe">Gewerbe / Büro</a></li>
+          <li><a href="baubeschreibung">Baubeschreibung</a></li>
+          <li><a href="kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
     <div class="cb">
       <svg version="1.1" id="bulding" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
       	 viewBox="0 0 482.4 403.2" xml:space="preserve">
+
+      <g class="ug00 ug00up ug00book">
+        <g>
+          <polygon class="st4 ug00000" points="35.3,307.9 241.7,188.8 448,307.9 282.9,403.2 186.6,347.6 145.4,371.5 		"/>
+        </g>
+      </g>
 
       <g class="eg00 eg00up eg00book">
       	<g>
@@ -91,8 +98,6 @@
       		<polyline class="st1" points="101,296.3 101,320.2 112.3,326.7 		"/>
       		<polyline class="st1" points="101,320.2 97.6,322.1 97.6,294.3 		"/>
       		<polygon class="st0" points="35.3,246.4 241.7,127.3 448,246.4 282.9,341.7 186.6,286.1 145.4,310 		"/>
-      		<!--<path class="st1" d="M35.4,262.3L7.8,278.2l-7,27.9c0,0-3.2,8.9,6.9,11.9s248,81.4,254.5,83.2s20.7,4,34.7-4
-      			c8.8-5.1,185.3-107,185.3-107l-34.2-20"/>-->
       	</g>
       	<g>
       		<polygon class="st3 eg00g001" points="35.3,246.7 107.8,204.9 178.7,245.5 187.9,240.2 227.4,262.9 145.4,310.3 		"/>
@@ -345,7 +350,7 @@
     </div>
 
     <div class="ct">
-        <h4><span>04</span> OG</h4>
+        <h4><span>4. OG</span> Wohnungen</h4>
         <table id="og04" class="og04">
             <tr>
                 <th>Nr.</th>
@@ -449,9 +454,12 @@
             <tr>
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
+            <tr>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+            </tr>
         </table>
 
-        <h4><span>03</span> OG</h4>
+        <h4><span>3. OG</span> Wohnungen</h4>
         <table id="og03" class="og03">
             <tr>
                 <th>Nr.</th>
@@ -555,9 +563,12 @@
             <tr>
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
+            <tr>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+            </tr>
         </table>
 
-        <h4><span>02</span> OG</h4>
+        <h4><span>2. OG</span> Wohnungen</h4>
         <table id="og02" class="og02">
             <tr>
               <th>Nr.</th>
@@ -781,9 +792,12 @@
             <tr>
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
+            <tr>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+            </tr>
         </table>
 
-        <h4><span>01</span> OG</h4>
+        <h4><span>1. OG</span> Wohnungen</h4>
         <table id="og01" class="og01">
             <tr>
               <th>Nr.</th>
@@ -1007,9 +1021,81 @@
             <tr>
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
+            <tr>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+            </tr>
         </table>
 
-        <h4><span>00</span> EG</h4>
+        <h4><span>EG</span> Wohnungen</h4>
+        <table id="eg00" class="eg00">
+            <tr>
+              <th>Nr.</th>
+              <th>ZWHG</th>
+              <th>WF</th>
+              <th>AF</th>
+              <th>MN</th>
+              <th>NK</th>
+              <th>MB</th>
+              <th>G</th>
+            </tr>
+            <tr class="eg00w001">
+                <td>W0001</td>
+                <td>2.5</td>
+                <td>49.0</td>
+                <td>21.0</td>
+                <td>1'170</td>
+                <td>150</td>
+                <td>1'320</td>
+                <td class="planb">
+                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                    <div class="plan">
+                        <img src="img/stepcube-eg-w0001.png" alt="stepcube-eg-w0001">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                        </a>
+                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                    </div>
+                </td>
+            </tr>
+            <tr class="eg00w002">
+                <td>W0002</td>
+                <td>2.5</td>
+                <td>46.0</td>
+                <td>7.0</td>
+                <td>1'090</td>
+                <td>150</td>
+                <td>1'240</td>
+                <td class="planb">
+                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                    <div class="plan">
+                        <img src="img/stepcube-eg-w0002.png" alt="stepcube-eg-w0002">
+                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                        </a>
+                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+            </tr>
+            <tr class="r">
+                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+            </tr>
+            <tr>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+            </tr>
+            <tr>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+            </tr>
+        </table>
+
+        <h4 id="gewerbe"><span>EG</span> Gewerbe / Büro</h4>
         <table id="eg00" class="eg00">
             <tr>
               <th>Nr.</th>
@@ -1121,46 +1207,6 @@
                     </div>
                 </td>
             </tr>
-            <tr class="eg00w001">
-                <td>W0001</td>
-                <td>2.5</td>
-                <td>49.0</td>
-                <td>21.0</td>
-                <td>1'170</td>
-                <td>150</td>
-                <td>1'320</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-w0001.png" alt="stepcube-eg-w0001">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00w002">
-                <td>W0002</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>7.0</td>
-                <td>1'090</td>
-                <td>150</td>
-                <td>1'240</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-w0002.png" alt="stepcube-eg-w0002">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
             <tr>
                 <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
             </tr>
@@ -1174,7 +1220,42 @@
                 <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
             </tr>
             <tr>
-                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="konditionen impressum" data-toggle="#konditionen">Konditionen</span></td>
+                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Gewerbe / Büro</a></td>
+            </tr>
+        </table>
+
+        <h4><span>UG</span> Tiefgarage</h4>
+        <table id="ug00" class="ug00">
+            <tr>
+              <th>Nr.</th>
+              <th>Objekt</th>
+              <th>MB</th>
+              <th>G</th>
+            </tr>
+            <tr class="ug00000">
+              <td>01 - 17</td>
+              <td>Parkplatz</td>
+              <td>140</td>
+              <td class="planb">
+                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                    <div class="plan">
+                        <img src="img/stepcube-00ug.png" alt="stepcube-ug">
+                        <a class="link" href="downloads/stepcube-grundrisse-untergeschoss.pdf" download="stepcube-grundrisse-untergeschoss">
+                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                            <strong> Untergeschoss</strong> / Grundrisse (PDF)
+                        </a>
+                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                    </div>
+              </td>
+            </tr>
+            <tr>
+                <td colspan="9" class="reserv">MB = Mietzinsbrutto</td>
+            </tr>
+            <tr>
+                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+            </tr>
+            <tr>
+                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
             </tr>
         </table>
         <div id="konditionen">
