@@ -1369,17 +1369,20 @@ responsive ipad
   }
   .navcontainer {
     width: 100%;
-    top: -424px;
+    top: -420px;
   }
   .navcontainer li {
     padding: 10px 0;
     margin: 0;
   }
   .menufade {
-    top: 424px;
+    top: 420px;
   }
   .navcontainer a {
     font-size: 27px;
+  }
+  .navone, .navtwo, .navthree, .navfour {
+    height: 25px;
   }
   /*--home--*/
   h2, p, a {
