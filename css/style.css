@@ -1208,6 +1208,9 @@ responsive ipad
   table, th, td, td a {
     font-size: 16px;
   }
+  th {
+      font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1294,6 +1297,9 @@ responsive ipad
   }
   table, th, td, td a {
     font-size: 15px;
+  }
+  th {
+      font-size: 12px;
   }
   /*--footer--*/
   footer a, .footermid a, .footermid li {
@@ -1580,8 +1586,18 @@ responsive ipad
   .ct .bresp {
     width: 100px;
   }
+  .ct {
+        overflow-x:auto
+  }
+  table {
+    width: 100%;
+  }
   table, th, td, td a {
     font-size: 14px;
+  }
+
+  th {
+      font-size: 10px;
   }
 
   /*--footer--*/
