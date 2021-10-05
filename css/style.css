@@ -1390,7 +1390,6 @@ responsive ipad
   h2, p, a {
     font-size: 17px;
   }
-
   .startimgone {
     margin-left: 20px;
     width: 130%;
@@ -1399,7 +1398,7 @@ responsive ipad
     font-size: 35px;
     width: 80%;
     margin: 0 10% 0 10%;
-    top: -34px;
+    top: -35px;
     line-height: 1.25;
   }
   .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
@@ -1496,7 +1495,37 @@ responsive ipad
   #impressum {
     width: 80%;
   }
-
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 330px) {
+  .navcontainer a {
+    font-size: 24px;
+  }
+  .navcontainer {
+    width: 100%;
+    top: -405px;
+  }
+  .menufade {
+    top: 405px;
+  }
+  .logo img {
+    width: 180px;
+  }
+  .start .header {
+    font-size: 30px;
+    top: -30px;
+  }
+  h2, p, a {
+    font-size: 16px;
+  }
+  .wohnen .header,
+  .gewerbe .header{
+    width: 80%;
+    margin: 0 10%;
+    font-size: 30px;
+    top: -78px;
+  }
+  .wohnen .header.two {
+    top: -28px;
+    margin-bottom: 40px;
+  }
 }
