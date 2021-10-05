@@ -1373,6 +1373,7 @@ responsive ipad
   }
   .navcontainer li {
     padding: 10px 0;
+    margin: 0;
   }
   .menufade {
     top: 424px;
