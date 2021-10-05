@@ -300,7 +300,7 @@ path {
   z-index: 10;
   position: absolute;
   top: 110px;
-  hyphens: none;
+  hyphens: none !important;
 }
 
 .start .holder {
