@@ -24,7 +24,7 @@
 
           <div class="inputs">
             <img src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="30" height="30">
-            <h3> <span>Highlights</span> 10m zum Einkaufen</h3>
+            <h3> <span>Highlights</span> Kornhaus Romanshorn</h3>
           </div>
 
           <div class="distanzcontainer">

@@ -350,6 +350,7 @@
     </div>
 
     <div class="ct">
+        <img class="bresp" src="img/stepcube-3d-model-04og.svg" alt="stepcube-3d-model-04og.svg" width="160px" height="auto">
         <h4><span>4. OG</span> Wohnungen</h4>
         <table id="og04" class="og04">
             <tr>
@@ -459,6 +460,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-03og.svg" alt="stepcube-3d-model-03og.svg" width="160px" height="auto">
         <h4><span>3. OG</span> Wohnungen</h4>
         <table id="og03" class="og03">
             <tr>
@@ -568,6 +570,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-02og.svg" alt="stepcube-3d-model-02og.svg" width="160px" height="auto">
         <h4><span>2. OG</span> Wohnungen</h4>
         <table id="og02" class="og02">
             <tr>
@@ -797,6 +800,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-01og.svg" alt="stepcube-3d-model-01og.svg" width="160px" height="auto">
         <h4><span>1. OG</span> Wohnungen</h4>
         <table id="og01" class="og01">
             <tr>
@@ -1026,6 +1030,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-eg.svg" alt="stepcube-3d-model-eg.svg" width="160px" height="auto">
         <h4><span>EG</span> Wohnungen</h4>
         <table id="eg00" class="eg00">
             <tr>
@@ -1095,6 +1100,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-eg.svg" alt="stepcube-3d-model-eg.svg" width="160px" height="auto">
         <h4 id="gewerbe"><span>EG</span> Gewerbe / Büro</h4>
         <table id="eg00" class="eg00">
             <tr>
@@ -1224,6 +1230,7 @@
             </tr>
         </table>
 
+        <img class="bresp" src="img/stepcube-3d-model-ug.svg" alt="stepcube-3d-model-ug.svg" width="160px" height="auto">
         <h4><span>UG</span> Tiefgarage</h4>
         <table id="ug00" class="ug00">
             <tr>

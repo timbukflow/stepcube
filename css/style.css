@@ -161,7 +161,7 @@ path {
 
 .logowohnangebot {
   position: fixed;
-  margin: 50px 3%;
+  margin: 70px 3%;
   z-index: 999;
 }
 
@@ -585,8 +585,8 @@ path {
   position: relative;
   display: inline-block;
   width: 90%;
-  top: -72px;
-  height: 15px;
+  top: -80px;
+  height: 25px;
 }
 
 /*----------------------------------
@@ -686,6 +686,14 @@ g, tr, polygon {
 .ct h4 span {
     font-weight: 600;
     font-size: 40px;
+}
+
+.ct .bresp {
+    margin-right: 6%;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: none;
 }
 
 table {
@@ -1154,6 +1162,9 @@ responsive ipad
 
 @media only screen and (max-width: 1200px) {
   /*--home--*/
+  h2, p, a {
+    font-size: 20px;
+  }
   .start .header {
     font-size: 42px;
   }
@@ -1183,14 +1194,25 @@ responsive ipad
   .romanshorn .header {
     font-size: 52px;
   }
+  /*--wohnen--*/
+  .reservation {
+    margin: 0 0 30px 30px;
+  }
+  #bulding {
+    bottom: 165px;
+  }
+  .ct h4,
+  .ct h4 span {
+    font-size: 35px;
+  }
+  table, th, td, td a {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
 
   /*--home--*/
-  h2, p, a {
-    font-size: 20px;
-  }
   .start .header {
     font-size: 35px;
     width: 50%;
@@ -1264,7 +1286,15 @@ responsive ipad
   .distanz p:first-child {
     margin-top: 35px;
   }
+  /*--wohnen--*/
 
+  .ct h4,
+  .ct h4 span {
+    font-size: 30px;
+  }
+  table, th, td, td a {
+    font-size: 15px;
+  }
   /*--footer--*/
   footer a, .footermid a, .footermid li {
     line-height: 1.33;
@@ -1334,6 +1364,36 @@ responsive ipad
   /*--romanshorn--*/
   .distanz p {
     margin: 10px 0 0 0;
+  }
+
+  /*--wohnen--*/
+  .logowohnangebot {
+    position: relative;
+    z-index:9;
+    margin-bottom: 0;
+  }
+  .cb {
+  display: none;
+  }
+  .ct {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 0px;
+  }
+  .ct h4,
+  .ct h4 span {
+    padding-top: 115px;
+  }
+  .ct .bresp {
+    display: block;
+  }
+
+  /*--footer--*/
+  footer a, .footermid a, .footermid li {
+    line-height: 1.33;
+  }
+  .footerright img {
+    width: 70%;
   }
 
   /*--footer--*/
@@ -1506,6 +1566,24 @@ responsive ipad
   .map h2 {
     width: 80%;
   }
+
+  /*--wohnen--*/
+  .logowohnangebot img {
+    width: 200px;
+  }
+
+  .ct h4,
+  .ct h4 span {
+    font-size: 25px;
+    padding-top: 70px;
+  }
+  .ct .bresp {
+    width: 100px;
+  }
+  table, th, td, td a {
+    font-size: 14px;
+  }
+
   /*--footer--*/
   .colorfooter {
     width: 75%;
