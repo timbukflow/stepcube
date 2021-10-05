@@ -13,19 +13,22 @@
 
     <section class="maincontainer">
       <article class="start">
-        <h1 class="header">Wohnen und Arbeiten in der Hafenstadt Romanshorn</h1>
         <img class="startimgone" src="img/stepcube-wohnen-romanshorn-loewenstrasse-vogelperspektive.jpg" alt="stepcube-wohnen-romanshorn-loewenstrasse-vogelperspektive" width="100%" height="auto">
+        <h1 class="header">Wohnen und Arbeiten in der Hafenstadt Romanshorn</h1>
 
         <div class="holder">
           <h2>Ihr sicherer Hafen am Bodensee</h2>
           <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See.</p>
+
           <div class="inputs">
             <img src="img/stepcube-cross-w.svg" alt="stepcube-cross-w" width="30" height="30">
             <h3> <span>Highlights</span> Living Services</h3>
           </div>
+
           <img class="startimgtwo " src="img/stepcube-wohnen-romanshorn-loewenstrasse-terrassen.jpg" alt="stepcube-wohnen-romanshorn-loewenstrasse-terrassen" width="100%" height="auto">
+
           <div class="buttoncontainer">
-            <p >
+            <p>
               Die moderne Architektur von Stepcube besteht aus zwei Würfeln, die miteinander verschmelzen – ein Ausdruck für das bunt durchmischte Lebensgefühl der Hafenstadt Romanshorn. Ob für Singles, Seefahrer, Selbstständige oder Senioren – die modern ausgestatteten Wohnungen mit ihren offenen Grundrissen erfüllen jegliche Ansprüche an ein aktives und mobiles Leben in Ufernähe.
             </p>
             <a class="button" href="romanshorn">Entdecken Sie Romanshorn</a>
@@ -45,7 +48,7 @@
 
         <div class="buttoncontainer">
           <p>Unsere Studios sind Wohnoasen und Rückzugsorte für Menschen, die wissen was sie brauchen – eine Loft auf kompaktem, individuell gestaltbarem Raum, der kaum Wünsche offen lässt. Smart-Home-System, moderne Einbauküche mit V-Zug-Geräten und Arbeitsflächen aus Naturstein, Eichenparkett mit Bodenheizung sowie barrierefreie Badezimmer sorgen für modernen Wohnkomfort. Die grosszügigen Einbauschränke im Entrée bieten viel Stauraum; Standup-Board, Slackline oder Bocciakugeln schnappen und raus zum See.</p>
-          <a class="button" href="wohnangebot">Grundrisse</a>
+          <a class="button" href="wohnen-gewerbe-buero-angebot">Grundrisse</a>
         </div>
 
         <div class="inputs">
@@ -81,7 +84,7 @@
         <div class="buttoncontainer">
           <p>An bester Lage in der Fussgängerzone am Bahnhof Romanshorn gelegen, erhält Ihr Unternehmen die Aufmerksamkeit, die es verdient. Ob Bikeshop, Bistro oder Boutique – grossflächige Schaufenster und individuell aufteilbare Ladenflächen präsentieren Ihr Geschäft im besten Licht an der Flaniermeile. Ebenfalls im Parterre stehen zwei fertig ausgebaute Büros mit Küche und WC sowie zwei 2.5-Zimmerwohnungen bereit. Wohnen und Arbeiten Tür an Tür? Stepcube macht es möglich.
           </p>
-          <a class="button" href="wohnangebot">Grundrisse</a>
+          <a class="button" href="wohnen-gewerbe-buero-angebot#gewerbe">Grundrisse</a>
         </div>
 
         <div class="inputs">

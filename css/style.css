@@ -29,8 +29,8 @@ body {
 h1, h2, h3, h4, p, a, span, .accList, footer, .menudescription {
     color: #fff;
     font-family: 'Manrope', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 22px;
     line-height: 1.5;
     text-align: left;
     letter-spacing: 0.06em;
@@ -267,7 +267,6 @@ path {
     transition: .25s ease-in-out;
 }
 
-
 /*----------------------------------
   projekt
 -----------------------------------*/
@@ -402,6 +401,7 @@ path {
 
 .wohnen .header.two {
   top: -67px;
+  margin-bottom: 60px;
 }
 
 .gewerbe {
@@ -423,7 +423,7 @@ path {
 .gewerbe .header {
   color: #ffffff;
   width: 60%;
-  margin: 0 30% 0 10%;
+  margin: 0 0 0 40%;
   z-index: 10;
   top: -117px;
   position: relative;
@@ -500,23 +500,18 @@ path {
   position: relative;
 }
 
+
 .inputs {
   position: relative;
   width: 30%;
   opacity: 0.6;
-  margin: 5% 10%;
+  margin: 30px 10%;
   top:0;
 }
 
 .start .inputs {
   float: right;
-}
-
-.iright {
-  top:auto;
-  bottom: -90px;
-  right: 0;
-  margin: 0;
+  margin: 80px 10%;
 }
 
 .wohnen .inputs {
@@ -526,10 +521,8 @@ path {
 }
 
 .wcontainer .inputs {
-  top: auto;
-  bottom: 0px;
+  margin-top: 60px;
   float: left;
-  margin-bottom: 100px;
 }
 
 .gewerbe .inputs {
@@ -541,7 +534,7 @@ path {
 .inputs.map {
   position: relative;
   float: right;
-  margin: 150px 10% 0 0;
+  margin: 30px 10% 0 0;
   padding: 0;
 }
 
@@ -1032,7 +1025,7 @@ footer a,
   color: #ffffff;
   margin: 0;
   width: 100%;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .colorfooter {
@@ -1207,6 +1200,9 @@ responsive ipad
 @media only screen and (max-width: 1024px) {
 
   /*--home--*/
+  h2, p, a {
+    font-size: 20px;
+  }
   .start .header {
     font-size: 35px;
     width: 50%;
@@ -1227,20 +1223,19 @@ responsive ipad
     right: 7%;
   }
   .inputs {
-    margin: 5%;
-    margin-top: 5%;
+    margin: 20px 10%;
   }
   .inputs span {
-    font-size: 15px;
+    font-size: 25px;
   }
   h3 {
     font-size: 25px;
   }
-  .holder {
-    margin-top: 100px;
-  }
   .start h2, .start p {
-  margin: 0 15% ;
+  margin: 100px 15% 0 15% ;
+  }
+  .start p, .wohnen p, .gewerbe p, .map p {
+  margin-top: 25px;
   }
   .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
   margin: 0 15% 0;
@@ -1251,54 +1246,251 @@ responsive ipad
   .buttoncontainer p {
     margin: 25px 0 0 0;
   }
+  h1 {
+    font-size: 50px;
+  }
+  .wohnen .header,
+  .gewerbe .header {
+    top: -97px;
+  }
+  .wohnen .header {
+    margin-bottom: 50px;
+  }
+  .wohnen .header.two {
+    top: -47px;
+  }
 
+  /*--home--*/
+  footer a, .footermid a, .footermid li {
+    line-height: 1.33;
+  }
+  .footerright img {
+    width: 70%;
+  }
 
 }
 
+@media only screen and (max-width: 800px) {
+
+  /*--home--*/
+  h2, p, a {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  .start .header {
+    font-size: 50px;
+    width: 70%;
+    margin: 0 15% 0 15%;
+    top: -47px;
+    display: inline-block;
+    position: relative;
+  }
+  .startimgone {
+    width: 115%;
+  }
+  .navbutton {
+    right: 70px;
+  }
+  .inputs {
+    width: 40%;
+  }
+  .start .inputs {
+    margin: 60px 10%;
+  }
+  .start h2, .start p {
+  margin: 50px 15% 0 15% ;
+  }
+  .buttoncontainer p {
+    margin: 25px 0 0 0;
+  }
+  .wohnen .header,
+  .gewerbe .header {
+    width: 70%;
+    margin: 0 15%;
+    top: -92px;
+  }
+  .wohnen .header.two {
+    top: -42px;
+  }
+  .daynightcontainer {
+    margin-left: 15%;
+    top: -65px;
+  }
+  .wohnenimgthree {
+    margin-bottom: 0;
+  }
+  .wcontainer .inputs {
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  /*--footer--*/
+
+  .footerright {
+    width: 80%;
+    position: relative;
+    margin: 0 10%;
+    display: inline-block;
+  }
+  .footerright img{
+    width: 30%;
+    margin-right: 20%;
+    margin-top: 50px;
+    float: left;
+  }
+  .footermid,
+  .footerright img:last-child {
+    margin-left: 50px;
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /*--nav--*/
+  .logo {
+    margin: 60px 10px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .navbutton {
+    right: 18px;
+    top: 112px;
+  }
+  .navbutton img {
+    width: 20px;
+  }
+  .menudescription {
+    font-size: 15px;
+    font-weight: 500;
+    right: -5px;
+  }
+  .navcontainer {
+    width: 100%;
+    top: -430px;
+  }
+  .navcontainer li {
+    padding: 10px 0;
+  }
+  .menufade {
+    top: 430px;
+  }
+  .navcontainer a {
+    font-size: 28px;
+  }
+  /*--home--*/
+  h2, p, a {
+    font-size: 17px;
+  }
+  
+  .startimgone {
+    margin-left: 20px;
+    width: 130%;
+  }
+  .start .header {
+    font-size: 35px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    top: -34px;
+    line-height: 1.25;
+  }
+  .wohnen h2, .wohnen p, .gewerbe h2, .gewerbe p, .map h2, .map p {
+    margin: 0 10% 0;
+  }
+  .wohnen h2 {
+    width: 80%;
+  }
+  .start h2, .start p {
+  margin: 25px 10% 0 10% ;
+  }
+  .buttoncontainer p {
+    margin: 25px 0 0 0;
+  }
+  .inputs {
+    width: 70%;
+  }
+  .wcontainer .inputs {
+    margin-top: 40px;
+    float: right;
+  }
+  .startimgtwo {
+    margin: 0 0 50px;
+  }
+  .buttoncontainer {
+    margin: 0 10%;
+  }
+  .wohnen {
+    margin-top: 100px;
+  }
+  .wohnenimg {
+    width: 90%;
+    margin-right: 10%;
+  }
+  .wohnenimgone {
+    margin-top: 40px;
+    width: 100%;
+  }
+  .wohnenimgtwo,
+  .wohnenimgthree {
+    width: 90%;
+  }
+  .wohnenimgthree {
+    margin-top: 40px;
+  }
+  .wohnen .header,
+  .gewerbe .header{
+    width: 80%;
+    margin: 0 10%;
+    font-size: 35px;
+    top: -83px;
+  }
+  .wohnen .header.two {
+    top: -33px;
+    margin-bottom: 40px;
+  }
+  .daynightcontainer {
+    margin-left: 10%;
+    top: -55px;
+  }
+  .gewerbe {
+    padding-bottom: 100px;
+  }
+  .gewerbeimg {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .gewerbe .header {
+    margin: 0 0 0 20%;
+  }
+  /*--footer--*/
+  .colorfooter {
+    width: 75%;
+    height: 35px;
+    top: -35px;
+  }
+  .footerleft,
+  .footermid {
+    width: 80%;
+  }
+  .footermid,
+  .footerright {
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  .footerright img {
+    width: 50%;
+    margin-top: 0;
+  }
+  .footerright img:last-child {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  #impressum {
+    width: 80%;
+  }
+
+}
 @media only screen and (max-width: 450px) {
-h3 {
-  font-size: 22px;
-}
-.logo {
-  margin: 60px 5%;
-  width: 100px;
-}
-.navcontainer {
-  width: 100%;
-  z-index: 100;
-  top: -420px;
-}
-.menufade {
-  top: 420px;
-}
-.navcontainer a {
-  font-size: 30px;
-}
-.navcontainer ul {
-  margin-bottom: 70px;
-}
-.start .header {
-  font-size: 27px;
-  width: 70%;
-  margin-right: 10%;
-  top: 500px;
-}
-.romanshorn .header {
-  font-size: 60px;
-}
-.startimgone {
-  width: 115%;
-  margin-top: 180px;
-  margin-bottom: 180px;
-  margin-left: 5%;
-  float: left;
-}
-.start h2, .start p{
-  margin: 0 10%;
-}
-.inputs {
-  width: 80%;
-  margin: 5%;
-  top: -90px;
-}
 }

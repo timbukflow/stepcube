@@ -59,7 +59,7 @@
       </article>
 
       <article class="map">
-        <iframe class="mapimg" src="https://snazzymaps.com/embed/340090" width="100%" height="600px" style="border:none;"></iframe>
+        <iframe class="mapimg" src="https://snazzymaps.com/embed/340090" width="100%" height="700px" style="border:none;"></iframe>
         <div class="color"></div>
 
         <h1 class="header">Für Pendlerinnen und Ausflügler </h1>

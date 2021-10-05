@@ -37,7 +37,7 @@
         <br>
         <a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a>
       </p>
-      <p class="disclaimer">© 2021 STEPCUBE. All rights reserved | <span class="disclaimer impressum" data-toggle="#datenschutz">Disclaimer & Konditionen</span></p>
+      <p class="disclaimer">© 2021 STEPCUBE. All rights reserved |<br> <span class="disclaimer impressum" data-toggle="#datenschutz">Disclaimer & Konditionen</span></p>
   </div>
   <div id="datenschutz">
       <p>
