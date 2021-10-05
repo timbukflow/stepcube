@@ -352,118 +352,233 @@
     <div class="ct">
         <img class="bresp" src="img/stepcube-3d-model-04og.svg" alt="stepcube-3d-model-04og.svg" width="160px" height="auto">
         <h4><span>4. OG</span> Wohnungen</h4>
-        <table id="og04" class="og04">
-            <tr>
-                <th>Nr.</th>
-                <th>ZWHG</th>
-                <th>WF</th>
-                <th>AF</th>
-                <th>MN</th>
-                <th>NK</th>
-                <th>MB</th>
-                <th>G</th>
-            </tr>
-            <tr class="og04w0427">
-                <td>W0427</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>6.0</td>
-                <td>1'170</td>
-                <td>130</td>
-                <td>1'300</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-04og-w0427.png" alt="stepcube-04og-w0427">
-                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og04w0428">
-                <td>W0428</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'470</td>
-                <td>200</td>
-                <td>1'670</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-04og-w0428.png" alt="stepcube-04og-w0428">
-                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og04w0429">
-                <td>W0429</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'470</td>
-                <td>200</td>
-                <td>1'670</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-04og-w0429.png" alt="stepcube-04og-w0429">
-                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og04w0430">
-                <td>W0430</td>
-                <td>2.5</td>
-                <td>50.0</td>
-                <td>6.0 </td>
-                <td>1'190</td>
-                <td>150</td>
-                <td>1'340</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-04og-w0430.png" alt="stepcube-04og-w0430">
-                        <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
-            </tr>
-        </table>
+        <div class="tableresp">
+          <table id="og04" class="og04">
+              <tr>
+                  <th>Nr.</th>
+                  <th>ZWHG</th>
+                  <th>WF</th>
+                  <th>AF</th>
+                  <th>MN</th>
+                  <th>NK</th>
+                  <th>MB</th>
+                  <th>G</th>
+              </tr>
+              <tr class="og04w0427">
+                  <td>W0427</td>
+                  <td>2.5</td>
+                  <td>46.0</td>
+                  <td>6.0</td>
+                  <td>1'170</td>
+                  <td>130</td>
+                  <td>1'300</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-04og-w0427.png" alt="stepcube-04og-w0427">
+                          <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og04w0428">
+                  <td>W0428</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'470</td>
+                  <td>200</td>
+                  <td>1'670</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-04og-w0428.png" alt="stepcube-04og-w0428">
+                          <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og04w0429">
+                  <td>W0429</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'470</td>
+                  <td>200</td>
+                  <td>1'670</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-04og-w0429.png" alt="stepcube-04og-w0429">
+                          <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og04w0430">
+                  <td>W0430</td>
+                  <td>2.5</td>
+                  <td>50.0</td>
+                  <td>6.0 </td>
+                  <td>1'190</td>
+                  <td>150</td>
+                  <td>1'340</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-04og-w0430.png" alt="stepcube-04og-w0430">
+                          <a class="link" href="downloads/stepcube-grundrisse-04-obergeschoss.pdf" download="stepcube-grundrisse-04-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 04 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+              </tr>
+          </table>
+        </div>
 
         <img class="bresp" src="img/stepcube-3d-model-03og.svg" alt="stepcube-3d-model-03og.svg" width="160px" height="auto">
         <h4><span>3. OG</span> Wohnungen</h4>
-        <table id="og03" class="og03">
-            <tr>
+        <div class="tableresp">
+          <table id="og03" class="og03">
+              <tr>
+                  <th>Nr.</th>
+                  <th>ZWHG</th>
+                  <th>WF</th>
+                  <th>AF</th>
+                  <th>MN</th>
+                  <th>NK</th>
+                  <th>MB</th>
+                  <th>G</th>
+              </tr>
+              <tr class="og03w0323">
+                  <td>W0323</td>
+                  <td>2.5</td>
+                  <td>46.0</td>
+                  <td>53.0</td>
+                  <td>1'140</td>
+                  <td>130</td>
+                  <td>1'270</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-03og-w0323.png" alt="stepcube-03og-w0323">
+                          <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og03w0324">
+                  <td>W0324</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'420</td>
+                  <td>200</td>
+                  <td>1'620</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-03og-w0324.png" alt="stepcube-03og-w0324">
+                          <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og03w0325">
+                  <td>W0325</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'420</td>
+                  <td>200</td>
+                  <td>1'6</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-03og-w0325.png" alt="stepcube-03og-w0325">
+                          <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og03w0326">
+                  <td>W0326</td>
+                  <td>2.5</td>
+                  <td>50.0</td>
+                  <td>53.0</td>
+                  <td>1'150</td>
+                  <td>150</td>
+                  <td>1'300</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-03og-w0326.png" alt="stepcube-03og-w0326">
+                          <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+              </tr>
+          </table>
+        </div>
+
+        <img class="bresp" src="img/stepcube-3d-model-02og.svg" alt="stepcube-3d-model-02og.svg" width="160px" height="auto">
+        <h4><span>2. OG</span> Wohnungen</h4>
+        <div class="tableresp">
+          <table id="og02" class="og02">
+              <tr>
                 <th>Nr.</th>
                 <th>ZWHG</th>
                 <th>WF</th>
@@ -472,799 +587,700 @@
                 <th>NK</th>
                 <th>MB</th>
                 <th>G</th>
-            </tr>
-            <tr class="og03w0323">
-                <td>W0323</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>53.0</td>
-                <td>1'140</td>
-                <td>130</td>
-                <td>1'270</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-03og-w0323.png" alt="stepcube-03og-w0323">
-                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og03w0324">
-                <td>W0324</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'420</td>
-                <td>200</td>
-                <td>1'620</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-03og-w0324.png" alt="stepcube-03og-w0324">
-                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og03w0325">
-                <td>W0325</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'420</td>
-                <td>200</td>
-                <td>1'6</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-03og-w0325.png" alt="stepcube-03og-w0325">
-                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og03w0326">
-                <td>W0326</td>
-                <td>2.5</td>
-                <td>50.0</td>
-                <td>53.0</td>
-                <td>1'150</td>
-                <td>150</td>
-                <td>1'300</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-03og-w0326.png" alt="stepcube-03og-w0326">
-                        <a class="link" href="downloads/stepcube-grundrisse-03-obergeschoss.pdf" download="stepcube-grundrisse-03-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 03 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
-            </tr>
-        </table>
-
-        <img class="bresp" src="img/stepcube-3d-model-02og.svg" alt="stepcube-3d-model-02og.svg" width="160px" height="auto">
-        <h4><span>2. OG</span> Wohnungen</h4>
-        <table id="og02" class="og02">
-            <tr>
-              <th>Nr.</th>
-              <th>ZWHG</th>
-              <th>WF</th>
-              <th>AF</th>
-              <th>MN</th>
-              <th>NK</th>
-              <th>MB</th>
-              <th>G</th>
-            </tr>
-            <tr class="og02w0213">
-                <td>W0213</td>
-                <td>1.5</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>820</td>
-                <td>130</td>
-                <td>950</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0213.png" alt="stepcube-02og-w0213">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0214">
-                <td>W0214</td>
-                <td>1.5</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>820</td>
-                <td>130</td>
-                <td>950</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0214.png" alt="stepcube-02og-w0214">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0215">
-                <td>W0215</td>
-                <td>1.5</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>820</td>
-                <td>130</td>
-                <td>950</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0215.png" alt="stepcube-02og-w0215">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0216">
-                <td>W0216</td>
-                <td>1.5</td>
-                <td>36.0</td>
-                <td>0.0</td>
-                <td>840</td>
-                <td>130</td>
-                <td>970</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0216.png" alt="stepcube-02og-w0216">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0217">
-                <td>W0217</td>
-                <td>1.5</td>
-                <td>34.0</td>
-                <td>0.0</td>
-                <td>840</td>
-                <td>130</td>
-                <td>970</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0217.png" alt="stepcube-02og-w0217">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0218">
-                <td>W0218</td>
-                <td>1.5</td>
-                <td>33.0</td>
-                <td>0.0</td>
-                <td>840</td>
-                <td>130</td>
-                <td>970</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0218.png" alt="stepcube-02og-w0218">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0219">
-                <td>W0219</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>6.0</td>
-                <td>1'120</td>
-                <td>150</td>
-                <td>1'270</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0219.png" alt="stepcube-02og-w0219">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0220">
-                <td>W0220</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'400</td>
-                <td>200</td>
-                <td>1'600</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0220.png" alt="stepcube-02og-w0220">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0221">
-                <td>W0221</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'400</td>
-                <td>200</td>
-                <td>1'600</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0221.png" alt="stepcube-02og-w0221">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og02w0222">
-                <td>W0222</td>
-                <td>2.5</td>
-                <td>50.0</td>
-                <td>6.0</td>
-                <td>1'130</td>
-                <td>150</td>
-                <td>1'280</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-02og-w0222.png" alt="stepcube-02og-w0222">
-                        <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
-            </tr>
-        </table>
+              </tr>
+              <tr class="og02w0213">
+                  <td>W0213</td>
+                  <td>1.5</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>820</td>
+                  <td>130</td>
+                  <td>950</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0213.png" alt="stepcube-02og-w0213">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0214">
+                  <td>W0214</td>
+                  <td>1.5</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>820</td>
+                  <td>130</td>
+                  <td>950</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0214.png" alt="stepcube-02og-w0214">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0215">
+                  <td>W0215</td>
+                  <td>1.5</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>820</td>
+                  <td>130</td>
+                  <td>950</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0215.png" alt="stepcube-02og-w0215">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0216">
+                  <td>W0216</td>
+                  <td>1.5</td>
+                  <td>36.0</td>
+                  <td>0.0</td>
+                  <td>840</td>
+                  <td>130</td>
+                  <td>970</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0216.png" alt="stepcube-02og-w0216">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0217">
+                  <td>W0217</td>
+                  <td>1.5</td>
+                  <td>34.0</td>
+                  <td>0.0</td>
+                  <td>840</td>
+                  <td>130</td>
+                  <td>970</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0217.png" alt="stepcube-02og-w0217">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0218">
+                  <td>W0218</td>
+                  <td>1.5</td>
+                  <td>33.0</td>
+                  <td>0.0</td>
+                  <td>840</td>
+                  <td>130</td>
+                  <td>970</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0218.png" alt="stepcube-02og-w0218">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0219">
+                  <td>W0219</td>
+                  <td>2.5</td>
+                  <td>46.0</td>
+                  <td>6.0</td>
+                  <td>1'120</td>
+                  <td>150</td>
+                  <td>1'270</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0219.png" alt="stepcube-02og-w0219">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0220">
+                  <td>W0220</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'400</td>
+                  <td>200</td>
+                  <td>1'600</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0220.png" alt="stepcube-02og-w0220">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0221">
+                  <td>W0221</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'400</td>
+                  <td>200</td>
+                  <td>1'600</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0221.png" alt="stepcube-02og-w0221">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og02w0222">
+                  <td>W0222</td>
+                  <td>2.5</td>
+                  <td>50.0</td>
+                  <td>6.0</td>
+                  <td>1'130</td>
+                  <td>150</td>
+                  <td>1'280</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-02og-w0222.png" alt="stepcube-02og-w0222">
+                          <a class="link" href="downloads/stepcube-grundrisse-02-obergeschoss.pdf" download="stepcube-grundrisse-02-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 02 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+              </tr>
+          </table>
+        </div>
 
         <img class="bresp" src="img/stepcube-3d-model-01og.svg" alt="stepcube-3d-model-01og.svg" width="160px" height="auto">
         <h4><span>1. OG</span> Wohnungen</h4>
-        <table id="og01" class="og01">
-            <tr>
-              <th>Nr.</th>
-              <th>ZWHG</th>
-              <th>WF</th>
-              <th>AF</th>
-              <th>MN</th>
-              <th>NK</th>
-              <th>MB</th>
-              <th>G</th>
-            </tr>
-            <tr class="og01w0103">
-                <td>W0103</td>
-                <td>1.5</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>810</td>
-                <td>130</td>
-                <td>940</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0103.png" alt="stepcube-01og-w0103">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0104">
-                <td>W0104</td>
-                <td>1.5</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>810</td>
-                <td>130</td>
-                <td>940</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0104">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0105">
-                <td>W0105</td>
-                <td>1.5</td>
-                <td>29.0</td>
-                <td>0.0</td>
-                <td>810</td>
-                <td>130</td>
-                <td>940</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0105">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0106">
-                <td>W0106</td>
-                <td>1.5</td>
-                <td>36.0</td>
-                <td>0.0</td>
-                <td>830</td>
-                <td>130</td>
-                <td>960</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0106.png" alt="stepcube-01og-w0106">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0107">
-                <td>W0107</td>
-                <td>1.5</td>
-                <td>34.0</td>
-                <td>0.0</td>
-                <td>830</td>
-                <td>130</td>
-                <td>960</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0107.png" alt="stepcube-01og-w0107">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0108">
-                <td>W0108</td>
-                <td>1.5</td>
-                <td>33.0</td>
-                <td>0.0</td>
-                <td>830</td>
-                <td>130</td>
-                <td>960</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0108.png" alt="stepcube-01og-w0108">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0109">
-                <td>W0109</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>6.0</td>
-                <td>1'130</td>
-                <td>150</td>
-                <td>1'280</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0109.png" alt="stepcube-01og-w0109">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0110">
-                <td>W0110</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'390</td>
-                <td>200</td>
-                <td>1'590</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0110.png" alt="stepcube-01og-w0110">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0111">
-                <td>W0111</td>
-                <td>3.5</td>
-                <td>74.0</td>
-                <td>7.0</td>
-                <td>1'390</td>
-                <td>200</td>
-                <td>1'590</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0111.png" alt="stepcube-01og-w0111">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="og01w0112">
-                <td>W0112</td>
-                <td>2.5</td>
-                <td>50.0</td>
-                <td>6.0</td>
-                <td>1'140</td>
-                <td>150</td>
-                <td>1'290</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-01og-w0112.png" alt="stepcube-01og-w0112">
-                        <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
-            </tr>
-        </table>
+        <div class="tableresp">
+          <table id="og01" class="og01">
+              <tr>
+                <th>Nr.</th>
+                <th>ZWHG</th>
+                <th>WF</th>
+                <th>AF</th>
+                <th>MN</th>
+                <th>NK</th>
+                <th>MB</th>
+                <th>G</th>
+              </tr>
+              <tr class="og01w0103">
+                  <td>W0103</td>
+                  <td>1.5</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>810</td>
+                  <td>130</td>
+                  <td>940</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0103.png" alt="stepcube-01og-w0103">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0104">
+                  <td>W0104</td>
+                  <td>1.5</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>810</td>
+                  <td>130</td>
+                  <td>940</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0104">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0105">
+                  <td>W0105</td>
+                  <td>1.5</td>
+                  <td>29.0</td>
+                  <td>0.0</td>
+                  <td>810</td>
+                  <td>130</td>
+                  <td>940</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0105">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0106">
+                  <td>W0106</td>
+                  <td>1.5</td>
+                  <td>36.0</td>
+                  <td>0.0</td>
+                  <td>830</td>
+                  <td>130</td>
+                  <td>960</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0106.png" alt="stepcube-01og-w0106">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0107">
+                  <td>W0107</td>
+                  <td>1.5</td>
+                  <td>34.0</td>
+                  <td>0.0</td>
+                  <td>830</td>
+                  <td>130</td>
+                  <td>960</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0107.png" alt="stepcube-01og-w0107">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0108">
+                  <td>W0108</td>
+                  <td>1.5</td>
+                  <td>33.0</td>
+                  <td>0.0</td>
+                  <td>830</td>
+                  <td>130</td>
+                  <td>960</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0108.png" alt="stepcube-01og-w0108">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0109">
+                  <td>W0109</td>
+                  <td>2.5</td>
+                  <td>46.0</td>
+                  <td>6.0</td>
+                  <td>1'130</td>
+                  <td>150</td>
+                  <td>1'280</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0109.png" alt="stepcube-01og-w0109">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0110">
+                  <td>W0110</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'390</td>
+                  <td>200</td>
+                  <td>1'590</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0110.png" alt="stepcube-01og-w0110">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0111">
+                  <td>W0111</td>
+                  <td>3.5</td>
+                  <td>74.0</td>
+                  <td>7.0</td>
+                  <td>1'390</td>
+                  <td>200</td>
+                  <td>1'590</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0111.png" alt="stepcube-01og-w0111">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="og01w0112">
+                  <td>W0112</td>
+                  <td>2.5</td>
+                  <td>50.0</td>
+                  <td>6.0</td>
+                  <td>1'140</td>
+                  <td>150</td>
+                  <td>1'290</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-01og-w0112.png" alt="stepcube-01og-w0112">
+                          <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+              </tr>
+          </table>
+        </div>
 
         <img class="bresp" src="img/stepcube-3d-model-eg.svg" alt="stepcube-3d-model-eg.svg" width="160px" height="auto">
         <h4><span>EG</span> Wohnungen</h4>
-        <table id="eg00" class="eg00">
-            <tr>
-              <th>Nr.</th>
-              <th>ZWHG</th>
-              <th>WF</th>
-              <th>AF</th>
-              <th>MN</th>
-              <th>NK</th>
-              <th>MB</th>
-              <th>G</th>
-            </tr>
-            <tr class="eg00w001">
-                <td>W0001</td>
-                <td>2.5</td>
-                <td>49.0</td>
-                <td>21.0</td>
-                <td>1'170</td>
-                <td>150</td>
-                <td>1'320</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-w0001.png" alt="stepcube-eg-w0001">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00w002">
-                <td>W0002</td>
-                <td>2.5</td>
-                <td>46.0</td>
-                <td>7.0</td>
-                <td>1'090</td>
-                <td>150</td>
-                <td>1'240</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-w0002.png" alt="stepcube-eg-w0002">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
-            </tr>
-        </table>
+        <div class="tableresp">
+          <table id="eg00" class="eg00">
+              <tr>
+                <th>Nr.</th>
+                <th>ZWHG</th>
+                <th>WF</th>
+                <th>AF</th>
+                <th>MN</th>
+                <th>NK</th>
+                <th>MB</th>
+                <th>G</th>
+              </tr>
+              <tr class="eg00w001">
+                  <td>W0001</td>
+                  <td>2.5</td>
+                  <td>49.0</td>
+                  <td>21.0</td>
+                  <td>1'170</td>
+                  <td>150</td>
+                  <td>1'320</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-w0001.png" alt="stepcube-eg-w0001">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="eg00w002">
+                  <td>W0002</td>
+                  <td>2.5</td>
+                  <td>46.0</td>
+                  <td>7.0</td>
+                  <td>1'090</td>
+                  <td>150</td>
+                  <td>1'240</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-w0002.png" alt="stepcube-eg-w0002">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+              </tr>
+          </table>
+        </div>
 
         <img class="bresp" src="img/stepcube-3d-model-eg.svg" alt="stepcube-3d-model-eg.svg" width="160px" height="auto">
         <h4 id="gewerbe"><span>EG</span> Gewerbe / Büro</h4>
-        <table id="eg00" class="eg00">
-            <tr>
-              <th>Nr.</th>
-              <th>ZWHG</th>
-              <th>WF</th>
-              <th>AF</th>
-              <th>MN</th>
-              <th>NK</th>
-              <th>MB</th>
-              <th>G</th>
-            </tr>
-            <tr class="eg00g001">
-                <td>G0001</td>
-                <td>Gewerbe</td>
-                <td>114.0</td>
-                <td>0.0</td>
-                <td>1'740</td>
-                <td>250</td>
-                <td>1'990</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-g0001.png" alt="stepcube-eg-g0001">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00g002">
-                <td>G0002</td>
-                <td>Gewerbe</td>
-                <td>30.0</td>
-                <td>0.0</td>
-                <td>700</td>
-                <td>200</td>
-                <td>900</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00g003">
-                <td>G0003</td>
-                <td>Gewerbe</td>
-                <td>60.0</td>
-                <td>0.0</td>
-                <td>1'000</td>
-                <td>235</td>
-                <td>1'235</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00b004">
-                <td>B0004</td>
-                <td>Büro</td>
-                <td>37.0</td>
-                <td>0.0</td>
-                <td>750</td>
-                <td>200</td>
-                <td>950</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-b0004.png" alt="stepcube-eg-b0004">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr class="eg00b005">
-                <td>B0005</td>
-                <td>Büro</td>
-                <td>59.0</td>
-                <td>0.0</td>
-                <td>1'190</td>
-                <td>235</td>
-                <td>1'425</td>
-                <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-eg-b0005.png" alt="stepcube-eg-b0005">
-                        <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Erdgeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
-            </tr>
-            <tr class="r">
-                <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Gewerbe / Büro</a></td>
-            </tr>
-        </table>
+        <div class="tableresp">
+          <table id="eg00" class="eg00">
+              <tr>
+                <th>Nr.</th>
+                <th>ZWHG</th>
+                <th>WF</th>
+                <th>AF</th>
+                <th>MN</th>
+                <th>NK</th>
+                <th>MB</th>
+                <th>G</th>
+              </tr>
+              <tr class="eg00g001">
+                  <td>G0001</td>
+                  <td>Gewerbe</td>
+                  <td>114.0</td>
+                  <td>0.0</td>
+                  <td>1'740</td>
+                  <td>250</td>
+                  <td>1'990</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-g0001.png" alt="stepcube-eg-g0001">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="eg00g002">
+                  <td>G0002</td>
+                  <td>Gewerbe</td>
+                  <td>30.0</td>
+                  <td>0.0</td>
+                  <td>700</td>
+                  <td>200</td>
+                  <td>900</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="eg00g003">
+                  <td>G0003</td>
+                  <td>Gewerbe</td>
+                  <td>60.0</td>
+                  <td>0.0</td>
+                  <td>1'000</td>
+                  <td>235</td>
+                  <td>1'235</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-g0002-03.png" alt="stepcube-eg-g0002-03">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="eg00b004">
+                  <td>B0004</td>
+                  <td>Büro</td>
+                  <td>37.0</td>
+                  <td>0.0</td>
+                  <td>750</td>
+                  <td>200</td>
+                  <td>950</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-b0004.png" alt="stepcube-eg-b0004">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr class="eg00b005">
+                  <td>B0005</td>
+                  <td>Büro</td>
+                  <td>59.0</td>
+                  <td>0.0</td>
+                  <td>1'190</td>
+                  <td>235</td>
+                  <td>1'425</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-b0005.png" alt="stepcube-eg-b0005">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">ZWHG= Zimmerwohnung | WF = Wohnfläche  |  AF = Aussenfläche</td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MN = Mietzinsnetto  |  NK = Nebenkosten  |  MB = Mietzinsbrutto</td>
+              </tr>
+              <tr class="r">
+                  <td colspan="9" class="reserv">reserviert = Mietvertrag unterwegs | vermietet = Mietvertrag unterzeichnet</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Gewerbe / Büro</a></td>
+              </tr>
+          </table>
+        </div>
+
 
         <img class="bresp" src="img/stepcube-3d-model-ug.svg" alt="stepcube-3d-model-ug.svg" width="160px" height="auto">
         <h4><span>UG</span> Tiefgarage</h4>
-        <table id="ug00" class="ug00">
-            <tr>
-              <th>Nr.</th>
-              <th>Objekt</th>
-              <th>MB</th>
-              <th>G</th>
-            </tr>
-            <tr class="ug00000">
-              <td>01 - 17</td>
-              <td>Parkplatz</td>
-              <td>140</td>
-              <td class="planb">
-                    <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
-                    <div class="plan">
-                        <img src="img/stepcube-00ug.png" alt="stepcube-ug">
-                        <a class="link" href="downloads/stepcube-grundrisse-untergeschoss.pdf" download="stepcube-grundrisse-untergeschoss">
-                            <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
-                            <strong> Untergeschoss</strong> / Grundrisse (PDF)
-                        </a>
-                        <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
-                    </div>
-              </td>
-            </tr>
-            <tr>
-                <td colspan="9" class="reserv">MB = Mietzinsbrutto</td>
-            </tr>
-            <tr>
-                <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
-            </tr>
-            <tr>
-                <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
-            </tr>
-        </table>
+        <div class="tableresp">
+          <table id="ug00" class="ug00">
+              <tr>
+                <th>Nr.</th>
+                <th>Objekt</th>
+                <th>MB</th>
+                <th>G</th>
+              </tr>
+              <tr class="ug00000">
+                <td>01 - 17</td>
+                <td>Parkplatz</td>
+                <td>140</td>
+                <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-00ug.png" alt="stepcube-ug">
+                          <a class="link" href="downloads/stepcube-grundrisse-untergeschoss.pdf" download="stepcube-grundrisse-untergeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Untergeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                </td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="reserv">MB = Mietzinsbrutto</td>
+              </tr>
+              <tr>
+                  <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
+              </tr>
+          </table>
+        </div>
+
         <div id="konditionen">
             <p class="konditionen">
                 Die vorliegende Webseite stellt das Bauvorhaben in der Projektphase dar. Aus sämtlichen Plänen, Zeichnungen, Darstellungen, Möblierungen, Visualisierungen oder Beschreibungen können keinerlei Ansprüche abgeleitet werden. Insbesondere kommt den Plänen keine gesetzliche Wirkung von Grundbuchplänen zu. Ausführungsbedingte Änderungen, Anpassungen und/oder Massabweichungen können vorkommen und bleiben jederzeit ausdrücklich vorbehalten. Sämtliche Massangaben sind Circa-Masse.

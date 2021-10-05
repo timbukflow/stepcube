@@ -823,7 +823,6 @@ th:last-child, td:last-child {border-right: none;}
     top: auto;
     right: 0;
     margin: 50px;
-    width: 60px;
     height: 60px;
 }
 
@@ -1586,8 +1585,9 @@ responsive ipad
   .ct .bresp {
     width: 100px;
   }
-  .ct {
-        overflow-x:auto
+  .tableresp {
+    width: 100%;
+    overflow-x:auto
   }
   table {
     width: 100%;
@@ -1598,6 +1598,15 @@ responsive ipad
 
   th {
       font-size: 10px;
+  }
+  .plan a {
+    font-size: 14px;
+    margin: 30px;
+  }
+  .plan img.norden {
+    right: auto;
+    margin: 30px;
+    margin-bottom: 80px;
   }
 
   /*--footer--*/
