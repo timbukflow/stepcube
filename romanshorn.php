@@ -13,8 +13,8 @@
 
     <section class="maincontainer">
       <article class="start romanshorn">
-        <h1 class="header">Gehen Sie in Romanshorn vor Anker</h1>
         <img class="startimgone" src="img/stepcube-wohnen-in-romanshorn-standort-hafenstadt.jpg" alt="stepcube-wohnen-in-romanshorn-standort-hafenstadt" width="100%" height="auto">
+        <h1 class="header">Gehen Sie in Romanshorn vor Anker</h1>
         <div class="color"></div>
 
         <div class="holder">
@@ -61,8 +61,6 @@
       <article class="map">
         <iframe class="mapimg" src="https://snazzymaps.com/embed/340090" width="100%" height="700px" style="border:none;"></iframe>
         <div class="color"></div>
-
-        <h1 class="header">Für Pendlerinnen und Ausflügler </h1>
 
         <h2>Ihr Ankerpunkt am Bodensee</h2>
         <div class="buttoncontainer">
