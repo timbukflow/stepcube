@@ -1602,11 +1602,13 @@ responsive ipad
   .plan a {
     font-size: 14px;
     margin: 30px;
+    bottom: 30px;
   }
   .plan img.norden {
     right: auto;
+    bottom: auto;
     margin: 30px;
-    margin-bottom: 80px;
+    margin-top: 50px;
   }
 
   /*--footer--*/
