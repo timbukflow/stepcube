@@ -84,7 +84,7 @@
         <div class="buttoncontainer">
           <p>Einmal angekommen, möchten Sie aber am liebsten gar nicht mehr weg. Baden, fischen, segeln oder einfach am Wasser entspannen – leben Sie dort wo andere Ferien machen. Von den weitläufigen Parks und naturnahen, umliegenden Wäldern bietet sich eine phantastische Sicht auf den See und die Voralpen. Romanshorn ist ein unverwechselbarer Ort mit hoher Lebensqualität für eine Bevölkerung, die sich mit der Hafenstadt identifiziert und immer wieder vielseitig engagiert.
           </p>
-          <a class="button" href="index#gewerbe">Gewerbefläche</a>
+          <a class="button" href="index#gewerbe">Gewerbe / Büro</a>
         </div>
       </article>
     </section>

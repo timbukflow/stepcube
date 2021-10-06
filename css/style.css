@@ -1576,17 +1576,20 @@ responsive ipad
   .logowohnangebot img {
     width: 200px;
   }
-
+  .ct {
+    margin-top: 30px;
+  }
   .ct h4,
   .ct h4 span {
-    font-size: 25px;
-    padding-top: 20px;
+    font-size: 23px;
+    padding-top: 32px;
+    line-height: 1.3;
   }
   .ct h4 span {
     display: block;
   }
   .ct .bresp {
-    width: 100px;
+    width: 120px;
   }
   .tableresp {
     width: 100%;
