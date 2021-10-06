@@ -29,7 +29,7 @@ body {
 h1, h2, h3, h4, p, a, span, .accList, footer, .menudescription {
     color: #fff;
     font-family: 'Manrope', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 22px;
     line-height: 1.5;
     text-align: left;
@@ -156,7 +156,7 @@ path {
 }
 
 .logo.w {
-  margin: 50px 3%;
+  margin: 70px 3%;
 }
 
 .logowohnangebot {
@@ -1058,7 +1058,7 @@ footer a,
 }
 
 .impressum {
-    color: #fff;
+    color: #fff !important;
     margin: 0;
     cursor: pointer;
 }
@@ -1098,7 +1098,7 @@ span.konditionen:hover {
 
 .konditionen {
     font-size: 14px;
-    color: #223870;
+    color: #223870 !important;
 }
 
 #datenschutz {
@@ -1300,6 +1300,18 @@ responsive ipad
   th {
       font-size: 12px;
   }
+  /*--baubeschreibung--*/
+  .accordion h3 {
+    font-size: 20px;
+  }
+  .accordion li {
+    font-size: 17px;
+    letter-spacing: 0.05em;
+  }
+  .accordion img {
+    width: 15px;
+    margin-top: 0px;
+  }
   /*--footer--*/
   footer a, .footermid a, .footermid li {
     line-height: 1.33;
@@ -1393,15 +1405,23 @@ responsive ipad
     display: block;
   }
 
+  /*--baubeschreibung--*/
+  .header.bau {
+    margin-bottom: 50px;
+  }
+  .accordion {
+    width: 80%;
+    margin-bottom: 0;
+  }
+  .accordion.right {
+    margin-left: 10%;
+    margin-bottom: 150px;
+  }
+
   /*--footer--*/
   footer a, .footermid a, .footermid li {
     line-height: 1.33;
   }
-  .footerright img {
-    width: 70%;
-  }
-
-  /*--footer--*/
 
   .footerright {
     width: 80%;
@@ -1601,7 +1621,6 @@ responsive ipad
   table, th, td, td a {
     font-size: 14px;
   }
-
   th {
       font-size: 10px;
   }
@@ -1615,6 +1634,20 @@ responsive ipad
     bottom: auto;
     margin: 30px;
     margin-top: 50px;
+  }
+  /*--baubeschreibung--*/
+  .header.bau {
+    font-size: 35px;
+    margin: 210px 7% 40px 7%;
+  }
+  .accordion h3 {
+    font-size: 17px;
+  }
+  .accordion,
+  .accordion.right {
+    margin-left: 7%;
+    margin-right: 7%;
+    width: 86%;
   }
 
   /*--footer--*/
