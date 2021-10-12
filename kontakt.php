@@ -10,12 +10,12 @@
 
 <body class="wafont">
   <?php include 'headerblue.php'; ?>
-    <section class="maincontainer">
+    <section class="maincontainer kontaktcontainer">
+      <h1 class="header bau">Fragen Sie uns</h1>
         <article class="containerform">
             <?php include('form.php'); ?>
             <div>
                 <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
-                    <h1>Fragen Sie uns</h1>
                     <fieldset>
                         <input placeholder="Name&#42;" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
                         <span class="error"><?= $name_error ?></span>
@@ -56,7 +56,7 @@
                 </p>
                 <p>
                  <strong>Vermietungsstart:</strong>
-                 <br>Bewerben Sie sich jetzt für Ihre gewünschte Wohnung, Gewerbe oder Büro. Diese sind ab Sommer 2022 bezugsbereit.</p>
+                 <br>Bewerben Sie sich jetzt für Ihre Wohnung, Gewerbe oder Büro. Diese sind ab 1. August 2022 bezugsbereit.</p>
                  <a class="buttonpositiv" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
               </div>
 

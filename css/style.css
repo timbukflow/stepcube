@@ -833,9 +833,8 @@ th:last-child, td:last-child {border-right: none;}
 .containerform {
   margin-left: 10%;
   width: 40%;
-  margin-bottom: 120px;
-  margin-top: 250px;
   float: left;
+  margin-bottom: 100px;
 }
 
 .containerform h1 {
@@ -847,7 +846,6 @@ th:last-child, td:last-child {border-right: none;}
   margin-right: 10%;
   width: 30%;
   float: right;
-  margin-top: 370px;
 }
 
 .kontakt {
@@ -928,10 +926,20 @@ th:last-child, td:last-child {border-right: none;}
 /*----------------------------------
     accordion
 -----------------------------------*/
+.baubeschreibung, .kontaktcontainer {
+  margin-top: 250px;
+  margin-bottom: 60px;
+}
+
 .header.bau {
   padding-left: 10px;
   position: relative;
-  margin: 250px 10% 80px 10%;
+  margin: 0px 10% 80px 10%;
+}
+
+.accordioncontainer {
+  display: inline-block;
+  width: 100%;
 }
 
 .accordion {
@@ -941,7 +949,7 @@ th:last-child, td:last-child {border-right: none;}
   width: 40%;
   float: left;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
   cursor: pointer;
 }
 
@@ -1122,7 +1130,6 @@ span.konditionen:hover {
     float: left;
 }
 
-
 #optoutbanner99 {
 	font-size: 12px;
 	line-height: 18px;
@@ -1300,6 +1307,7 @@ responsive ipad
   th {
       font-size: 12px;
   }
+
   /*--baubeschreibung--*/
   .accordion h3 {
     font-size: 20px;
@@ -1312,6 +1320,7 @@ responsive ipad
     width: 15px;
     margin-top: 0px;
   }
+
   /*--footer--*/
   footer a, .footermid a, .footermid li {
     line-height: 1.33;
@@ -1415,7 +1424,12 @@ responsive ipad
   }
   .accordion.right {
     margin-left: 10%;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+  }
+  .containerform,
+  .containeranmeldung {
+    width: 80%;
+    margin-bottom: 60px;
   }
 
   /*--footer--*/
@@ -1636,9 +1650,12 @@ responsive ipad
     margin-top: 50px;
   }
   /*--baubeschreibung--*/
+  .baubeschreibung, .kontaktcontainer {
+    margin-top: 210px;
+  }
   .header.bau {
     font-size: 35px;
-    margin: 210px 7% 40px 7%;
+    margin: 0px 7% 40px 7%;
   }
   .accordion h3 {
     font-size: 17px;

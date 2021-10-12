@@ -32,7 +32,7 @@
           <li><a href="romanshorn">Romanshorn</a></li>
           <li><a href="wohnen-gewerbe-buero-angebot">Wohnungen</a></li>
           <li><a href="wohnen-gewerbe-buero-angebot#gewerbe">Gewerbe / Büro</a></li>
-          <li><a href="baubeschreibung">Baubeschreibung</a></li>
+          <li><a href="baubeschreibung">Baubeschrieb</a></li>
           <li><a href="kontakt">Kontakt</a></li>
         </ul>
       </div>
@@ -344,7 +344,7 @@
       </g>
       </svg>
       <div class="reservation">
-          <p>Erstbezug ab <br> <strong>Sommer 2022</strong></p>
+          <p>Erstbezug ab <br> <strong>1. August 2022</strong></p>
           <a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
       </div>
     </div>
@@ -457,7 +457,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
         </div>
@@ -481,9 +481,9 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>53.0</td>
-                  <td>1'140</td>
+                  <td>1'310</td>
                   <td>130</td>
-                  <td>1'270</td>
+                  <td>1'440</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -523,7 +523,7 @@
                   <td>7.0</td>
                   <td>1'420</td>
                   <td>200</td>
-                  <td>1'6</td>
+                  <td>1'620</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -540,10 +540,10 @@
                   <td>W0326</td>
                   <td>2.5</td>
                   <td>50.0</td>
-                  <td>53.0</td>
-                  <td>1'150</td>
-                  <td>150</td>
+                  <td>52.0</td>
                   <td>1'300</td>
+                  <td>150</td>
+                  <td>1'450</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -569,7 +569,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
         </div>
@@ -713,9 +713,9 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td>1'120</td>
+                  <td>1'130</td>
                   <td>150</td>
-                  <td>1'270</td>
+                  <td>1'280</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -801,7 +801,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
         </div>
@@ -945,9 +945,9 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td>1'130</td>
+                  <td>1'120</td>
                   <td>150</td>
-                  <td>1'280</td>
+                  <td>1'270</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1033,7 +1033,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
         </div>
@@ -1105,7 +1105,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Wohnungen</a></td>
+                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
         </div>
@@ -1237,7 +1237,10 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschreibung</strong> Gewerbe / Büro</a></td>
+                  <td colspan="9"><a href="baubeschreibung#gewerbe"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Gewerbe</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung#buero"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Büro</a></td>
               </tr>
           </table>
         </div>
