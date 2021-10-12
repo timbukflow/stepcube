@@ -1131,39 +1131,38 @@ span.konditionen:hover {
 }
 
 #optoutbanner99 {
-	font-size: 12px;
-	line-height: 18px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-	background-color: #f2f2f2;
-	padding: 20px;
-	text-align: right;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+
+	background-color: #fff;
 	z-index: 200;
 }
 
 #optoutbanner99 a,
 #optoutbanner99 p{
 	cursor: pointer;
-    font-size: 15px;
-    display: inline-block;
-    margin: 0px 3px;
+  font-size: 14px;
+  display: inline-block;
+  color: #223870;
+  margin: 0 15px;
+  padding: 15px 0px;
+}
+#optoutbanner99 a {
+  margin: 0;
+  padding: 15px 15px;
 }
 
 #acceptga {
 	text-decoration: none !important;
-	background-color: #718166;
+	background-color: #223870;
 	color: #fff !important;
-	font-weight: normal !important;
-    padding: 0px 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
 
 
 /*----------------------------------
-responsive ipad
+responsive
 -----------------------------------*/
 
 @media only screen and (max-width: 1200px) {
@@ -1178,13 +1177,13 @@ responsive ipad
     font-size: 32px;
   }
   .navcontainer {
-    top: -511px;
+    top: -506px;
   }
   .navcontainer ul {
     margin-bottom: 80px;
   }
   .menufade {
-    top: 511px;
+    top: 506px;
   }
   h1 {
     font-size: 60px;
@@ -1235,7 +1234,6 @@ responsive ipad
     font-size: 32px;
   }
   .navcontainer {
-    top: -511px;
     width: 60%;
   }
   .navbutton {
@@ -1666,6 +1664,22 @@ responsive ipad
     margin-right: 7%;
     width: 86%;
   }
+
+  #optoutbanner99 {
+    width: 100%;
+    text-align: left;
+  }
+  #optoutbanner99 a,
+  #optoutbanner99 p{
+    font-size: 12px;
+  }
+  #acceptga {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+
 
   /*--footer--*/
   .colorfooter {
