@@ -1135,7 +1135,6 @@ span.konditionen:hover {
   bottom: 0;
   left: 0;
   text-align: right;
-
 	background-color: #fff;
 	z-index: 200;
 }
@@ -1156,7 +1155,7 @@ span.konditionen:hover {
 
 #acceptga {
 	text-decoration: none !important;
-	background-color: #223870;
+	background-color: #92AFC8;
 	color: #fff !important;
 }
 
