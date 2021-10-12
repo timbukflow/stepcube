@@ -13,7 +13,7 @@
     <section class="maincontainer kontaktcontainer">
       <h1 class="header bau">Fragen Sie uns</h1>
         <article class="containerform">
-            <?php include('form.php'); ?>
+            <?php include 'form.php'; ?>
             <div>
                 <form id="contact" action="<?= $_SERVER["PHP_SELF"]; ?>" method="post">
                     <fieldset>
