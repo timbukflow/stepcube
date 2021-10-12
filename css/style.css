@@ -154,6 +154,9 @@ path {
   z-index: 99;
   display: inline-block;
 }
+.logo img {
+  height: auto;
+}
 
 .logo.w {
   margin: 70px 3%;
