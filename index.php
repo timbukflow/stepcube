@@ -69,7 +69,7 @@
         <div class="buttoncontainer">
           <p>Darf es noch ein bisschen mehr sein? Geniessen Sie die Morgensonne mit Kaffee und Zeitung in der Loggia direkt neben dem lichtdurchfluteten Schlafzimmer. Das grosszügige Wohnzimmer mit offener Küche lädt zum Verweilen ein. Empfangen Sie Ihre Liebsten abends zum Grillen auf der Dachterrasse oder entspannen Sie an einem Winterabend gemütlich in der Badewanne. Ein eigener Waschturm spart Zeit für die optimale Work-Life-Balance. Während der Trockner läuft, noch auf eine Runde mit dem E-Bike? Kein Problem, es steht geladen im eigenen Kellerabteil bereit.
           </p>
-          <a class="button" href="wohnangebot">Grundrisse</a>
+          <a class="button" href="wohnen-gewerbe-buero-angebot">Grundrisse</a>
         </div>
         <div class="inputs">
           <img src="img/stepcube-cross-w.svg" alt="stepcube-cross-w" width="30" height="30">
