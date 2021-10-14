@@ -139,10 +139,10 @@
           <h3 class="accTitle">Diverses<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
           <div class="accList">
             <ul>
-              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplatform)</li>
+              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplattform)</li>
               <li>Teil-Stromerzeugung durch PV-Anlage, Verteilung über ZEV (Zusammenschluss Eigenverbrauch)</li>
               <li>Elektrische Schliessanlage Glutz mit Badge</li>
-              <li>Mieterplatform Living Services</li>
+              <li>Mieterplattform Living Services</li>
               <li>Abfallentsorgung in Unterfluhrcontainer</li>
             </ul>
           </div>
@@ -181,7 +181,7 @@
           <h3 class="accTitle">Bodenbeläge<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
           <div class="accList">
             <ul>
-              <li>keine</li>
+              <li>Unterlagsboden bereit zum Anbringen eines mieterseitigen Bodenbelags (z.B. Platten oder Parkett)</li>
             </ul>
           </div>
           <h3 class="accTitle">Wände<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
@@ -193,7 +193,8 @@
           <h3 class="accTitle">Elektroinstallationen<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
           <div class="accList">
             <ul>
-              <li>keine Elektroinstallationen</li>
+              <li>Elektroanschlüsse gemäss Elektroplan</li>
+              <li>Bodendosen und Deckenauslässe vorhanden</li>
               <li>Video-Gegensprechanlage für Haupteingangstüren</li>
               <li>Digitale Haustafel im Erdgeschoss</li>
             </ul>
@@ -232,10 +233,10 @@
           <h3 class="accTitle">Diverses<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
           <div class="accList">
             <ul>
-              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplatform)</li>
+              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplattform)</li>
               <li>Teil-Stromerzeugung durch PV-Anlage, Verteilung über ZEV (Zusammenschluss Eigenverbrauch)</li>
               <li>Elektrische Schliessanlage Glutz mit Badge</li>
-              <li>Mieterplatform Living Services</li>
+              <li>Mieterplattform Living Services</li>
               <li>Abfallentsorgung in Unterfluhrcontainer</li>
             </ul>
           </div>
@@ -328,10 +329,10 @@
           <h3 class="accTitle">Diverses<img class="accCross" src="img/stepcube-cross.svg" alt="stepcube-cross" width="25" height="25"></h3>
           <div class="accList">
             <ul>
-              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplatform)</li>
+              <li>Briefkastenanlage mit Paketboxen (Kommunikation mit Mieter über Mieterplattform)</li>
               <li>Teil-Stromerzeugung durch PV-Anlage, Verteilung über ZEV (Zusammenschluss Eigenverbrauch)</li>
               <li>Elektrische Schliessanlage Glutz mit Badge</li>
-              <li>Mieterplatform Living Services</li>
+              <li>Mieterplattform Living Services</li>
               <li>Abfallentsorgung in Unterfluhrcontainer</li>
             </ul>
           </div>

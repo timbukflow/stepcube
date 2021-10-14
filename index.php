@@ -25,7 +25,10 @@
             <h3> <span>Highlights</span> Living Services</h3>
           </div>
 
-          <img class="startimgtwo " src="img/stepcube-wohnen-romanshorn-loewenstrasse-terrassen.jpg" alt="stepcube-wohnen-romanshorn-loewenstrasse-terrassen" width="100%" height="auto">
+          <div class="aenderungsvorbehalt">
+            <img class="startimgtwo " src="img/stepcube-wohnen-romanshorn-loewenstrasse-terrassen.jpg" alt="stepcube-wohnen-romanshorn-loewenstrasse-terrassen" width="100%" height="auto">
+            <p>Änderungsvorbehalt: Allgemeine Terrassenfläche: Leitungsführung Zu-/Ablauft in Planung, Mieterfläche: Geländer und Sichtschutz in Planung</p>
+          </div>
 
           <div class="buttoncontainer">
             <p>

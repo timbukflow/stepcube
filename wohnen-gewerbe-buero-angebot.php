@@ -100,10 +100,13 @@
       		<polygon class="st0" points="35.3,246.4 241.7,127.3 448,246.4 282.9,341.7 186.6,286.1 145.4,310 		"/>
       	</g>
       	<g>
-      		<polygon class="st3 eg00g001" points="35.3,246.7 107.8,204.9 178.7,245.5 187.9,240.2 227.4,262.9 145.4,310.3 		"/>
+      		<!-- Gewerbe aufgeteilt
+          <polygon class="st3 eg00g001" points="35.3,246.7 107.8,204.9 178.7,245.5 187.9,240.2 227.4,262.9 145.4,310.3 		"/>
       		<polygon class="st3 eg00g002" points="257.1,245.8 289.2,264.3 218.7,305 186.6,286.2 		"/>
       		<polygon class="st3 eg00g003" points="353.3,301.4 282.9,342.1 218.7,305 289.2,264.3 		"/>
-      		<polygon class="st3 eg00b004" points="335.8,274.1 367.9,292.7 447.9,246.5 415.8,227.9 		"/>
+          -->
+          <polygon class="st3 eg00g001" points="145.3,310 35.3,246.4 107.8,204.9 178.7,245.5 187.9,240.2 227.4,262.9 257.1,245.8 353,301.2 282.9,341.7 186.6,286.2 "/>
+          <polygon class="st3 eg00b004" points="335.8,274.1 367.9,292.7 447.9,246.5 415.8,227.9 		"/>
       		<polygon class="st3 eg00w001" points="351.6,190.9 415.8,227.9 335.8,274.1 271.6,237.1 		"/>
       		<polygon class="st3 eg00w002" points="300.4,161.6 220.3,207.8 271.6,237.4 351.6,191.2 		"/>
       		<polygon class="st3 eg00b005" points="241.7,127.6 161.5,173.9 220.3,207.8 300.4,161.6 		"/>
@@ -1127,6 +1130,27 @@
               <tr class="eg00g001">
                   <td>G0001</td>
                   <td>Gewerbe</td>
+                  <td>204.0</td>
+                  <td>0.0</td>
+                  <td>3'440</td>
+                  <td>685</td>
+                  <td>4'125</td>
+                  <td class="planb">
+                      <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
+                      <div class="plan">
+                          <img src="img/stepcube-eg-g0001.png" alt="stepcube-eg-g0001">
+                          <a class="link" href="downloads/stepcube-grundrisse-erdgeschoss.pdf" download="stepcube-grundrisse-erdgeschoss">
+                              <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
+                              <strong> Erdgeschoss</strong> / Grundrisse (PDF)
+                          </a>
+                          <img class="norden" src="img/norden.svg" alt="norden" width="40" height="40">
+                      </div>
+                  </td>
+              </tr>
+              <!-- Gewerbe einefläche
+              <tr class="eg00g001">
+                  <td>G0001</td>
+                  <td>Gewerbe</td>
                   <td>114.0</td>
                   <td>0.0</td>
                   <td>1'740</td>
@@ -1184,6 +1208,7 @@
                       </div>
                   </td>
               </tr>
+            -->
               <tr class="eg00b004">
                   <td>B0004</td>
                   <td>Büro</td>
