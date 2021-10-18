@@ -6,7 +6,7 @@
         <p>Das Haus für Häuser <br>
           <br><strong>Ansprechperson</strong>
           <br>Janine Schmuckli
-          <br><a href="tel:0712290029">T 071 229 00 29</a>
+          <br><a href="tel:0712290028">T 071 229 00 28</a>
           <br><a href="mailto:janine.schmuckli@sur.ag?subject=Stepcube%20Romanshorn" target="_top">janine.schmuckli@sur.ag</a>
         </p>
     </div>
