@@ -20,9 +20,47 @@
           <h2>Ihr sicherer Hafen am Bodensee</h2>
           <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See. <br><br>Erstbezug ab 1. August 2022 </p>
 
-          <div class="inputs">
-            <img src="img/stepcube-cross-w.svg" alt="stepcube-cross-w" width="30" height="30">
-            <h3> <span>Highlights</span> Living Services</h3>
+          <div class="accordioncontainer">
+            <h2 class="">Highlights im Stepcube</h2>
+            <article class="accordion highlights ">
+              <h3 class="accTitle">Living Services<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>Alles rund um Wohnung und Nachbarschaft - in der Allthings App! Entdecken Sie die Vorzüge unter <a href="https://www.livingservices.ch/" target="_blank">www.livingservices.ch</a></li>
+                </ul>
+              </div>
+              <h3 class="accTitle">Smarthome<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>Mit Smarthome erhöhen Sie Ihre Wohn- und Lebensqualität. Über die Allthings App können Sie bequem die Lichtsteuerung, Storensteuerung, Heizung, Lüftung und Energieechtzeitanzeige durch Ihr Handy oder Tablet steuern.</li>
+                </ul>
+              </div><h3 class="accTitle">Elektronische Schliessanlage<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>Unsere innovative elektrische Schliessanlage erlaubt das Öffnen der Wohnung mit einem Batch.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="accordion highlights right">
+              <h3 class="accTitle">Photovoltaik auf Flachdach<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>Die Photovoltaik basiert auf der Fähigkeit bestimmter Materialien, Licht direkt in Strom umzuwandeln und somit Ihre Stromkosten niedrig zu halten.</li>
+                </ul>
+              </div><h3 class="accTitle">Paketboxen<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>Keinen Stress mehr mit Paketen und wer sie entgegen nimmt? Dank dieser Lösung können Sie bei Abwesenheit problemlos Pakete erhalten und abholen – und zwar unabhängig vom jeweiligen Paketdienst. Ausserdem können Retouren oder auch mal der Schlüssel für Ihre Nachbarn oder Freunde hinterlegt werden.</li>
+                </ul>
+              </div>
+              <h3 class="accTitle">Aufladestationen E-Fahrzeuge<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
+              <div class="accList">
+                <ul>
+                  <li>In den letzten Jahren war eine bedeutende Steigerung der Anzahl an Zulassungen von Hybrid und E-Fahrzeugen in der Schweiz festzustellen, deshalb wurden im STEPCUBE bereits die Kabelkanäle vorbereitet, dass Ihr E-Auto aufgeladen werden kann. </li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <div class="aenderungsvorbehalt">

@@ -925,6 +925,12 @@ th:last-child, td:last-child {border-right: none;}
   width: 100%;
 }
 
+.accordioncontainer h2 {
+  margin-left: 10%;
+  padding: 15px;
+  width: 80%;
+}
+
 .accordion {
   box-sizing: border-box;
   margin-left: 10%;
@@ -942,12 +948,17 @@ th:last-child, td:last-child {border-right: none;}
 }
 
 .accordion h3 {
-  font-size: 25px;
+  font-size: 22px;
   margin: 0;
   padding: 15px 5px;
   border-bottom: 1px solid #223870;
   color: #223870;
   vertical-align: middle;
+}
+
+.accordion.highlights h3 {
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
 
 .accordion ul {
@@ -961,6 +972,11 @@ th:last-child, td:last-child {border-right: none;}
   padding: 5px;
   color: #223870;
   margin: 0;
+}
+
+.accordion.highlights li {
+  border-bottom: none;
+  color: #fff;
 }
 
 .accordion img {
@@ -1300,6 +1316,9 @@ responsive
     width: 15px;
     margin-top: 0px;
   }
+  .accordioncontainer h2 {
+    margin-left: 10%;
+  }
 
   /*--footer--*/
   footer a, .footermid a, .footermid li {
@@ -1311,7 +1330,7 @@ responsive
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 910px) {
 
   /*--home--*/
   h2, p, a {
@@ -1406,6 +1425,18 @@ responsive
     margin-left: 10%;
     margin-bottom: 100px;
   }
+  .accordioncontainer h2 {
+    padding: 0 0 15px 0;
+  }
+  .accordion.highlights {
+    margin-left: 15%;
+    padding: 0 0px;
+    width: 70%;
+  }
+  .accordion.highlights h3 {
+    padding-left: 0px;
+  }
+
   .containerform,
   .containeranmeldung {
     width: 80%;
