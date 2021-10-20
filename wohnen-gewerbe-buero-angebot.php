@@ -776,9 +776,9 @@
                   <td>2.5</td>
                   <td>50.0</td>
                   <td>6.0</td>
-                  <td>1'130</td>
+                  <td>1'140</td>
                   <td>150</td>
-                  <td>1'280</td>
+                  <td>1'290</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1008,9 +1008,9 @@
                   <td>2.5</td>
                   <td>50.0</td>
                   <td>6.0</td>
-                  <td>1'140</td>
+                  <td>1'130</td>
                   <td>150</td>
-                  <td>1'290</td>
+                  <td>1'280</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
