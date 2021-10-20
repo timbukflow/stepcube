@@ -103,7 +103,7 @@
           <img class="wohnenimgthree" src="img/stepcube-wohnen-romanshorn-loewenstrasse-zimmer-wohnung-schlafzimmer.jpg" alt="stepcube-wohnen-romanshorn-loewenstrasse-zimmer-wohnung-schlafzimmer" width="100%" height="auto">
           <div class="inputs">
             <img src="img/stepcube-cross-w.svg" alt="stepcube-cross-w" width="30" height="30">
-            <h3> <span>Highlights</span> Elektronische Schliessanlage mit Fingerscan</h3>
+            <h3> <span>Highlights</span> Elektronische Schliessanlage</h3>
           </div>
         </div>
         <h2>2.5- und 3.5-Zimmer-Wohnungen</h2>
