@@ -54,7 +54,7 @@
 <meta property="business:contact_data:postal_code" content="8590">
 <meta property="business:contact_data:country_name" content="Switzerland">
 
-<meta name="google-site-verification" content="..." />
+<meta name="google-site-verification" content="UA-142487628-7" />
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
