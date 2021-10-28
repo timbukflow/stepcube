@@ -38,7 +38,7 @@
               </div><h3 class="accTitle">Elektronische Schliessanlage<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
               <div class="accList">
                 <ul>
-                  <li>Unsere innovative elektrische Schliessanlage erlaubt das Öffnen der Wohnung mit einem Batch.</li>
+                  <li>Unsere innovative elektronische Schliessanlage erlaubt das Öffnen der Wohnung mit einem Batch.</li>
                 </ul>
               </div>
             </article>
