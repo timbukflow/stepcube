@@ -57,7 +57,7 @@
                 <p>
                  <strong>Vermietungsstart:</strong>
                  <br>Bewerben Sie sich jetzt für Ihre Wohnung, Gewerbe oder Büro. Diese sind ab 1. August 2022 bezugsbereit.</p>
-                 <a class="buttonpositiv" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
+                 <a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
               </div>
 
             </div>
