@@ -21,7 +21,7 @@
           <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See. <br><br>Erstbezug ab 1. August 2022 </p>
 
           <div class="accordioncontainer">
-            <h2 class="">Highlights im Stepcube</h2>
+            <h2>Highlights im Stepcube</h2>
             <article class="accordion highlights ">
               <h3 class="accTitle">Living Services<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
               <div class="accList">
@@ -32,7 +32,7 @@
               <h3 class="accTitle">Smarthome<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>
               <div class="accList">
                 <ul>
-                  <li>Mit Smarthome erhöhen Sie Ihre Wohn- und Lebensqualität. Über die Allthings App können Sie bequem die Lichtsteuerung, Storensteuerung, Heizung, Lüftung und Energieechtzeitanzeige durch Ihr Handy oder Tablet steuern. <a class="button" href="downloads/smarthome-stepcube.pdf" download="Smarthome-Stepcube">Smarthome-Dokumentation</a>
+                  <li>Mit Smarthome erhöhen Sie Ihre Wohn- und Lebensqualität. Über die Allthings App können Sie bequem die Lichtsteuerung, Storensteuerung, Heizung, Lüftung und Energieechtzeitanzeige durch Ihr Handy oder Tablet steuern. <br> <a class="button" href="downloads/smarthome-stepcube.pdf" download="Smarthome-Stepcube">Smarthome-Dokumentation</a>
               </li>
                 </ul>
               </div><h3 class="accTitle">Elektronische Schliessanlage<img class="accCross" src="img/stepcube-cross-w.svg" alt="stepcube-cross" width="25" height="25"></h3>

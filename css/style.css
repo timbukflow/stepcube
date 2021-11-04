@@ -1677,6 +1677,11 @@ responsive
     margin-right: 7%;
     width: 86%;
   }
+  .accordion.highlights {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
 
   #optoutbanner99 {
     width: 100%;
