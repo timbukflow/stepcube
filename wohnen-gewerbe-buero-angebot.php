@@ -348,7 +348,7 @@
       </svg>
       <div class="reservation">
           <p>Erstbezug ab <br> <strong>1. August 2022</strong></p>
-          <a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
+          <!--<a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>-->
       </div>
     </div>
 
@@ -458,6 +458,9 @@
               </tr>
               <tr>
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="stepcube-anmeldeformular-mietinteressenten"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular-Mietinteressenten</strong> (PDF)</a></td>
               </tr>
               <tr>
                   <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
@@ -570,6 +573,9 @@
               </tr>
               <tr>
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="stepcube-anmeldeformular-mietinteressenten"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular-Mietinteressenten</strong> (PDF)</a></td>
               </tr>
               <tr>
                   <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
@@ -804,6 +810,9 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="stepcube-anmeldeformular-mietinteressenten"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular-Mietinteressenten</strong> (PDF)</a></td>
+              </tr>
+              <tr>
                   <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
@@ -1036,6 +1045,9 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="stepcube-anmeldeformular-mietinteressenten"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular-Mietinteressenten</strong> (PDF)</a></td>
+              </tr>
+              <tr>
                   <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
               </tr>
           </table>
@@ -1106,6 +1118,9 @@
               </tr>
               <tr>
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="stepcube-anmeldeformular-mietinteressenten"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular-Mietinteressenten</strong> (PDF)</a></td>
               </tr>
               <tr>
                   <td colspan="9"><a href="baubeschreibung"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Wohnungen</a></td>
@@ -1262,10 +1277,16 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung#gewerbe"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Gewerbe</a></td>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-gewerbe.pdf" download="stepcube-anmeldeformular-gewerbe"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular Gewerbe</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9"><a href="baubeschreibung#buero"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb</strong> Büro</a></td>
+                  <td colspan="9"><a href="downloads/stepcube-anmeldeformular-buero.pdf" download="stepcube-anmeldeformular-buero"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Anmeldeformular Büro</strong> (PDF)</a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung#gewerbe"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb Gewerbe</strong></a></td>
+              </tr>
+              <tr>
+                  <td colspan="9"><a href="baubeschreibung#buero"><img src="img/link-icon.svg" width="11" height="11" alt="link icon"> <strong>Baubeschrieb Büro</strong> </a></td>
               </tr>
           </table>
         </div>

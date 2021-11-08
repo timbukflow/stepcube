@@ -835,6 +835,11 @@ th:last-child, td:last-child {border-right: none;}
   color: #223870;
 }
 
+.buttonanmeldung {
+  display: block;
+  margin: 10px 0;
+}
+
 .error {
     color: #ff0000;
     font-size: 15px;

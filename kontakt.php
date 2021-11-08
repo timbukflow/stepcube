@@ -57,7 +57,9 @@
                 <p>
                  <strong>Vermietungsstart:</strong>
                  <br>Bewerben Sie sich jetzt für Ihre Wohnung, Gewerbe oder Büro. Diese sind ab 1. August 2022 bezugsbereit.</p>
-                 <a class="buttonpositiv" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular">Anmeldeformular</a>
+                 <a class="buttonpositiv buttonanmeldung" href="downloads/stepcube-anmeldeformular-mietinteressenten.pdf" download="Stepcube Anmeldeformular Wohnung">Anmeldeformular Wohnung</a>
+                 <a class="buttonpositiv buttonanmeldung" href="downloads/stepcube-anmeldeformular-gewerbe.pdf" download="Stepcube Anmeldeformular Gewerbe">Anmeldeformular Gewerbe</a>
+                 <a class="buttonpositiv buttonanmeldung" href="downloads/stepcube-anmeldeformular-buero.pdf" download="Stepcube Anmeldeformular Buero">Anmeldeformular Büro</a>
               </div>
 
             </div>
