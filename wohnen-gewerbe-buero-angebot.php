@@ -367,14 +367,15 @@
                   <th>MB</th>
                   <th>G</th>
               </tr>
-              <tr class="og04w0427">
+              <tr class="og04w0427 r">
                   <td>W0427</td>
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td>1'170</td>
-                  <td>130</td>
-                  <td>1'300</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'170</td>
+                  <td>140</td>
+                  <td>1'310</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -387,14 +388,15 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og04w0428">
+              <tr class="og04w0428 r">
                   <td>W0428</td>
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td>1'470</td>
-                  <td>200</td>
-                  <td>1'670</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'470</td>
+                  <td>220</td>
+                  <td>1'690</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -413,8 +415,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'470</td>
-                  <td>200</td>
-                  <td>1'670</td>
+                  <td>220</td>
+                  <td>1'690</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -427,14 +429,15 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og04w0430">
+              <tr class="og04w0430 r">
                   <td>W0430</td>
                   <td>2.5</td>
                   <td>50.0</td>
                   <td>6.0 </td>
-                  <td>1'190</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'190</td>
                   <td>150</td>
-                  <td>1'340</td>
+                  <td>1'340</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -488,8 +491,8 @@
                   <td>46.0</td>
                   <td>53.0</td>
                   <td>1'310</td>
-                  <td>130</td>
-                  <td>1'440</td>
+                  <td>140</td>
+                  <td>1'450</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -508,8 +511,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'420</td>
-                  <td>200</td>
-                  <td>1'620</td>
+                  <td>220</td>
+                  <td>1'640</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -522,14 +525,15 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og03w0325">
+              <tr class="og03w0325 r">
                   <td>W0325</td>
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td>1'420</td>
-                  <td>200</td>
-                  <td>1'620</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'420</td>
+                  <td>220</td>
+                  <td>1'640</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -603,8 +607,8 @@
                   <td>30.0</td>
                   <td>0.0</td>
                   <td>820</td>
-                  <td>130</td>
-                  <td>950</td>
+                  <td>100</td>
+                  <td>920</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -623,8 +627,8 @@
                   <td>30.0</td>
                   <td>0.0</td>
                   <td>820</td>
-                  <td>130</td>
-                  <td>950</td>
+                  <td>100</td>
+                  <td>920</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -637,14 +641,15 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og02w0215">
+              <tr class="og02w0215 r">
                   <td>W0215</td>
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>820</td>
-                  <td>130</td>
-                  <td>950</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>820</td>
+                  <td>100</td>
+                  <td>920</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -663,8 +668,8 @@
                   <td>36.0</td>
                   <td>0.0</td>
                   <td>840</td>
-                  <td>130</td>
-                  <td>970</td>
+                  <td>110</td>
+                  <td>950</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -683,8 +688,8 @@
                   <td>34.0</td>
                   <td>0.0</td>
                   <td>840</td>
-                  <td>130</td>
-                  <td>970</td>
+                  <td>110</td>
+                  <td>950</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -703,8 +708,8 @@
                   <td>33.0</td>
                   <td>0.0</td>
                   <td>840</td>
-                  <td>130</td>
-                  <td>970</td>
+                  <td>110</td>
+                  <td>950</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -723,8 +728,8 @@
                   <td>46.0</td>
                   <td>6.0</td>
                   <td>1'130</td>
-                  <td>150</td>
-                  <td>1'280</td>
+                  <td>140</td>
+                  <td>1'270</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -743,8 +748,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'400</td>
-                  <td>200</td>
-                  <td>1'600</td>
+                  <td>220</td>
+                  <td>1'620</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -763,8 +768,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'400</td>
-                  <td>200</td>
-                  <td>1'600</td>
+                  <td>220</td>
+                  <td>1'620</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -838,8 +843,8 @@
                   <td>30.0</td>
                   <td>0.0</td>
                   <td>810</td>
-                  <td>130</td>
-                  <td>940</td>
+                  <td>100</td>
+                  <td>910</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -858,8 +863,8 @@
                   <td>30.0</td>
                   <td>0.0</td>
                   <td>810</td>
-                  <td>130</td>
-                  <td>940</td>
+                  <td>100</td>
+                  <td>910</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -878,8 +883,8 @@
                   <td>29.0</td>
                   <td>0.0</td>
                   <td>810</td>
-                  <td>130</td>
-                  <td>940</td>
+                  <td>100</td>
+                  <td>910</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -898,8 +903,8 @@
                   <td>36.0</td>
                   <td>0.0</td>
                   <td>830</td>
-                  <td>130</td>
-                  <td>960</td>
+                  <td>110</td>
+                  <td>940</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -918,8 +923,8 @@
                   <td>34.0</td>
                   <td>0.0</td>
                   <td>830</td>
-                  <td>130</td>
-                  <td>960</td>
+                  <td>110</td>
+                  <td>940</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -938,8 +943,8 @@
                   <td>33.0</td>
                   <td>0.0</td>
                   <td>830</td>
-                  <td>130</td>
-                  <td>960</td>
+                  <td>110</td>
+                  <td>940</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -958,8 +963,8 @@
                   <td>46.0</td>
                   <td>6.0</td>
                   <td>1'120</td>
-                  <td>150</td>
-                  <td>1'270</td>
+                  <td>140</td>
+                  <td>1'260</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -978,8 +983,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'390</td>
-                  <td>200</td>
-                  <td>1'590</td>
+                  <td>220</td>
+                  <td>1'610</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -998,8 +1003,8 @@
                   <td>74.0</td>
                   <td>7.0</td>
                   <td>1'390</td>
-                  <td>200</td>
-                  <td>1'590</td>
+                  <td>220</td>
+                  <td>1'610</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1093,8 +1098,8 @@
                   <td>46.0</td>
                   <td>7.0</td>
                   <td>1'090</td>
-                  <td>150</td>
-                  <td>1'240</td>
+                  <td>140</td>
+                  <td>1'230</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1230,8 +1235,8 @@
                   <td>37.0</td>
                   <td>0.0</td>
                   <td>750</td>
-                  <td>200</td>
-                  <td>950</td>
+                  <td>110</td>
+                  <td>860</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1250,8 +1255,8 @@
                   <td>59.0</td>
                   <td>0.0</td>
                   <td>1'190</td>
-                  <td>235</td>
-                  <td>1'425</td>
+                  <td>180</td>
+                  <td>1'370</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
