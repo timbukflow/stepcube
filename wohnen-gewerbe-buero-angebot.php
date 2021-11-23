@@ -367,7 +367,7 @@
                   <th>MB</th>
                   <th>G</th>
               </tr>
-              <tr class="og04w0427 r">
+              <tr class="og04w0427">
                   <td>W0427</td>
                   <td>2.5</td>
                   <td>46.0</td>
@@ -388,7 +388,7 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og04w0428 r">
+              <tr class="og04w0428">
                   <td>W0428</td>
                   <td>3.5</td>
                   <td>74.0</td>
@@ -429,7 +429,7 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og04w0430 r">
+              <tr class="og04w0430">
                   <td>W0430</td>
                   <td>2.5</td>
                   <td>50.0</td>
@@ -525,7 +525,7 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og03w0325 r">
+              <tr class="og03w0325">
                   <td>W0325</td>
                   <td>3.5</td>
                   <td>74.0</td>
@@ -641,7 +641,7 @@
                       </div>
                   </td>
               </tr>
-              <tr class="og02w0215 r">
+              <tr class="og02w0215">
                   <td>W0215</td>
                   <td>1.5</td>
                   <td>30.0</td>
