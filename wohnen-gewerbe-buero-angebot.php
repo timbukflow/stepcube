@@ -372,10 +372,10 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td colspan="3">reserviert</td>
-                  <!--<td>1'170</td>
+                  <!--<td colspan="3">reserviert</td>-->
+                  <td>1'170</td>
                   <td>140</td>
-                  <td>1'310</td>-->
+                  <td>1'310</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -414,9 +414,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td>1'470</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'470</td>
                   <td>220</td>
-                  <td>1'690</td>
+                  <td>1'690</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -667,9 +668,10 @@
                   <td>1.5</td>
                   <td>36.0</td>
                   <td>0.0</td>
-                  <td>840</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>840</td>
                   <td>110</td>
-                  <td>950</td>
+                  <td>950</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -767,9 +769,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td>1'400</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'400</td>
                   <td>220</td>
-                  <td>1'620</td>
+                  <td>1'620</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -982,9 +985,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td>1'390</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'390</td>
                   <td>220</td>
-                  <td>1'610</td>
+                  <td>1'610</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1254,9 +1258,10 @@
                   <td>Büro</td>
                   <td>59.0</td>
                   <td>0.0</td>
-                  <td>1'190</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'190</td>
                   <td>180</td>
-                  <td>1'370</td>
+                  <td>1'370</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1330,7 +1335,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 23.09.2021 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
+                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 06.01.2022 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
               </tr>
           </table>
         </div>
