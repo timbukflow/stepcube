@@ -1156,9 +1156,9 @@
                   <td>Gewerbe</td>
                   <td>204.0</td>
                   <td>0.0</td>
-                  <td>-</td>
-                  <td>-</td>
                   <td>185 pro m²</td>
+                  <td>40 pro m²</td>
+                  <td>-</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
