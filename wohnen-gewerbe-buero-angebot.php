@@ -1154,11 +1154,7 @@
               <tr class="eg00g001">
                   <td>G0001</td>
                   <td>Gewerbe</td>
-                  <td>204.0</td>
-                  <td>0.0</td>
-                  <td>185 pro m²</td>
-                  <td>40 pro m²</td>
-                  <td>-</td>
+                  <td colspan="5">auf Anfrage</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
