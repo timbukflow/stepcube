@@ -18,7 +18,7 @@
 
         <div class="holder">
           <h2>Ihr sicherer Hafen am Bodensee</h2>
-          <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 20 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See. <br><br>Erstbezug ab 1. August 2022 </p>
+          <p>An der Löwenstrasse in Romanshorn entsteht ein attraktiver und moderner Lebensraum für Menschen mit Liebe zum Bodensee. Die Überbauung «Stepcube» bietet 30 Mietwohnungen, 300 Quadratmeter Büro- und Gewerbefläche sowie 17 Parkplätze zu attraktiven Preisen in zentraler Lage zwischen Bahnhof, Hafen und See. <br><br>Erstbezug ab 1. August 2022 </p>
 
           <div class="accordioncontainer">
             <h2>Highlights im Stepcube</h2>
