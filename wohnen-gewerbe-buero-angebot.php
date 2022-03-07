@@ -1263,10 +1263,10 @@
                   <td>Büro</td>
                   <td>59.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
-                  <!--<td>1'190</td>
+                  <!--<td colspan="3">reserviert</td>-->
+                  <td>1'190</td>
                   <td>180</td>
-                  <td>1'370</td>-->
+                  <td>1'370</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
