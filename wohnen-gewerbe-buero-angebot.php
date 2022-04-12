@@ -393,7 +393,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">vermietet</td>
+                  <td colspan="3">reserviert</td>
                   <!--<td>1'470</td>
                   <td>220</td>
                   <td>1'690</td>-->
@@ -414,7 +414,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">vermietet</td>
+                  <td colspan="3">reserviert</td>
                   <!--<td>1'470</td>
                   <td>220</td>
                   <td>1'690</td>-->
@@ -650,9 +650,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>820</td>
+                  <td colspan="3">vermietet</td>
+                  <!--<td>820</td>
                   <td>100</td>
-                  <td>920</td>
+                  <td>920</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -670,9 +671,10 @@
                   <td>1.5</td>
                   <td>36.0</td>
                   <td>0.0</td>
-                  <td>840</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>840</td>
                   <td>110</td>
-                  <td>950</td>
+                  <td>950</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -773,7 +775,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'400</td>
                   <td>220</td>
                   <td>1'620</td>-->
@@ -1013,10 +1015,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <!--<td colspan="3">reserviert</td>-->
-                  <td>1'390</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'390</td>
                   <td>220</td>
-                  <td>1'610</td>
+                  <td>1'610</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1034,7 +1036,7 @@
                   <td>2.5</td>
                   <td>50.0</td>
                   <td>6.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'130</td>
                   <td>150</td>Die
                   <td>1'280</td>-->
