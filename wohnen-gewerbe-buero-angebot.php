@@ -393,7 +393,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'470</td>
                   <td>220</td>
                   <td>1'690</td>-->
@@ -414,7 +414,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'470</td>
                   <td>220</td>
                   <td>1'690</td>-->
@@ -533,7 +533,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">vermietet</td>
+                  <td colspan="3">reserviert</td>
                   <!--<td>1'420</td>
                   <td>220</td>
                   <td>1'640</td>-->
@@ -671,7 +671,7 @@
                   <td>1.5</td>
                   <td>36.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>840</td>
                   <td>110</td>
                   <td>950</td>-->
@@ -754,10 +754,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <!--<td colspan="3">reserviert</td>-->
-                  <td>1'400</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'400</td>
                   <td>220</td>
-                  <td>1'620</td>
+                  <td>1'620</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -892,9 +892,10 @@
                   <td>1.5</td>
                   <td>29.0</td>
                   <td>0.0</td>
-                  <td>810</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>810</td>
                   <td>100</td>
-                  <td>910</td>
+                  <td>910</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -912,7 +913,7 @@
                   <td>1.5</td>
                   <td>36.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>830</td>
                   <td>110</td>
                   <td>940</td>-->
@@ -933,7 +934,7 @@
                   <td>1.5</td>
                   <td>34.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>830</td>
                   <td>110</td>
                   <td>940</td>-->
@@ -974,9 +975,10 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td>1'120</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'120</td>
                   <td>140</td>
-                  <td>1'260</td>
+                  <td>1'260</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1092,9 +1094,10 @@
                   <td>2.5</td>
                   <td>49.0</td>
                   <td>21.0</td>
-                  <td>1'170</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'170</td>
                   <td>150</td>
-                  <td>1'320</td>
+                  <td>1'320</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1112,9 +1115,10 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>7.0</td>
-                  <td>1'090</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'090</td>
                   <td>140</td>
-                  <td>1'230</td>
+                  <td>1'230</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1342,7 +1346,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 04.03.2022 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
+                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 05.05.2022 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
               </tr>
           </table>
         </div>
