@@ -713,9 +713,10 @@
                   <td>1.5</td>
                   <td>33.0</td>
                   <td>0.0</td>
-                  <td>840</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>840</td>
                   <td>110</td>
-                  <td>950</td>
+                  <td>950</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -955,9 +956,10 @@
                   <td>1.5</td>
                   <td>33.0</td>
                   <td>0.0</td>
-                  <td>830</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>830</td>
                   <td>110</td>
-                  <td>940</td>
+                  <td>940</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1346,7 +1348,7 @@
                   <td class="downloadplan" colspan="9"><a href="downloads/stepcube-grundrisse.pdf" download="Stepcube-Grundrisse"><img src="img/download-icon.svg" width="11" height="11" alt="download icon"> <strong>Grundrisse</strong> (PDF)</a></td>
               </tr>
               <tr>
-                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 05.05.2022 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
+                  <td colspan="9" class="data">Mietzins und Nebenkosten in CHF | Fläche in m² gerundet<br>Aktualisiert per 19.05.2022 | <span class="impressum konditionen" data-toggle="#konditionen">Konditionen</span></td>
               </tr>
           </table>
         </div>
