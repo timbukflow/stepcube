@@ -610,9 +610,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>820</td>
+                  <td colspan="3">vermietet</td>
+                  <!--<td>820</td>
                   <td>100</td>
-                  <td>920</td>
+                  <td>920</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -630,9 +631,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>820</td>
+                  <td colspan="3">vermietet</td>
+                  <!--<td>820</td>
                   <td>100</td>
-                  <td>920</td>
+                  <td>920</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -879,7 +881,7 @@
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
-                          <img src="img/stepcube-01og-w0105.png" alt="stepcube-01og-w0104">
+                          <img src="img/stepcube-01og-w0104.png" alt="stepcube-01og-w0104">
                           <a class="link" href="downloads/stepcube-grundrisse-01-obergeschoss.pdf" download="stepcube-grundrisse-01-obergeschoss">
                               <img src="img/download-icon.svg" width="11" height="11" alt="download icon">
                               <strong> 01 Obergeschoss</strong> / Grundrisse (PDF)
@@ -893,10 +895,10 @@
                   <td>1.5</td>
                   <td>29.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
-                  <!--<td>810</td>
+                  <!--<td colspan="3">reserviert</td>-->
+                  <td>810</td>
                   <td>100</td>
-                  <td>910</td>-->
+                  <td>910</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -1019,10 +1021,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
-                  <!--<td>1'390</td>
+                  <!--<td colspan="3">reserviert</td>-->
+                  <td>1'390</td>
                   <td>220</td>
-                  <td>1'610</td>-->
+                  <td>1'610</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
