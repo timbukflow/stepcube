@@ -855,9 +855,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>810</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>810</td>
                   <td>100</td>
-                  <td>910</td>
+                  <td>910</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -875,9 +876,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td>810</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>810</td>
                   <td>100</td>
-                  <td>910</td>
+                  <td>910</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
