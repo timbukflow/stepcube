@@ -1023,10 +1023,10 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <!--<td colspan="3">reserviert</td>-->
-                  <td>1'390</td>
+                  <td colspan="3">reserviert</td>
+                  <!--<td>1'390</td>
                   <td>220</td>
-                  <td>1'610</td>
+                  <td>1'610</td>-->
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
