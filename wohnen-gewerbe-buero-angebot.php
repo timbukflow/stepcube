@@ -610,10 +610,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td colspan="3">vermietet</td>
-                  <!--<td>820</td>
+                  <!--<td colspan="3">vermietet</td>-->
+                  <td>820</td>
                   <td>100</td>
-                  <td>920</td>-->
+                  <td>920</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -631,7 +631,7 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td colspan="3">vermietet</td>
+                  <td colspan="3">reserviert</td>
                   <!--<td>820</td>
                   <td>100</td>
                   <td>920</td>-->
