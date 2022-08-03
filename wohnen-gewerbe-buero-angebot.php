@@ -533,7 +533,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'420</td>
                   <td>220</td>
                   <td>1'640</td>-->
@@ -554,7 +554,7 @@
                   <td>2.5</td>
                   <td>50.0</td>
                   <td>52.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'300</td>
                   <td>150</td>
                   <td>1'450</td>-->
@@ -631,10 +631,10 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
-                  <!--<td>820</td>
+                  <!--<td colspan="3">reserviert</td>-->
+                  <td>820</td>
                   <td>100</td>
-                  <td>920</td>-->
+                  <td>920</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
@@ -694,7 +694,7 @@
                   <td>1.5</td>
                   <td>34.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>840</td>
                   <td>110</td>
                   <td>950</td>-->
@@ -715,7 +715,7 @@
                   <td>1.5</td>
                   <td>33.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>840</td>
                   <td>110</td>
                   <td>950</td>-->
@@ -736,7 +736,7 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--td>1'130</td>
                   <td>140</td>
                   <td>1'270</td>-->
@@ -757,7 +757,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'400</td>
                   <td>220</td>
                   <td>1'620</td>-->
@@ -855,7 +855,7 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>810</td>
                   <td>100</td>
                   <td>910</td>-->
@@ -876,7 +876,7 @@
                   <td>1.5</td>
                   <td>30.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>810</td>
                   <td>100</td>
                   <td>910</td>-->
@@ -960,7 +960,7 @@
                   <td>1.5</td>
                   <td>33.0</td>
                   <td>0.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>830</td>
                   <td>110</td>
                   <td>940</td>-->
@@ -981,7 +981,7 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>6.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'120</td>
                   <td>140</td>
                   <td>1'260</td>-->
@@ -1023,7 +1023,7 @@
                   <td>3.5</td>
                   <td>74.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'390</td>
                   <td>220</td>
                   <td>1'610</td>-->
@@ -1100,7 +1100,7 @@
                   <td>2.5</td>
                   <td>49.0</td>
                   <td>21.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'170</td>
                   <td>150</td>
                   <td>1'320</td>-->
@@ -1121,7 +1121,7 @@
                   <td>2.5</td>
                   <td>46.0</td>
                   <td>7.0</td>
-                  <td colspan="3">reserviert</td>
+                  <td colspan="3">vermietet</td>
                   <!--<td>1'090</td>
                   <td>140</td>
                   <td>1'230</td>-->
