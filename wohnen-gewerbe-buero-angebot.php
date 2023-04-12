@@ -613,7 +613,7 @@
                   <!--<td colspan="3">reserviert</td>-->
                   <td>820</td>
                   <td>100</td>
-                  <td>920</td>-->
+                  <td>920</td>
                   <td class="planb">
                       <img class="plani" src="img/plan.svg" alt="plan icon" width="21" height="18">
                       <div class="plan">
