@@ -31,14 +31,12 @@
   </div>
 
   <div id="impressum">
-      <p><strong>Design &#38; Interaction:</strong>
-        <br>Schwizer &#38; Schlatter GmbH
-        <br>Davidstrasse 45
-        <br>9000 St.Gallen
-        <br>
-        <a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a>
+      <p><strong>Design &#38; Code:</strong><br>
+        Schwizer Design GmbH<br>
+        <a class="ssweb" href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43, 9000 St. Gallen</a><br>
+        <a class="ssweb" href="https://schwizerdesign.ch/" target="_blank">www.schwizerdesign.ch</a>
       </p>
-      <p class="disclaimer">© 2021 STEPCUBE. All rights reserved</p>
+      <p class="disclaimer">© 2023 STEPCUBE. All rights reserved</p>
   </div>
   <div id="datenschutz">
       <p>
