@@ -19,8 +19,8 @@
 				<li><a href="wohnen-gewerbe-buero-angebot#gewerbe">Gewerbe / Büro</a></li>
         <li><a href="baubeschreibung">Baubeschreibung</a></li>
         <li><a href="kontakt">Kontakt</a></li>
-        <li><p class="impressum" data-toggle="#impressum">Impressum</p></li>
-        <li><p class="impressum" data-toggle="#datenschutz">Konditionen</p></li>
+        <li><p class="impressum" data-target="#impressum">Impressum</p></li>
+        <li><p class="impressum" data-target="#datenschutz">Konditionen</p></li>
       </ul>
     </nav>
 

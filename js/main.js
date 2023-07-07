@@ -2,19 +2,6 @@ $(document).ready(function () {
 
     setTimeout(function(){$('#loader').fadeOut(800)},800);
 
-    // Home Counter //
-    $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 5000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
-    });
-
     // 04 Obergeschoss //
     $(".og04book").hover(function() {
         $("html, body").stop(true).animate({scrollTop:$("#og04").position().top - 100},800);});
@@ -181,13 +168,12 @@ $(document).ready(function () {
     // impressum //
 
     $('.impressum').click(function() {
-        var totoggle = $(this).attr("data-toggle");
-        $(totoggle).slideToggle(500);
-        $(totoggle).next().hide();
+        var $target = $($(this).data("target"));
 
-        if ($(totoggle).is(":visible")) {
-            $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
-        }
-    });
-
+        $target.slideToggle(500, function() {
+            if ($target.is(":visible")) {
+                $('html,body').animate({scrollTop: $target.offset().top}, 1000);
+            }
+        });
+      });
 });
