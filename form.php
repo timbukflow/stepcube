@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         $headers = "From:anfrage@stepcube.ch";
-        $to = "janine.schmuckli@sur.ag";
+        $to = "joanna.moehr@sur.ag";
         $subject = "Stepcube Anfrage";
         if (mail($to, $subject, $message_body, $headers)){
             $success = "Ihre Anfrage wurde erfolgreich gesendet.";
