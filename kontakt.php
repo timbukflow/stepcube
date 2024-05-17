@@ -45,12 +45,11 @@
             <div class="vermietungsstart">
               <div class="kontakt">
                 <p>
-                  <strong>Sproll & Ramseyer AG</strong>
-                  <br>Das Haus für Häuser<br>
+                  <strong>Wincasa AG</strong>
                   <br><strong>Ansprechperson</strong>
-                  <br>Janine Schmuckli
-                  <br><a href="tel:0712290028">T 071 229 00 28</a>
-                  <br><a href="mailto:janine.schmuckli@sur.ag?subject=Stepcube%20Romanshorn" target="_top">janine.schmuckli@sur.ag</a>
+                  <br>Lars Gabriel
+                  <br><a href="tel:041444030090">T +41 44 403 00 90</a>
+                  <br><a href="mailto:lars.gabriel@wincasa.ch?subject=Stepcube%20Romanshorn" target="_top">lars.gabriel@wincasa.ch</a>
                 </p>
                 <p>
                  <strong>Vermietungsstart:</strong>
